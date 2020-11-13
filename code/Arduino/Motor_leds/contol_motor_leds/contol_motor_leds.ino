@@ -68,7 +68,9 @@ void setup()
 }
 void loop()
 {
-
+  
+  unsigned long StartTime = micros();
+  
   if (Serial.available()) {
     ch = Serial.readStringUntil('\n');
     
@@ -303,6 +305,12 @@ void loop()
         FastLED.show();
       }*/
       //Serial.println("lus gedaan");
+
+      unsigned long CurrentTime = micros();
+      unsigned long ElapsedTime = CurrentTime - StartTime;  
+      Serial.print("elapsed time micros: ");
+      Serial.println(ElapsedTime);
+      delayMicroseconds(200000);
 
 }
 
