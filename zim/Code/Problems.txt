@@ -5,3 +5,5 @@ Creation-Date: 2020-11-13T14:24:38+01:00
 ====== Problems ======
 Created vrijdag 13 november 2020
 
+First problem encountered is that the communication or the delay between sending out a command from the python script and the action is pretty long -> 1.5s wait time before the next action can take place. this is to long.. [[+arduino_loop_time]] searches the roots of this problem
+

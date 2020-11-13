@@ -64,6 +64,9 @@ void setup()
   FastLED.show();
 
   startupLEDsTest();
+
+  // set serial timeout at 10 miliseconds so 10 bytes of information can be transferred at 9600 baud
+  Serial.setTimeout(10);
   
 }
 void loop()
@@ -72,8 +75,8 @@ void loop()
   unsigned long StartTime = micros();
   
   if (Serial.available()) {
-    ch = Serial.readStringUntil('\n');
-    
+    ch = Serial.readStringUntil('/');  // \n isn't detected
+    //ch = Serial.readString();   // stops reading after 10 miliseconds
         String alpha, special, num; 
         for (int i=0; i<ch.length(); i++) 
         { 
@@ -123,18 +126,18 @@ void loop()
           }
           if(verbose) Serial.println(brightness);
           FastLED.setBrightness(brightness);
-          FastLED.show();
+          //FastLED.show();
         }
 
         if(alpha == "allon") {
           fill_solid(leds[0], NUM_LEDS_PER_STRIP, CRGB(255,255,255));  // fill White
           fill_solid(leds[1], NUM_LEDS_PER_STRIP, CRGB(255,255,255));  // fill White
-          FastLED.show();
+          //FastLED.show();
         }
         if (alpha == "alloff") {
           fill_solid(leds[0], NUM_LEDS_PER_STRIP, CRGB(0,0,0));  // fill Black
           fill_solid(leds[1], NUM_LEDS_PER_STRIP, CRGB(0,0,0));  // fill Black
-          FastLED.show();
+          //FastLED.show();
         }
 
        if (alpha == "nrled") {
@@ -168,7 +171,7 @@ void loop()
             else {
               leds[volgnummer][nrled] = CRGB::Black;
             }
-            FastLED.show();
+            //FastLED.show();
       }
 
       if (alpha == "nrleds") {
@@ -207,7 +210,7 @@ void loop()
               leds[0][nrled] = CRGB::Black;
               leds[1][nrled] = CRGB::Black;
             }
-            FastLED.show();
+            //FastLED.show();
         }
 
        if (alpha == "step") {
@@ -255,7 +258,7 @@ void loop()
           digitalWrite(ledPin3, LOW);
           fill_solid(leds[0], NUM_LEDS_PER_STRIP, CRGB(0,0,0));  // fill Black
           fill_solid(leds[1], NUM_LEDS_PER_STRIP, CRGB(0,0,0));  // fill Black
-          FastLED.show();
+          //FastLED.show();
           start = 0;
         }
         else if(ch == "1") {
@@ -291,19 +294,11 @@ void loop()
             digitalWrite(ledPin3, HIGH);
           }
         } 
-      }
+      
 
-
-      /*// Turn the LED on
-      FastLED.setBrightness(brightness);
-      if(ledmode == 1) {
-        leds[nrled] = CRGB::Blue;
-        FastLED.show();
-      }
-      else {
-        leds[nrled] = CRGB::Black;
-        FastLED.show();
-      }*/
+      // send changes to ledstrip
+      FastLED.show();
+  }
       //Serial.println("lus gedaan");
 
       unsigned long CurrentTime = micros();
