@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-28T13:23:27+01:00
+
+====== Tool Holder ======
+Created Wednesday 28 October 2020
+
+During the design process different tool holders are designed to create an optimel camera position and optimal lighting conditions for that setup.
+

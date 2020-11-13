@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-24T16:12:51+02:00
+
+====== Light ======
+Created zaterdag 24 oktober 2020
+
+Different light setups:
+1. [[+Desk_Lamp_Test|Desk Lamp]]
+2. [[+White_Led_Strips]] white led strips (long) 
+3. [[+Adressable Color Changeable Led Strip]]  led strip (single led)
+4. Color changeable led strip (multiple combined in a matrix)
+5. top light (white or colored)
+
+
+

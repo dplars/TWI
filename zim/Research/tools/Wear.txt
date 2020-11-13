@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-04T10:59:53+01:00
+
+====== Wear ======
+Created woensdag 04 november 2020
+
+The wear of the tool begins with wear on the coating and goes right through the the coating in the base material of the tool. 
+This base material will mostly be carbide due to its strength and heat resistance. 
+	Slijtage is te zien in paper: Tool life and wear mechanism of uncoated and coated milling inserts
+	Hier zijn alle slijtage types opgesomd
+	
+	The carbide used:
+		cemented carbide here the combination with Wolfram called tungsten carbide
+		in short WC Wolfram carbide
+		
+		more information on:
+			https://www.destinytool.com/carbide-substrate.html
+			
+
+	
+
+

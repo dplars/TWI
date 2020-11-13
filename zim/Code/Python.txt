@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T12:20:01+01:00
+
+====== Python ======
+Created woensdag 11 november 2020
+
+[[+installation]] is done in the way described
+
+A python script for test controlling the camera: [[+cameracontrol]] 
+
+Installation of pip [[+OpenCVinstallation]]
+
+Required packages: [[+requiredPackages]]

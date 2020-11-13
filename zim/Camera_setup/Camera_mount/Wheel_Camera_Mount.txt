@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T19:46:43+01:00
+
+====== Wheel Camera Mount ======
+Created woensdag 11 november 2020
+
+For the wheel, the camera is used on a piece of wood in the default stand. This must be changed to a more fixed setup in order to create stable results

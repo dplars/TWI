@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T16:38:00+01:00
+
+====== requiredPackages ======
+Created woensdag 11 november 2020
+
+Packages installed using pycharm
+| Package name | used for        |
+|--------------|-----------------|
+| opencv       | open camera     |
+| pyserial     | control arduino |

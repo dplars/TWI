@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-28T14:18:50+01:00
+
+====== Adressable Color Changeable Led Strip ======
+Created Wednesday 28 October 2020
+
+A third option of lighting is playing with the colors of the light. to archieve this a setup will be created with a single adressable light strip where the color and led can be freely chosen. 
+
+To assign a color which works best; a study is made to find the wavelengths where the light reflects most on the used materials of the tool. This can be found [[Research:Light:Light Reflection|Light Reflection]]

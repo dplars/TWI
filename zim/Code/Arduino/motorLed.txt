@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T10:02:11+01:00
+
+====== motorLed ======
+Created woensdag 11 november 2020
+
+Here will the arduino code [[./second_test_split_strings.ino]] be discussed. Here are two addressable led strips, three long led strips and a stepper motor connected. 
+
+the commands to be executed are the following
+| Commando     | opties   | output                                                         |
+|--------------|----------|----------------------------------------------------------------|
+| LED STRIP    |          |                                                                |
+| ------------ | -------- | -------------------------------------------------------------- |
+| nrled        | -        | led off mode                                                   |
+| nrled        | +        | led on mode                                                    |
+| nrled        | _        | All leds off from set strip                                    |
+| nrled        | xx       | turn led with given index on or off depending on de set mode   |
+| nrled        | +/-xx    | change mode and turn led on/off                                |
+|              |          |                                                                |
+| brightness   | -xx      | lower brightness with xx amount                                |
+| brightness   | +xx      | increment brightness with                                      |
+| brightness   | _        | set brightness to 0                                            |
+| brightness   | xx       | set brightness to value xx                                     |
+|              |          |                                                                |
+| startupleds  |          | play green blue red on both ledstrips                          |
+|              |          |                                                                |
+| allon        |          | turn all leds on white                                         |
+| alloff       |          | turn all leds off                                              |
+|              |          |                                                                |
+| ------------ | -------- | -------------------------------------------------------------- |
+| Motor        |          |                                                                |
+| ------------ | -------- | -------------------------------------------------------------- |
+| step         |          | repeat last settings for step                                  |
+| step         | xx       | repeat direction for xx steps                                  |
+| step         | +/-      | repeat number of steps in clockwise/counterclockwise direction |
+| step         | +/-xx    | make xx steps in clockwise/counterclockwise direction          |
+| step         | _        | set number of steps to 0                                       |
+|              |          |                                                                |
+| q            |          | turn everything off                                            |

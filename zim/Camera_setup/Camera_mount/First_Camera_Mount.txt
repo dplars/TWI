@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-28T13:30:40+01:00
+
+====== First Camera Mount ======
+Created Wednesday 28 October 2020
+
+The printing process can be seen in the next picture:
+{{./3D_print_houder.jpeg?height=300}}
+
+Here PLA is used to print on a temperature of 200 degrees Celcius, on a heated bed of 60 degree Celcius. This is a holder which should support the camera while keeping the tool on the tool holder in place. The result wasn't good due to the print not sticking enough to the printing bed, no other test print was made. There will be another mount designed further in the process when the [[Camera setup:Light|Light]]  is more sorted out and the [[Camera setup:Tool Holder|Tool Holder]] is further developed. Now only the [[Camera setup:Tool Holder:Simple holder|Simple holder]] was in use with the first [[Camera setup:Light:Desk Lamp Test|Desk Lamp Test.]] 
+
+The full setup can be seen in the following picture: Here the 3D printed plate goes under the postits to get consistent placement of the tool to the camera. 
+{{./eerste_setup_andere_richting.jpeg?height=300}}
+

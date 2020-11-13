@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T12:20:34+01:00
+
+====== cameracontrol ======
+Created woensdag 11 november 2020
+
+Controlling the camera using
+
+First test using following github page
+https://gist.github.com/cbednarski/8450931

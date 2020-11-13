@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-04T15:32:01+01:00
+
+====== Test Camera Setup ======
+Created woensdag 04 november 2020
+
+To test the camera setup, a binary classification model is made. This model will tell with a treshold of 150 (200 the real treshold but 150 to warn before tool is worn out) wether a tool is good to work with or must be removed from the machine. 
+This model should be trainable with as less images as possible, preferably 20 because that is the amount of pictures taken in one batch.
+
+
+

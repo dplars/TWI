@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T19:53:00+01:00
+
+====== 1 camera position side ======
+Created woensdag 11 november 2020
+
+Taken on the first 4 plates of batch 04 with red lighting only from the adressable led strips. 
+
+1st light position is made with a setup with two led strips where one image is taken for every set of two led lights. 
+output is bad. Reflection angle wasn't good. 
+Results saved in next directory
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/Images/dataset/First_automated/camera_zijkant_dual_ledstrip

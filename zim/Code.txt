@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-02T10:59:20+01:00
+
+====== Code ======
+Created maandag 02 november 2020
+

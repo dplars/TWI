@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-10-28T14:24:06+01:00
+
+====== Light Reflection ======
+Created Wednesday 28 October 2020
+
+The next paper is good to get an overview of the light reflection seen in different types of materials and even multi layeres tools.
+	article: //New color from multilayer coating applied machining tools based on tungsten carbide insert//
+	J. //C. Caicedo1//
+
+Here is described that the best reflection occurs at the highest wavelength. This translates to the visible color red and will mean that the reflection should be the highest when the lighting is on the top of the spectrum of the camera lens. 
+
+The material is best cut with a laser at wavelengths 1030nm and 515nm. This is proved in: 
+	article: //Fundamental investigations of ultrashort pulsed laser ablation on stainless steel and cemented tungsten carbide//
+	is the good removal also a good reflector?
+		
+Study of absorption of certain wavelengths by the material. Not as usefull. unless all waves are absorbed by the material and only the rest is lightened. this is in the infrared spectrum so not realy possible with this camera.
+	article: //FTIR studies of tungsten carbide in bulk material and thin film samples//

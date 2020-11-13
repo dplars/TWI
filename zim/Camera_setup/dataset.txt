@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T19:47:20+01:00
+
+====== dataset ======
+Created woensdag 11 november 2020
+
+Different datasets are taken
+At first there is a camera position tested to get as good of a reflection as possible.
+Read the results [[+camera position]]
+
+
+

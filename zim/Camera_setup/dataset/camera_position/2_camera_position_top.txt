@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T19:53:24+01:00
+
+====== 2 camera position top ======
+Created woensdag 11 november 2020
+
+The same plates where used 04 -> 1until 5. 
+Every pair of led is lighted separately to generate the photo's 
+
+extra documents of the results in the folders images/dataset/.....

@@ -1,0 +1,58 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-11-11T12:21:01+01:00
+
+====== installation ======
+Created woensdag 11 november 2020
+
+===== Install opencv =====
+1. brew install python
+2. pip install numpy
+3. brew tap homebrew/science
+4. brew install opencv
+
+===== extra installation for pycharm =====
+https://stackoverflow.com/questions/43372432/can-not-install-open-cv-on-my-pycharm-version-mac
+For installing OpenCV on Mac and using it in PyCharm, follow these steps:
+
+Prerequisites: Python 2.7 or 3xx, virtualenv and OpenCV installed.
+
+Open a terminal and create a virtual environment, pyimagesearch here
+
+$ mkvirtualenv pyimagesearch
+Step 2 is miscellaneous, depending on your needs.
+
+pip install numpy
+
+pip install scipy
+
+pip install matplotlib
+Sym-link your cv2.so and cv.py files. (only cv2.so files for OpenCV 3xx ). On my system, OpenCV is installed in /usr/local/lib/python/2.7/site_packages/
+
+$ cd ~/.virtualenvs/pyimagesearch/lib/python2.7/site-packages/
+
+$ ln -s /usr/local/lib/python2.7/site-packages/cv.py cv.py
+
+$ ln -s /usr/local/lib/python2.7/site-packages/cv2.so cv2.so
+These steps are essentially for setting up this virtual environment for PyCharm.
+Open up PyCharm and create a new "Pure Python" project
+
+Set up the location of our Python Interpreter. By default, PyCharm will point to the system install of Python, however, for our case we need it to point to the virtual environment pyimagesearch.
+
+So click on the gear icon and select "Add Local". In my case, the pyimagesearch  virtual environment is located in  ~/.virtualenvs/pyimagesearch/ with the actual Python binary in  ~/.virtualenvs/pyimagesearch/bin. Once you have successfully navigated to your folder, choose the virtual environment binary which is python2.7 in the bin folder for me.
+
+Hope it helps!
+
+After this, you are all set. PyCharm will use your pyimagesearch virtual environment and will recognize the OpenCV library.
+
+===== installation on virtual GNU =====
+
+==== opencv install ====
+https://docs.opencv.org/3.4/d7/d9f/tutorial_linux_install.html
+
+packages installeren. 
+1. [compiler] sudo apt-get install build-essential
+2. [required] sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+3. [optional] sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+directory aanmaken waar de source files in komen
+[[/documents/opencv/opencv4.5]] 

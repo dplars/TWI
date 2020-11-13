@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T10:02:11+01:00
+
+====== motorLed ======
+Created woensdag 11 november 2020
+
+Here will the arduino code [[./second_test_split_strings.ino]] be discussed. Here are two addressable led strips, three long led strips and a stepper motor connected. 
+
+the commands to be executed are the following
+| Commando | opties | output                                                       |
+|----------|--------|--------------------------------------------------------------|
+| nrled    | -      | led of mode                                                  |
+| nrled    | +      | led on mode                                                  |
+| nrled    | _      | All leds off from set strip                                  |
+| nrled    | xx     | turn led with given index on or off depending on de set mode |
+| nrled    | +/-xx  | change mode and turn led on/off                              |
+|          |        |                                                              |
+| brightness		| -			| lower brightness with xx
+|brightness		|xx			| set brightness to value xx		| 

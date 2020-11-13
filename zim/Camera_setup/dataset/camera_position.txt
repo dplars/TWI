@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T19:49:58+01:00
+
+====== camera position ======
+Created woensdag 11 november 2020
+
+1st test was with a camera position more to the side of the cutting plates. This resulted in a bad reflection angle since the light came from the wrong side. Documentation of this set is in [[+1_camera_position_side]] 

@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T15:54:21+01:00
+
+====== OpenCVinstallation ======
+Created woensdag 11 november 2020
+
+https://pypi.org/project/opencv-python/
+
+python3 -m pip install opencv-contrib-python
+
+-> om python3 te kunnen gebruiken dat er voor zetten, ander wordt voor python 2 geinstalleerd

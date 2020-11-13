@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-24T16:06:19+02:00
+
+====== Camera setup ======
+Created zaterdag 24 oktober 2020
+
+Tests of the setup: 
+* 3D printing the tool holder
+* 3D printing a easy way of photographing many tools in an easy way
+
+
+Parts of the setup:
+1. [[+Light]]
+	a. 3-4 led lights/strips separately controllable to light from different angles
+	b. with or without extra light on top
+2. Wheel with tool mount
+	a. 3D model creation of mount system
+	b. creating wheel to be accurate
+	c. controlling stepper motor to turn just enough to put the next tool in front of the camera
+3. Camera mount
+	a. Design to let the camera view different angles
+	b. watch out for lighting
+
+

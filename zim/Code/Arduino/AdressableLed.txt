@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-02T11:01:12+01:00
+
+====== AdressableLed ======
+Created maandag 02 november 2020
+
+Adressable led light controls
+
+Led strip is a LPD8806

@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-28T13:30:22+01:00
+
+====== Camera mount ======
+Created Wednesday 28 October 2020
+
+In this page the camera mount will be discussed along the design process of the setup
+
+1. [[+First Camera Mount:|First Camera Mount:]] a simple setup to check the results of the camera and the consistency of the images of different tools in the same [[Tool Holder:Simple holder|Holder.]]
+2. [[+Wheel Camera Mount|Wheel Camera Mount]] the camera mount which is placed so that 20 tools can be photographed on one [[Tool Holder:Wheel Holder|Wheel Holder.]] 

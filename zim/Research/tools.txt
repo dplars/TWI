@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-04T10:59:10+01:00
+
+====== tools ======
+Created woensdag 04 november 2020
+
+Hoe slijt de tool? [[+Wear]] 

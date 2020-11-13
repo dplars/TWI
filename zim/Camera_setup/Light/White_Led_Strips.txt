@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2020-10-28T14:10:50+01:00
+
+====== White Led Strips ======
+Created Wednesday 28 October 2020
+
+A second lighting contition created is the lighting with 3 the same led strips controllable with a raspberry pi. 
+This was tested using some transistors to create a controllable switching circuit. This didn't work due to the wrong type of transistors. The second option is to control the led strips using proper relays. These will have to be bought separately so is must still be assessed if this is needed.
+
+{{./Test_setup_ledstrip.jpeg?height=300}}
+The setup to test the control of a led strip using a NPN transistor as switch.
