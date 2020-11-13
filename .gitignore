@@ -1,0 +1,13 @@
+
+# dont copy gcode files since they will be useless
+3Dprint/**/*.gcode
+
+# dont copy apple folder files
+**/.DS_Store
+
+# dont copy pictures from datasets
+code/Vision/Datasets/**/*.jpg
+code/Vision/Datasets/**/*.png
+
+# dont copy old arduino code
+code/Arduino/code.old
