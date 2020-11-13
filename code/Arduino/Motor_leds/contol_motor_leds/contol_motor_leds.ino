@@ -72,8 +72,6 @@ void setup()
 void loop()
 {
   
-  unsigned long StartTime = micros();
-  
   if (Serial.available()) {
     ch = Serial.readStringUntil('/');  // \n isn't detected
     //ch = Serial.readString();   // stops reading after 10 miliseconds
@@ -299,13 +297,6 @@ void loop()
       // send changes to ledstrip
       FastLED.show();
   }
-      //Serial.println("lus gedaan");
-
-      unsigned long CurrentTime = micros();
-      unsigned long ElapsedTime = CurrentTime - StartTime;  
-      Serial.print("elapsed time micros: ");
-      Serial.println(ElapsedTime);
-      delayMicroseconds(200000);
 
 }
 
