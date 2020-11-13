@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-13T23:36:01+01:00
+
+====== Second handmade dataset ======
+Created vrijdag 13 november 2020
+
+A second handmade dataset is made to compare with the first dataset and get to know what the stripes mean on the [[../initial_dataset.txt|first dataset]] which was used to measure the wear.
+
+The next setup is used:
+The light came primarely from the camera itself which was set in the first brightness setting. 
+The camera was located at a distance of 2cm between the housing and the measured point on the insert. The housing starts at the black part; not the plexi glass protector. 
+During the making of this dataset the inserts where labeled with bullet or no bullet. This was not setup this way in the first place; instead there was a marker line on the insert. This marker line is also noted in the labels of the dataset.
+An "s" means it is with a marker line. A
+| symbol       | explanation                                                       |
+|--------------|-------------------------------------------------------------------|
+| s            | side with marker line                                             |
+| n            | side without marker line                                          |
+| batch number | number specified on the box in which the inserts are kept         |
+| plate number | number specified inside the box; this goes from 1 to 10 per batch |
+
+The naming of the dataset is the following
+b_<batch number>_p_<plate number>_<identifier of side>
+{{./pasted_image.tiff?height=300}}

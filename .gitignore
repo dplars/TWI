@@ -7,6 +7,8 @@
 # dont copy pictures from datasets
 code/Vision/Datasets/**/*.jpg
 code/Vision/Datasets/**/*.png
+code/Vision/Datasets/**/*.PNG
+code/Vision/Datasets/**/*.JPG
 
 # dont copy old arduino code
 code/Arduino/code.old
