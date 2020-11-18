@@ -21,8 +21,7 @@ An "s" means it is with a marker line. A
 
 The naming of the dataset is the following
 b_<batch number>_p_<plate number>_<identifier of side>
-{{./pasted_image.tiff?height=300}}
-
+{{./Second_dataset_setup.tiff?height=300}}
 After looking at the pictures of the datasets it can be confirmed that the 'b' side of the inserts is the side with the mark on. 
 
 This can be seen on the folowing two pictures whis correspond. The first one is from the first dataset, the second from the second dataset.

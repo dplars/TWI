@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-18T12:20:02+01:00
+
+====== camera position validation ======
+Created woensdag 18 november 2020
+
+===== Information =====
+The next data input structure is made:
+	* 20 train images
+	* 10 validation images
+	* 10 test images
+
+These images will go through different algorithms multiple times and the outputs are verified for every different algorithm.
+
+===== papers =====
+
+1. A Comprehensive Study on Deep Image Classification with Small Datasets
+	a. short comparison of the amount of convolutional layers to be used in the network (5 is optimal)
+	b. comparison on datasets: Caltech101, CIFAR10
+	c. also transfer learning also around 5 convolutional layers is the optimum
+	d. network architecture
+		1. from scratch:
+			{{./paper1_arch_fromscratch.png}}
+		2. transfer learning pretrained on VGG16 with imagenet dataset
+			{{./paper1_arch_transferlearning.png}}
+2. Deep learning for image classifification on very small datasets using transfer learning
+	a. creation of an image classification network with context of where it comes from
+		1. alexnet vs googlenet vs vgg and the history
+		2. displays keras code to create the same models
+		3. architecture for models is shown
+		4. niet super interessant gezien hier nog steeds wordt gewerkt op 6000 fotos van katten en honden, wel een indicatie dat deep learning gaat met weinig data
+
+
+3. https://paperswithcode.com/task/small-data
+	a. interesting papers with small datasets
+
+4. A survey of the recent architectures of deep convolutional neural networks
+	a. overview of almost all neural networks with their strengths and weaknesses
+
+5. SDD-CNN: Small data-driven convolution neural networks for subtle roller defect inspection
+	a. very interesting paper detects faults in bearing rollers. 
+	b. Using very little data
+	c. results with from scratch training best with SDD-inception v3 and SDD-resnet18
+	d. SDD-VGG16 gets good results, but with long trainin time
+
+In most seen papers a very low learning rate 
+0.0005 
+
+
+

@@ -9,4 +9,11 @@ To test the camera setup, a binary classification model is made. This model will
 This model should be trainable with as less images as possible, preferably 20 because that is the amount of pictures taken in one batch.
 
 
+===== [[+Resnet18|Resnet18]] =====
+First we will try to implement SDD-Resnet18 to classify the few images in good or bad. 
 
+===== [[+inception v3|inception v3]] =====
+Than we will implement SDD-inception v3 
+
+These described models should perform rather good without any transfer learning. 
+After the first tests these results can be compared with a transfer learning model.

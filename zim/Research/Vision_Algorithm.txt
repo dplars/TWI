@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-18T12:15:14+01:00
+
+====== Vision Algorithm ======
+Created woensdag 18 november 2020
+
+===== [[./camera_position_validation.txt|Finding an algorithm to test the camera position setup]] =====
+First there must be found an algorithm that can quickly confirm wether a setup is good or not. This will be done by taking pictures different camera positions with the same lichting. After this the images go trough a simple model and the output is verified with a test set. 
+This algorithm must be as small as possible to not have to take a lot of pictures to determine wether an algorithm is good or not. 
+
+

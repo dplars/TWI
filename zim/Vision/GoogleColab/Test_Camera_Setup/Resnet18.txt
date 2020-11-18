@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-18T14:41:43+01:00
+
+====== Resnet18 ======
+Created woensdag 18 november 2020
+
+In this page we will describe the results and actions taken to get results out of Resnet18
+
+this paper suggests that this is a good architecture for a quite like problem. where a low amount of data is used.
+	//SDD-CNN: Small data-driven convolution neural networks for subtle roller defect inspection//
+
+===== Creating first file =====
+
+===== TSU_Resnet18_1 =====
+
+failed to load data, did copy files into correct directories and created dataset class
+
+===== TSU_Resnet18_2 =====
+
+Simpeler method to read in data and not be able to change a lot of things;
+next time build dataset class self with the same model. 
+After that the regression model would be easy
+
+First result of the training.
+{{./Screenshot 2020-11-18 at 22.58.45.png?height=400}}
+Tweede test met een aanpassing van de learning rate en een foto van de training set naar test set gebracht
+{{./Screenshot 2020-11-18 at 23.13.23.png?height=400}}
+
+Next time create results file to get nice overview of all results
