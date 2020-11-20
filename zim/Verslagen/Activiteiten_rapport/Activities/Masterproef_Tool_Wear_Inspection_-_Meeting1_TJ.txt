@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-20T15:10:37+01:00
+
+====== Masterproef Tool Wear Inspection - Meeting1 TJ ======
+Created vrijdag 20 november 2020
+
+Notities van de meeting
+[[./meeting 20201009.pdf]]
+
+Korte samenvatting:
+* Tegen eind oktober 200 extra plaatjes
+* Na nieuwjaar kijken hoeveel “echte” plaatjes nodig zijn om de soorten slijtage op te kunnen bepalen
+* Nauwkeurigheid die gehaald zou moeten worden is 20 micrometer
+* Plaatje is slecht vanaf het een slijtage heeft van meer dan 200 micrometer (best iets vroeger kunnen zeggen dat het plaatje de grens van 200 micron zal overschrijden)
+* Hoe de inspectie nu gebeurt:
+	* Uithalen en bekijken met blote oog of lens
+	* Elke vaste tijdspan verwisselen
+* Maandelijkse update om vooruitgang te bespreken
+* Verschillende coatings moeten ook onderzocht worden
+* Kostprijs mee bekeken voor de hele setup

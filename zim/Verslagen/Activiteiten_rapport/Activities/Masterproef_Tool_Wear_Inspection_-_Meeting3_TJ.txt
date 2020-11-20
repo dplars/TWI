@@ -1,0 +1,42 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-20T15:20:42+01:00
+
+====== Masterproef Tool Wear Inspection - Meeting3 TJ ======
+Created vrijdag 20 november 2020
+
+Meeting 04/11/2020
+
+Tom Jacobs
+
+Verschillende soorten materialen voor maximaal reflecterende golflengte?
+	Allemaal hetzelfde materiaal binnenin, buitenste laag enkel verschillend
+	Voornamelijk carbide als binnenste materiaal; zien met 1 foto op wavelength voor carbide of het er goed uitkomt
+	https://www.equipment-news.com/the-right-grade-creates-the-right-tool-selecting-tool-materials/
+	
+	 {{./Types_sterkte_plaatjes.png?width=400}}
+{{./plaatjes_nummers.png?width=400}}
+
+Wat slijt er af?
+	Is het afgesleten wanneer de coating weg is
+		Coating slijt eerst af, daarna wordt het materiaal binnenin afgesleten
+	Of wordt er gewoon een stukje van de coating afgesleten
+
+De nauwkeurigheid van de frees -> om te vergelijken met de stappenmotor die op 0,106° nauwkeurig zal bewegen 
+	Niet indexeerbaar of te draaien, desnoods uit frees nemen en in houder zetten om de foto te nemen, dus zelf ook niet te nauwkeurig werken.
+	
+
+
+Heeft u enkele voorbeelden van de verschillende slijtage types van de plaatjes?
+	4 hoofd klassen, moeilijk om van allemaal een voorbeeld te vinden
+
+
+Hoe ver moet gekeken worden op de kop en op de zijkant?
+	Op de hoek zal steeds de slijtage zichtbaar zijn.
+	
+{{./Screenshot 2020-11-20 at 15.20.56.png?width=400}}
+
+Extra metric toevoegen die de oppervlakte geeft van de fout, niet enkel de afstand die gegeven is voor test set. 
+	Gewoon lichte pixels berekenen
+
+

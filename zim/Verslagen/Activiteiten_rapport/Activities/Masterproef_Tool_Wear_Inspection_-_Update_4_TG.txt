@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-20T14:57:33+01:00
+
+====== Masterproef Tool Wear Inspection - Update 4 TG ======
+Created vrijdag 20 november 2020
+
+===== Mail =====
+Beste meneer Goedemé,
+ 
+Ik voer de masterproef over Tool Wear Inspection uit bij Eavise in samenwerking met Sirris waarbij de slijtage van freeskop snijplaatjes gemeten moet worden.
+Gezien we ongeveer in de helft van de periode tot het tussentijds verslag zitten wilde ik u als promotor graag een korte update geven over de vorderingen die reeds gemaakt zijn en wat er nog staat te gebeuren. Indien u wenst kunnen we ook eens een korte vergadering inplannen of typ ik een verslagje uit zodat ik u volledig op de hoogte kan stellen.
+ 
+In het heel kort heb ik mij tot nu vooral bezig gehouden met het maken van een (semi geautomatiseerde) camera opstelling die per 20 snijplaatjes de nodige beelden kan maken met verschillende belichtingshoeken en verschillende kleuren belichting.
+Van de plaatjes zit een foto in bijlage. Deze zijn ongeveer 0,5cm op 1cm en hebben een slijtage die met het oog nauwelijks zichtbaar is. A picture containing building, floor, sitting, table
+
+{{./plaatje_1cm.jpeg?width=400}}
+
+Ik heb al een aantal beelden kunnen maken (in bijlage te vinden), maar er is nog wat finetuning nodig om de camera positie en hoek beter te kunnen regelen om ook de invloed daarvan te kunnen meten.
+De komende weken zal ik deze opstelling nog afwerken en zoeken naar een ideale camera hoek door wat beelden door een simpel netwerk laten gaan en de resultaten te vergelijken voor verschillende camera posities waarbij de licht condities niet wijzigen.
+ 
+Met vriendelijke groeten,
+ 
+Lars De Pauw
+
+{{./rechts_licht.jpeg?width=400}}{{./achter_licht.jpeg?width=400}}
+
+{{./p4_l9.png?width=400}}{{./p4.png?width=400}}

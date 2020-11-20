@@ -1,0 +1,62 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-20T12:47:49+01:00
+
+====== Masterproef Tool Wear Inspection - Update 3 DH ======
+Created vrijdag 20 november 2020
+
+===== Mail =====
+Beste meneer Hulens,
+ 
+Ik heb mijn eerste beeldjes kunnen maken met het geautomatiseerd systeem.
+Een foto van de opstelling die ik nu gebruik zit in bijlage, hierbij zijn er twee bogen waarop een enkel adresseerbare ledstrip is geplaatst. De ene boog kan nog vrij draaien om de hoek tussen de twee ledstrips aan te passen.
+
+{{./rechts_kabels.jpeg?width=400}}{{./rechts.jpeg?width=400}}
+ 
+Enkele genomen foto’s zitten in bijlage, ik heb hier telkens een foto genomen wanneer twee overeenkomstige leds van de ledstrips branden en al de rest uit om te zien welke leds overeenkomen met welke weerkaatsing in de camera. Op de foto’s is mooi te zien hoe elke led een ander deel van de slijtage belicht.
+A picture containing dark, sitting, looking, lit
+
+{{./p4_l10.png?width=400}}{{./p4_l9.png?width=400}}{{./p4_l8.png?width=400}}{{./p4.png?width=400}}
+ 
+Hier lijkt de belichting dus wel goed te zitten, maar is er nog licht weerkaatsing van de witte houder waarin de plaatjes zitten. Om dit weg te werken dacht ik er aan om ofwel het rad met zwart filament te printen of het witte rad zwart te verven, ik hoop dat dat de problemen zou oplossen. De andere optie is om er voor te zorgen dat de houder in de schaduw ligt. Dat is echter wat moeilijker gezien de twee ledstrips van een andere hoek belichten.
+ 
+Om de leds en de motor aan te sturen werk ik met een python programma dat via pyserial gegevens doorstuurt naar een Wemos D1 mini, die met de software van arduino werkt, door op zijn poort te schrijven. Dit ging echter heel traag waardoor ik na elk commando 1,5 seconden moest wachten eer ik het volgende commando kon sturen of er iets anders kon gebeuren. Dat zorgde ervoor dat elke foto ongeveer 5 seconden duurde. Dit met 15 verschillende licht settings was niet ideaal dus ik ga de communicatie snelheid nog proberen verhogen en anders een echte arduino gebruiken in de hoop dat dat sneller werkt.
+ 
+De reden dat ik het via deze omslachtige manier doe (via seriele poort naar een arduino) is omdat ik heb geprobeerd om met een raspberry pi alles uit te voeren, aansturing van de leds en de beeld opname, maar dat ging ook vrij traag.
+En er is een raspberry pi stuk gegaan door een kortsluiting in het pcb dat ik had gesoldeerd. Om niet nog een raspberry pi kapot te maken ben ik overgeschakeld naar de Wemos D1 mini chips die veel minder duur zijn, wat de gevolgen van een kortsluiting een heel stuk beperkt.
+ 
+Ik heb ook opgezocht of het wolfram carbide waaruit de plaatjes zijn gemaakt bepaalde reflectieve eigenschappen heeft, maar dit was zonder succes. Er waren wel een aantal studies die de licht absorbtie besproken om fouten te herkennen en die lagen vooral in het infrarode spectrum. De echte reflectiviteit zal ik misschien eens proef ondervindelijk moeten uitzoeken.
+ 
+Met vriendelijke groeten,
+ 
+Lars De Pauw
+
+===== Reply =====
+Hallo Lars,
+
+Dat ziet er al heel goed uit!​ Op de foto's kan je inderdaad duidelijk de slijtage zien. Misschien kunnen we zelf die 4 foto's combineren tot 1 foto, of als je de bijhorende 4 led's gelijktijdig laat branden, krijg je dan het zelfde resultaat? 
+
+De weerkaatsing van de draaischijf kan je inderdaad oplossen met verf of zwart filament. 
+
+Zeker de info bijhouden over lichtabsorbtie in het IR spectrum, dit kan je bij in u literatuurstudie zetten.
+
+Super goed bezig! Dit gaat zeker het resultaat verbeteren, dat je al vertrekt met goede foto's!
+
+Mvg,
+
+
+===== Mail =====
+Beste meneer Hulens,
+ 
+Die vier foto’s zelf combineren tot één foto lijkt me de meest stabiele methode gezien de leds niet steeds hetzelfde resultaat geven voor een verschillend plaatje. In bijlage zitten twee foto’s van verschillende plaatjes die met dezelfde leds belicht zijn.
+
+{{./p3_l9.png?width=400}}{{./p4_l9.png?width=400}}
+ 
+Dit verschil komt doordat de plaatjes niet allemaal perfect in hun houder zitten en sommige dus een beetje schuin hangen. Dat zou kunnen opgelost worden met een verbetering van de houder en dan kan er in theorie per plaatje gewoon steeds dezelfde leds oplichten. Met de huidige plaatjes die zijn afgesleten met de hand zal dit nog niet tot perfecte resultaten komen gezien de hoek waarin het materiaal is afgesleten niet constant is. -> ik weet nog niet over hoeveel verschil dit gaat, het kan zijn dat dit verschil slecht 5 graden is waardoor het wel zou lukken om 4 leds tegelijk aan te zetten.
+De echte plaatjes die met de machine zijn afgesleten zullen normaal gezien wel steeds dezelfde slijtage hoek hebben waardoor dat wel zou werken.
+ 
+Met vriendelijke groeten,
+ 
+Lars De Pauw
+
+

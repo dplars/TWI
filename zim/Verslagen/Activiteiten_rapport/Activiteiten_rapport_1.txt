@@ -1,0 +1,113 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-20T12:26:31+01:00
+
+====== Activiteiten rapport 1 ======
+Created vrijdag 20 november 2020
+
+Alle mails gelinkt [[Activities|hier]]
+
+===== Wat is er reeds gedaan deze periode tot 10 November? =====
+
+===== Week 05/10/2020 - 11/10/2020 =====
+opstellen en indienen van het tussentijds verslag in de eerste helft van de week.
+Na 07/10/2020 was het verslag ingediend en werd gestart met het formuleren van een beschrijving van het probleem.
+Het schrijven ging zeer moeizaam omdat ik weinig perspectief had over wat het doel van de masterproef was. Het is ook zeer moeilijk om een weg te banen tussen alle literatuur en de goede er tussenuit te vinden. Er werd heel wat tijd verspild met het lezen van bronnen die onvoldoende zijn of net niet goed genoeg waren. Hier moest een systeem in gevonden worden om de bronnen snel te kunnen inschatten. 
+
+1. bezoek gebracht aan Tom Jacobs van Sirris om de eerste plaatjes op te halen. 
+	* frees getoond en 
+	* uitleg gegeven over het bredere kader van het onderzoek. 
+	* Een verslag is [[:Verslagen:Activiteiten rapport:Activities:Masterproef Tool Wear Inspection - Meeting1 TJ|hier]] te vinden. 
+2. Bedrijfs bezoek bij Aperam waar een vriend een visie inspectie systeem heeft geïnstalleerd dat fouten detecteerd in grote stalen platen. 
+	* Hier was het zeer nuttig om eens te zien hoe een systeem wordt geïmplementeerd in een productielijn. 
+	* De schaal was hier wel een stuk verschillend waardoor er niet echt dingen kunnen overgenomen worden.
+3. Start aan een beschrijving van het verleden van dit onderwerp.
+	* ging zeer moeizaam om dezelfde redenen als het zoeken van de probleem beschrijving.
+4. Implementatie maken voor een binair transfer learning model dat bepaald of een tool versleten is of niet. te vinden in [[https://colab.research.google.com/drive/1N2r6nplmx88pUOKkLN0Hmy42D7YRUypC|TWI 5]] Dit bouwde verder op [[https://colab.research.google.com/drive/1Qsoj7WmGClsslivGGI4DGL10NNVdIHC2|TWI 4]] waar een zelfde model werd gemaakt zonder tranfer learning.  [[https://colab.research.google.com/drive/1Qsoj7WmGClsslivGGI4DGL10NNVdIHC2|TWI 4]] is een volledig werkend prototype van een algoritme in Keras.
+5. implementatie maken voor een classificatie model [[https://colab.research.google.com/drive/1QN68qaE84fq9dBnZFNExsS5F8tZk-8Ow|TWI 6]] in Keras waarbij tranfer learning wordt gebruikt. Hierbij waren alle voorspellingen voor dezelfde klasse. Niet verklaard hoe dit kon, misschien omdat de data niet gelijk verdeeld was over de klassen. De beste learning rates waren reeds bepaald voor dit probleem en lagen rond 3e-5 
+
+Voor alle bovenstaande tests werden de labels van [[~/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/Datasets/labels/labels3.csv|labels3.csv]] gebruikt op de [[~/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/Datasets/handmade/first_handmade|first handmade dataset]]
+
+
+===== Week 12/10/2020 - 18/10/2020 =====
+
+1. Verder schrijven aan het verleden van het onderwerp. 
+	a. Ging zeer moeizaam en vergde veel tijd voor zeer weinig resultaat. 
+	b. Gekomen tot een aantal bronnen. 
+	c. opzetten mendeley om bronnen in bij te kunnen houden.
+2. Aanmaken van Engelse latex file op overleaf
+3. implementatie maken in keras waarbij een regressie model wordt getraind op de eerste honderd foto's die verkregen zijn
+	a. fotos te vinden als [[~/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/Datasets/handmade/first_handmade|first handmade dataset]]
+	b. Een regressie model wordt niet ondersteund door Keras waardoor het zeer omslachtig was om de labels en de foto's met elkaar te kunnen verbinden. Dit zorgde voor heel wat problemen.
+		1. classificatie model met transfer learning maken met Keras dat de gegevens opdeeld in 3 klassen waarbij ook een verschillende batch size werd getest. Te zien in [[https://colab.research.google.com/drive/1QN68qaE84fq9dBnZFNExsS5F8tZk-8Ow|TWI 6]] en  [[https://colab.research.google.com/drive/1zeKin3shLk_ogrFCwHrzpnjJmaWaoCq0#scrollTo=CDnGBD0NGkbM|TWI 7]]
+		2. proberen de labels toch gelinkt te krijgen via de data loader functies van Keras. Dit werkte echter niet dus werd een andere methode geprobeerd
+		3. Het regressie probleem omzetten in een classificatie model wat betreft de data. Hiervoor werd een map aangemaakt per waarde en dus per foto om zo de gegevens in te lezen. Dan werd de model architectuur aangepast zodat deze een output gaf van een getal waarde in dezelfde grootte orde als de waarden van de metingen. 
+			Dit werkte echter ook niet en er werden geen resultaten bekomen.
+			De uitwerking is te vinden op Google Colab onder de naam [[https://colab.research.google.com/drive/1qR4reWAIvIs59eZKWSmZHboZ1gjGA4jS|TWI 8]] waarbij ook transfer learning werd toegepast om de weinige data toch te kunnen omzetten in een werkend model
+4. Er werd gekeken welke andere frameworks er nog zijn en wat het verschil is tussen deze. Hier is ook beslist om verder te gaan met Pytorch gezien dit het meest open framework is. 
+
+===== Week 19/10/2020 - 25/10/2020 =====
+
+1. Een nieuwe implementatie [[https://colab.research.google.com/drive/1f-Rfei8QrHotvgktp8hzviR8dv1XJJjz|TWI 9]] waarin een eerste model werd gemaakt met pytorch. 
+	a. er werden wat problemen gevonden bij het tonen van de foto's eens ze genormaliseerd waren waardoor het moeilijk was om de data voor te stellen die gebruikt werd. 
+	b. Een model van het internet werd geïmplementeerd en er werden resultaten bekomen ± 60% accuracy op de train en validation data. Dat lijkt niet zo correct. op een test set van slechts enkele beelden werd 25% accuracy gehaald. Er leek ergens iets mis te zijn met de transformaties van de foto's naar pil voorstelling. 
+2. Een binaire classificatie implementatie [[https://colab.research.google.com/drive/1t4Yvzj1rqNy24pj4dDtyBH2CStDePXMw|TWI 10]] werd gemaakt waarin een zelfde model architectuur werd geprobeerd te maken als bij het model van Keras. 
+	a. Echter was dit zeer lastig zonder voorkennis van hoe architecturen er uit zien. Door het sterk verschil in benamingen tussen functies is dit niet geslaagd. 
+	b. De foto's in juiste mappen plaatsen via een programma werd ook gerealiseerd na heel wat problemen met de google colab mappen structuur. 
+	c. In het model waren de data augmentation regels te hard. Hierdoor werden de foto's zeer sterk bewerkt wat zorgde voor heel wat meer foto's, maar tegelijk deed het afbreuk aan het model gezien de foto's in het echt makkelijker te interpreteren vallen. 
+	d. De training en validation loss ging niet naar beneden tijdens de training.
+3. Meeting met Dries Hulens waarin werd overlopen hoe de opstelling zou gemaakt worden en waar op te letten.
+	a. hierbij werd aangehaald dat het schrijven nog niet belangrijk zou zijn, en dat dit nog even kon wachten tot december eventueel.
+	b. licht reflecties onderzoeken hoe het materiaal reageerd op bepaalde licht frequenties.
+	c. eventueel kijken of een stuk uit de fotos kan gesneden worden (felste blob) om enkel daar het model mee te voeden.
+	d. adresseerbare ledstrip mee gekregen
+	e. camera mee gekregen.
+4. Een eerste testopstelling maken om de camera te leren gebruiken.
+	a. De camera moest zeer goed ingesteld worden om een scherp beeld te krijgen van de slijtage
+	b. Setup is besproken in: [[:Camera setup:Camera mount:First Camera Mount|first camera mount]] 
+		1. hiervoor is een [[:Camera setup:Tool Holder:Simple holder|houder]] ge 3D print.
+		2. De belichting besproken in [[:Camera setup:Light:Desk Lamp Test|desk lamp test]]
+		3. de camera werd met de [[:Camera setup:Camera mount:First Camera Mount|normale houder]] op de bureau gezet. 
+	c. De beelden hiervan waren zeer indrukwekkend en gaven een mooi resultaat zonder veel werk te hoeven steken in een setup.
+
+===== Week 26/10/2020 - 1/11/2020 =====
+
+1. 3D model gemaakt van het [[:Camera setup:Tool Holder:Wheel Holder:first wheel holder|eerste rad]] dat gebruikt zal worden voor een automatisch systeem dat de plaatjes voor de camera beweegt.
+	a. Creatie van een 3D model
+	b. 3D printen 
+	c. berekening welke nauwkeurigheid nodig is om de stappen motor aan te sturen
+2. Een programma aangemaakt om de stepper motor aan te sturen met de motor drivers. 
+3. documenteren van de afgelopen tests
+4. Test met vaste led strips om ze te kunnen aansturen vanaf een raspberry pi
+	a. Ging niet goed met zeer kleine transistors. 
+	b. overgeschakeld naar relais. Gaf zeer veel problemen met solid state relais die ook in gesloten toestand nog een stroom doorlieten.
+	c. Gewone analoge stuurbare relais werkten wel, maar maken een klik geluid. 
+	d. Volgende stap is om mosfets te gebruiken voor deze sturing.
+	e. Test met verschillende voltages met een potentiometer voor de strips.
+5. PCB maken om de aansturing mogelijk te maken gezien het breadboard de hoge stroom niet aan kan. 
+
+===== Week 02/11/2020 - 08/11/2020 =====
+
+1. Ophalen van een volgende batch plaatjes
+	a. bekijken hoe de plaatjes worden gelabeld. 
+	b. opzoeken en documenteren of de plaatjes reageren op een bepaalde golflengte zonder goede resultaten, dit moet nog verder onderzocht worden.
+	c. materialen van de plaatjes opzoeken
+	d. Afslijting komt recht op de hoek van het plaatje
+	e. Frees kan niet zelf nauwkeurig draaien, een mogelijke oplossing is de voledige snijplaat houder uit de frees halen en fotograferen.
+	f. Er zijn ongeveer 4 hoofdklassen van slijtages, maar deze zijn moeilijk zelf na te maken
+	g. Een extra metric toevoegen die de oppervlakte van de slijtage weergeeft. 
+2. Een testopstelling gemaakt met het rad met de stepper motor en enkele bandijzers om de leds aan te bevestigen.
+3. Arduino finetunen zodat deze volledig werkt met de adressable led en de motor makkelijk kan aangestuurd worden met commandos via de seriele input.
+4. Eerste beelden maken met een geautomatiseerde setup
+	a. [[~/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/Datasets/First_automated/camera_zij_boven_dual_ledstrip/first_test|zie first automated dataset]]
+	b. werkte niet, de communicatie tussen de computer en arduino was te traag. Dit wordt (tijdelijk) opgelost door delays te plaatsen die de trage communicatie opvangen. 
+	c. Eerste beelden konden gemaakt worden en het python script is gemaakt.
+5. PCB finetunen 
+	a. nieuwe weerstand die de spanning begrensd voor de ledstrip
+		1. is doorgebrand en terug vervangen door een grotere weerstand
+
+
+===== Wat er nog zal gebeuren voor de tussentijdse presentatie =====
+1. Afwerken van de setup en oplossen 
+
+

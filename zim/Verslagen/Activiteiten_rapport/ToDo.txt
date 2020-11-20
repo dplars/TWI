@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-20T18:20:01+01:00
+
+====== ToDo ======
+Created vrijdag 20 november 2020
+
+===== Week 09/11/2020 - 15/11/2020 =====
+
+==== short term ====
+1. netwerk maken om camera setup mee te beoordelen
+
+==== Long term ====
+1. Tekst schrijven
+
+===== Week 16/11/2020 - 22/11/2020 =====
+
+==== short term ====
+1. inception v3 implementeren, nieuwe foto's door het netwerk laten gaan
+2. foto's nemen onder verschillende camera hoeken
+3. nieuw rad printen 
+4. extra clips printen in PETG
+5. nieuwe camera standaard maken waarop posities te veranderen zijn.
+6. Extra ledstrip toevoegen aan setup
+7. Documenteren over PCB
+8. Documenteren over netwerken in vloeiende tekst
+9. Labels verkrijgen van extra plaatjes bij Tom Jacobs
+
+==== Long term ====
+Grote lijnen schrijven over literatuurstudie
+Mooi overzicht

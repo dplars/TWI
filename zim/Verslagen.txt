@@ -1,0 +1,83 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-20T11:48:40+01:00
+
+====== Verslagen ======
+Created vrijdag 20 november 2020
+
+===== [[+Inloopperiode verslag|Inloopperiode verslag]] =====
+In te dienen op 7 oktober 2020
+Ingediend op 7 oktober 2020
+
+Hierin worden een aantal gegevens rond masterproef en -bedrijf vermeld:
+* Voorlopige titel.
+* Informatie omtrent student(en): naam, adres, telefoonnumer, e-mail adres.
+* Informatie omtrent bedrijfspromotor(en): naam, bedrijf, adres, telefoonmummer, e-mail
+adres.
+De eigenlijke inhoud bevat minstens drie onderdelen:
+1. een beschrijving van de doelstellingen van de masterproef en de aflijning: welke elementen zullen onderzocht/uitgevoerd worden en welke niet;
+2. een opsomming en korte beschrijving van de uitgevoerde activiteiten tijdens de inlooppe- riode, bijv. een theoretische studie, het opzoeken van relevante literatuur, ...;
+3. een planning in de vorm van een Gantt kaart voor de volledige masterproef waarin een aantal deeltaken en mijlpalen opgesomd worden.
+
+===== [[+Activiteiten rapport:Activiteiten rapport 1|Activiteiten rapport 1]] =====
+In te dienen op 10 November
+
+Tussen inloopperiode verslag en indienen van tussenstijds verslag
+Deze rapporten bevatten een opsomming van 
+* uitgevoerde activiteiten
+* opgetreden problemen en eventueel bijhorende oplossing
+* van uit te voeren activiteiten.
+Zo’n rapport is incrementeel: het geeft de nieuwe elementen weer sinds de vorige rapportering.
+
+===== Tussentijds verslag =====
+In te dienen op 18 december 2020
+
+tekst met probleemstelling, literatuurstudie en reeds gerealiseerde elementen
+1. Situering en doelstelling: een heldere, beknopte situering van de masterproef binnen een groter geheel op verschillende niveaus: wereld, Vlaanderen, het bedrijf of de onderzoeks- groep; en de beschrijving van de probleemstelling die aanleiding geeft tot de uitvoering van de masterproef; hieruit volgt dan een duidelijke omschrijving van de algemene en concrete doelstellingen van de eigen masterproef; voor een academisch geori ̈enteerde masterproef worden deze doelstellingen geformuleerd als onderzoeksvragen.
+2. Literatuurstudie: weergave van de state of the art van het onderwerp: een korte beschrij- ving van de meest relevante (en actuele) referenties zodat de lezer een idee krijgt wat er op dit moment rond het onderwerp reeds beschikbaar is of onderzocht werd; bij elke geselec- teerde bron wordt een synthese gegeven van de relevante informatie; daarnaast kan ook de theoretische achtergrond van het onderwerp beschreven worden op basis van geraadpleegde literatuur.
+3. Reeds gerealiseerde elementen: vaak is er reeds een eerste ontwerp of implementatie uit- gewerkt. Ook dit wordt in het tussentijds verslag opgenomen.
+4. (Herwerkte) planning.
+
+De onderdelen probleemstelling en literatuurstudie van dit verslag moeten zodanig geschreven worden dat ze bijna integraal kunnen overgenomen worden als hoofdstukken 1 en 2 van de eindtekst.
+
+Er is een __checklist__ beschikbaar (zie voorlaatste bladzijde) om de student te helpen alle nood- zakelijke elementen op te nemen in dit tussentijds verslag.
+
+===== Tussentijdse presentatie =====
+In te dienen op laatste examen dag
+
+Elementen die bij deze presentatie aan bod komen zijn:
+* Situering en doelstelling van de masterproef. Aangezien bij deze presentatie een aantal docenten aanwezig zijn, die niet rechtstreeks bij de masterproef betrokken zijn, moet de verwoording vrij helder en duidelijk zijn, zodat een leek in het vak zich een idee kan vormen over het onderwerp.
+* Reeds uitgevoerde taken: waarschijnlijk een analyse en een begin van ontwerp. Gemaakte keuzes moeten verantwoord worden, bijvoorbeeld met verwijzingen naar relevante literatuur en een evaluatie van de voor- en nadelen van de verschillende alternatieven.
+* Herwerkte planning, waarbij de actuele stand van zaken aangegeven wordt en de eventuele wijzigingen ten opzichte van de oorspronkelijke planning van in het begin van het
+academiejaar.
+
+Deze presentatie vindt plaats op de laatste examendag van de eerste examenperiode voor
+een jury van OP1, OP2, OP3 en ZAP leden. Een precieze uurregeling wordt tijdig aan de studenten kenbaar gemaakt.
+Voor één student wordt een tijdspanne van 15 minuten voorzien voor de presentatie, bij twee studenten mag dit oplopen tot 25 minuten:
+* 40%: situering problematiek - wat leidt tot de formulering van een onderzoeksvraag;
+* 50%: voorgestelde aanpak voor de probleemoplossing met kritische reflecties (voorstudie/literatuurstudie, alternatieven/keuzes, mogelijke risico’s) en tussentijdse resultaten; 
+* 10%: planning geven en motiveren.
+Daarna is er en vijftiental minuten voorzien voor vragen van de juryleden en een mondelinge toelichting.
+Na de bekendmaking van het behaalde resultaat (normaal in het begin van het 2e semester) geeft de promotor gedetailleerde terugkoppeling over het tussentijds verslag en de tussentijdse presentatie. Ook advies bij de verdere uitvoering van de masterproef mag van promotor verwacht worden.
+
+===== Activiteiten rapport 2 =====
+In te dienen op 10 Maart
+
+Tussen tussentijdse presentatie  en afwerking boek
+Deze rapporten bevatten een opsomming van 
+* uitgevoerde activiteiten
+* opgetreden problemen en eventueel bijhorende oplossing
+* van uit te voeren activiteiten.
+Zo’n rapport is incrementeel: het geeft de nieuwe elementen weer sinds de vorige rapportering.
+
+
+
+
+
+
+
+
+
+
+
+

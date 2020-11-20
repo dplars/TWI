@@ -1,0 +1,59 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-20T15:19:24+01:00
+
+====== Masterproef Tool Wear Inspection - Meeting2 DH ======
+Created vrijdag 20 november 2020
+
+Meeting 21/10/2020
+Dries Hulens
+
+Plaatjes tonen
+
+Camera opstelling maken 
+-	Licht? -> led
+o	https://www.ni.com/en-gb/innovations/white-papers/12/a-practical-guide-to-machine-vision-lighting.html
+	Eender wat checken golflengte 
+Zien bij welke frequentie het materiaal waarmee het plaatje gemaakt is het meeste licht weerkaatst.  Zo sneller nuttig van onnutig scheiden op de beelden
+
+-	Camera setup tools
+Statief/ houder -> twee kanten tegelijk nakijken
+	 3d printen om de opstelling te maken 
+
+-	Lenzen
+20px per fout -> 20micron fout meten -> 1px per micron detecteren
+	Resulutie is hoog genoeg om de fouten te detecteren, eventueel kan een hogere resolutie gewenst zijn als de soorten fouten moeilijk zichtbaar zijn
+
+Schrijven workflow?
+	Lezen en meteen wat typen over het artikel?
+		Goed -> nog niet te veel schrijven, eerst veel testen
+	Schrijven kan op 2 weken als alles goed gedocumenteerd is tijdens de testen
+	Hoeveel moet gefundeerd worden met artikels? ->meer tijd steken in testings?
+	Artikels voor alles wat opgezocht moet worden, de rest gewoon testresultaten meegeven en kort staven
+		
+Pytorch begonnen
+	Regressie model niet kunnen doen
+	
+	Wel binaire classificatie 
+-> slechtere resultaten dan met keras tot hiertoe nu transfer learning aan toe aan het voegen
+-> binaire classificatie gebruiken om te checken of een testopstelling goed is of niet.
+
+Volgende is regressie en dan het zo goed mogelijke model bepalen en daar de tests met verschillende datasets mee doen.
+
+Fout uitsnijden met grootste reflectie blob
+	Om de fout er zo goed mogelijk uit te kunnen halen. Na tests na de meeting is te zien dat dit misschien niet meer nodig zal zijn
+
+
+Datasets maken
+	Verschillende tests:
+-	licht? -> reflectie goed naar voor brengen
+o	Geconcentreerd -> dit
+o	Ambient 
+-	Kijkhoek -> de slijtage zo goed mogelijk op de normaalvlak krijgen
+Belichtings kleuren testen
+
+Verschillende kanten belichten en in meerdere channels steken
+	Plaatje belichten met apart adresseerbare leds die een voor een aangaan en bij elke verandering een foto nemen, voor de verwerking deze foto’s behandelen als multi channel afbeeldingen ipv RGB een aantal channels dat evengroot is als het aantal verschillende led posities
+
+Scope op enkel deze plaatjes zetten
+	Geen rekening houden met andere tools te kunnen zien (algemeen zelf de scope stilaan wat vastzetten) 
