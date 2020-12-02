@@ -11,3 +11,17 @@ The initial dataset where the images made by a microscopic camera at Sirris. The
 
 ===== [[+Second handmade dataset|Second handmade dataset]] =====
 A second dataset was made to compare the pictures with the previous dataset. This is done to verify the images and the results and to determine what the marker means.
+
+===== [[:Vision:Dataset:camera position:1 camera position side|First automated dataset]] =====
+This is the first test with the automated camera setup using the wheel to make the inserts go past the camera. The camera is slightly tilted to the side for this work.
+
+This includes the [[Vision:Dataset:camera position:1 camera position side|1 camera position side dataset]] and the [[Vision:Dataset:camera position:2 camera position top|2 camera position top dataset]]
+
+[[Vision:Dataset:camera position:camera position first full dataset|camera position first full dataset]]
+
+===== [[Vision:Dataset:camera position:camera position first full dataset:Birthday dataset|Birthday dataset]] =====
+Created a dataset on 27/11/2020 with a part of the given inserts for every possible color and led setting where pictures are taken from two separate led strips and every led one after another. This is done for white, red, green and blue colors. 
+Done for batch 1 to 11
+
+
+===== spaghetti dataset =====

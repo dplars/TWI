@@ -29,3 +29,13 @@ Created vrijdag 20 november 2020
 ==== Long term ====
 Grote lijnen schrijven over literatuurstudie
 Mooi overzicht
+
+===== Week 23/11/2020 - 29/11/2020 =====
+short term
+1. setup volledig afwerken 
+2. dataset maken met alle plaatjes en verschillende belichtingen
+3. Tussentijds verslag schrijven
+4. Mail sturen Tom Jacobs
+
+===== Week 30/11/2020 - 06/12/2020 =====
+Verder documenteren datasets en beginnen aan documentatie van de resultaten en opschrijven wat er in het tussentijds verslag komt.

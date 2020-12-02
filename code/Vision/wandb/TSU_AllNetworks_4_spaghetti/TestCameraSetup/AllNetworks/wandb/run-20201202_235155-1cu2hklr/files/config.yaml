@@ -1,0 +1,40 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.5
+batch_size:
+  desc: null
+  value: 8
+dataset_color:
+  desc: null
+  value: white
+epochs:
+  desc: null
+  value: 90
+lr:
+  desc: null
+  value: 0.004115583250951086
+method:
+  desc: null
+  value: bayes
+model_name:
+  desc: null
+  value: Squeezenet
+momentum:
+  desc: null
+  value: 3.1244719586340586
+num_classes:
+  desc: null
+  value: 3
+num_workers:
+  desc: null
+  value: 0
+use_pretrained:
+  desc: null
+  value: 'True'

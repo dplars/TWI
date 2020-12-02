@@ -1,0 +1,33 @@
+{
+    "os": "macOS-10.15.7-x86_64-i386-64bit",
+    "python": "3.8.5",
+    "heartbeatAt": "2020-12-02T22:47:15.952736",
+    "startedAt": "2020-12-02T22:47:14.014037",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--num_workers=2",
+        "--batch_size=10",
+        "--method=bayes",
+        "--epochs=24",
+        "--lr=0.00104457999427",
+        "--dataset_color=white",
+        "--use_pretrained=False",
+        "--num_classes=3",
+        "--model_name=Resnet18",
+        "--momentum=2.48876635982"
+    ],
+    "state": "running",
+    "codePath": "code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py",
+    "program": "train.py",
+    "git": {
+        "remote": "https://github.com/dplars/TWI",
+        "commit": "871122985487ec32c3c869b73d32bff96453e842"
+    },
+    "email": "lars.de.pauw@hotmail.com",
+    "root": "/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI",
+    "host": "Larss-MBP.home",
+    "username": "larsdepauw",
+    "executable": "/Users/larsdepauw/anaconda3/bin/python"
+}

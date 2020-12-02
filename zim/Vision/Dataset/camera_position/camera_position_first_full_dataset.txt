@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-27T16:41:09+01:00
+
+====== Second automated dataset ======
+Created vrijdag 27 november 2020
+
+Getting first full dataset with images of all plates
+
+===== First test =====
+first pictures formatted with 
+b_xxx_p_xxx_l_xxx.png
+	-> these images where from last time checking some setups
+	
+
+===== Second test =====
+formatting 
+next pictures without changing for different led strips
+b_xxx_p_xxx_color_l_xxx.png
+
+===== Third test =====
+formatting
+pictures with full experiments on lid lighting
+b_xxx_p_xxx_color_strip_l_xxx_bullet.png
+a video is taken here 
+Here we can see a difference with or without light in the room
+
+reformatted last images to be able to see difference between different leds, bet setup and runs are the same
+b_xxx_p_xxx_bullet_l_xxx_color_strip.png
+
+
+possibly 3 and 4 no bullet wrong 
+rest went okay just check the batches 3 and 4
+
+===== [[+Birthday dataset|Birthday dataset]] =====
+batch 3 plate 7 no bullet:  had restants of 3D print plastic on worn area
+batch 3 plate 8 no bullet:  is a bit off picture
+from here in batch 3 plates go out of sight for no bullet side. 
+
+bullet side is going the other way out of sight for batch 3 
+batch four starts of with bad pictures (also b on the left out of sight and nb on the right side out of sight
+
+from batch 4 plate 7 it is okay again
+
+batch 5 plate 6 no bullet lighting not good
+batch 5 plate 6 bullet has string from 3D printing on wear area
+
+batch 11 plate 5 bullet had hair on wear area

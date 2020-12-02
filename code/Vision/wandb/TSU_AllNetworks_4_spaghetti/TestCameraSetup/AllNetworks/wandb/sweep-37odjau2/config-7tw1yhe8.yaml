@@ -1,0 +1,22 @@
+wandb_version: 1
+
+batch_size:
+  value: 15
+dataset_color:
+  value: red
+epochs:
+  value: 94
+lr:
+  value: 0.0013660071473099126
+method:
+  value: bayes
+model_name:
+  value: Resnet18
+momentum:
+  value: 0.8205541947356241
+num_classes:
+  value: 3
+num_workers:
+  value: 2
+use_pretrained:
+  value: 'True'

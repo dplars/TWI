@@ -1,0 +1,13 @@
+2020-12-02 23:51:55,856 INFO    MainThread:21613 [wandb_setup.py:_flush():70] setting env: {'sweep_id': 's7cghe5w', 'config_paths': '/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/sweep-s7cghe5w/config-1cu2hklr.yaml', 'project': 'pytorch-TWI_spaghetti_sweep', 'root_dir': '/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks', 'entity': 'dplars', 'run_id': '1cu2hklr'}
+2020-12-02 23:51:55,856 INFO    MainThread:21613 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn,fork,forkserver
+2020-12-02 23:51:55,856 INFO    MainThread:21613 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 23:51:55,856 INFO    MainThread:21613 [wandb_init.py:_log_setup():303] Logging user logs to /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_235155-1cu2hklr/logs/debug.log
+2020-12-02 23:51:55,856 INFO    MainThread:21613 [wandb_init.py:_log_setup():304] Logging internal logs to /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_235155-1cu2hklr/logs/debug-internal.log
+2020-12-02 23:51:57,566 INFO    MainThread:21613 [wandb_run.py:_console_start():1218] atexit reg
+2020-12-02 23:51:57,567 INFO    MainThread:21613 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.REDIRECT
+2020-12-02 23:51:57,567 INFO    MainThread:21613 [wandb_run.py:_redirect():1088] Redirecting console.
+2020-12-02 23:51:57,568 INFO    MainThread:21613 [redirect.py:install():204] install start
+2020-12-02 23:51:57,568 INFO    MainThread:21613 [redirect.py:install():219] install stop
+2020-12-02 23:51:57,568 INFO    MainThread:21613 [redirect.py:install():204] install start
+2020-12-02 23:51:57,569 INFO    MainThread:21613 [redirect.py:install():219] install stop
+2020-12-02 23:51:57,569 INFO    MainThread:21613 [wandb_run.py:_redirect():1132] Redirects installed.

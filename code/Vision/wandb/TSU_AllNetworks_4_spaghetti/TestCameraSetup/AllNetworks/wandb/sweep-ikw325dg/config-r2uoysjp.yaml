@@ -1,0 +1,22 @@
+wandb_version: 1
+
+batch_size:
+  value: 21
+dataset_color:
+  value: white
+epochs:
+  value: 41
+lr:
+  value: 0.002586682153668475
+method:
+  value: bayes
+model_name:
+  value: Alexnet
+momentum:
+  value: 2.7499951796855564
+num_classes:
+  value: 3
+num_workers:
+  value: 4
+use_pretrained:
+  value: 'False'

@@ -15,3 +15,6 @@ code/Arduino/code.old
 
 # dont add pycharm idea files
 code/Python/cameracontrol/.idea
+
+# dont sync other git repo from wandb
+code/Vision/wandb/test/examples

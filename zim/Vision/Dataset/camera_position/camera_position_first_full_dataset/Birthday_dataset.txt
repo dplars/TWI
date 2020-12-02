@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-02T09:14:35+01:00
+
+====== Birthday dataset ======
+Created woensdag 02 december 2020
+
+
+On November 27th a new dataset is created where for every plate 91 pictures are taken. 
+
+The next pictures are available for the dataset:
+* 1 picture with all leds on white
+* 30 pictures with red lighting; 15 of led strip A and 15 of led strip B
+* 30 pictures with blue lighting; 15 of led strip A and 15 of led strip B
+* 30 pictures with green lighting; 15 of led strip A and 15 of led strip B
+
+The brightness is set to 80% for all lights to make sure to not clip against the top values.
+
+The dataset consists of 120*91 photos of 60 inserts with 120 worn sides. After 120 the quality was evaluated and the red, green and blue colors didn't seem to add more information to the pictures. 
+
+In this dataset, there are some pictures totally wrong. As some worn areas are off the pictures. Some to the left side and some to the right side. The placement of the wheel which holds the plates wasn't checkt thoroughly.
+Picture 1: batch 3 insert 10 the side without bullet is off to the right side 
+{{./b_003_p_010_l_000_nb.png?width=400}}
+picture 2: batch 3 insert 10 The side with bullet. Is far off to the left side.
+{{./b_003_p_010_l_000_b.png?width=400}}
+
+The setup for creating this dataset was as follows:
+{{./IMG_9282.jpeg?width=400}}
+Here two ledstrips where mounted and pointed at the photographed insert. The inserts where attached to the wheel with black clips 3D printed with PETG. This was shosen above white clips to lower the light reflections into the camera lens. This was a problem in previous setups. 
+Also a sturdy camera mount was fabricated out off metal profiles and 3D printed parts to get better notice of the placement of the camera opposed to the insert. 
+The image taking process took about 1 minute per batch because of the amount of pictures taken. Since time was limited and the setup wasn't yet perfect we decided to only run 60 inserts through it. These where from batches 1 to 11. 
+Sample pictures of this dataset can be found underneath. 
+For every led one picture is taken. These images can be put together to create images on a full spectrum of leds and take out the best conditions. 
+This can be done by inserting the images as different channels in the model.
+
+The next pictures are from batch 3 insert 5 with led 6 turned on for both led strips and four colors.
+{{./b_003_p_005_b_l_006_blue_A.png?width=300}}{{./b_003_p_005_b_l_006_red_A.png?width=300}}{{./b_003_p_005_b_l_006_red_B.png?width=300}}{{./b_003_p_005_b_l_006_green_A.png?width=300}}{{./b_003_p_005_b_l_006_green_B.png?width=300}}{{./b_003_p_005_b_l_006_blue_B.png?width=300}}{{./b_003_p_005_b_l_006_white_B.png?width=300}}{{./b_003_p_005_b_l_006_white_A.png?width=300}}{{./b_003_p_005_l_000_b.png?width=300}}
+On these pictures we can see only red and white are visible and the B led strip wasn't visible. For this purpose the color of the wheel is changed to Black for less reflections. In the next dataset only white and red will be used for lighting. 
+
+

@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-02T22:36:56+01:00
+
+====== All Networks 1 ======
+Created woensdag 02 december 2020
+
+All networks 1 can be found [[https://colab.research.google.com/drive/1bWt0DgypiYoOOgnSGjlmSdDo7elvJnH4|here.]]
+
+===== Network architectures =====
+This model is used to test different model architectures namely:
+* Resnet18
+* Alexnet
+* VGG11_bn
+* Squeezenet
+* Densenet
+
+These models are all relatively small and should provide quite good results for a small dataset. 
+More on why the models should work can be found [[Research:Vision Algorithm:camera position validation|here]]
+
+===== Dataset =====
+
+This algorithm had the input of images from the [[Vision:Dataset:Second handmade dataset|Second handmade dataset]] which was devided into 3 classes based on their measured wear value. 
+| class  | min value (micron) | max value (micron) |
+|--------|--------------------|--------------------|
+| good   | 0                  | 130                |
+| medium | 130                | 230                |
+| bad    | 230                | ∞                  |
+
+
+More on dataset
+
+===== Results =====

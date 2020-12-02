@@ -42,6 +42,9 @@ int volgnummer = 0;
 
 int step = 0;
 
+
+CRGB color = CRGB(255,255,255);
+
 void setup()
 {
 
@@ -64,6 +67,7 @@ void setup()
   FastLED.show();
 
   startupLEDsTest();
+
 
   // set serial timeout at 10 miliseconds so 10 bytes of information can be transferred at 9600 baud
   Serial.setTimeout(10);
@@ -97,10 +101,27 @@ void loop()
                 special += (ch[i]); 
         } 
 
-        if(verbose) Serial.println(alpha);
-        if(verbose) Serial.println(num);
-        if(verbose) Serial.println(special);
-        if(verbose) Serial.println(volgnummer);
+        if(verbose) Serial.println("alpha: "+alpha);
+        if(verbose) Serial.println("num: "+num);
+        if(verbose) Serial.println("special: "+special);
+        if(verbose) Serial.println("volgnr: "+volgnummer);
+
+        if (alpha == "white") {
+          if(verbose) Serial.println("white");
+          color = CRGB(255,255,255);
+        }
+        if (alpha == "blue") {
+          if(verbose) Serial.println("blue");
+          color = CRGB::Red;
+        }
+        if (alpha == "green") {
+          if(verbose) Serial.println("green");
+          color = CRGB::Green;
+        }
+        if (alpha == "red") {
+          if(verbose) Serial.println("red");
+          color = CRGB::Blue;
+        }
         
         if (alpha == "startupleds") {
           startupLEDsTest();
@@ -148,7 +169,7 @@ void loop()
             else if(special == "+") {
               nrled = num.toInt();
               ledmode = 1;
-              leds[volgnummer][nrled] = CRGB::Blue;
+              leds[volgnummer][nrled] = color;
             }
             else if(special == "-") {
                nrled = num.toInt();
@@ -164,7 +185,7 @@ void loop()
       
             // leds aan of uit zetten
             if(ledmode == 1) {
-                leds[volgnummer][nrled] = CRGB::Blue;
+                leds[volgnummer][nrled] = color;
             }
             else {
               leds[volgnummer][nrled] = CRGB::Black;
@@ -182,8 +203,8 @@ void loop()
             else if(special == "+") {
               nrled = num.toInt();
               ledmode = 1;
-              leds[0][nrled] = CRGB::Blue;
-              leds[1][nrled] = CRGB::Blue;
+              leds[0][nrled] = color;
+              leds[1][nrled] = color;
             }
             else if(special == "-") {
                nrled = num.toInt();
@@ -201,8 +222,8 @@ void loop()
   
             // leds aan of uit zetten
             if(ledmode == 1) {
-                leds[0][nrled] = CRGB::Blue;
-                leds[1][nrled] = CRGB::Blue;
+                leds[0][nrled] = color;
+                leds[1][nrled] = color;
             }
             else {
               leds[0][nrled] = CRGB::Black;

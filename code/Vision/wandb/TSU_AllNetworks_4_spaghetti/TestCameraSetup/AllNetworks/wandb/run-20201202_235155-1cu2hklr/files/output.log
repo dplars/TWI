@@ -1,0 +1,4 @@
+initialize
+Downloading: "https://download.pytorch.org/models/squeezenet1_0-a815701f.pth" to /Users/larsdepauw/.cache/torch/hub/checkpoints/squeezenet1_0-a815701f.pth
+  0%|          | 0.00/4.79M [00:00<?, ?B/s]  1%|          | 40.0k/4.79M [00:00<00:21, 228kB/s]  5%|▍         | 240k/4.79M [00:00<00:15, 310kB/s]  11%|█▏        | 552k/4.79M [00:00<00:10, 415kB/s] 26%|██▌       | 1.23M/4.79M [00:00<00:06, 578kB/s] 49%|████▉     | 2.37M/4.79M [00:00<00:03, 809kB/s] 73%|███████▎  | 3.50M/4.79M [00:00<00:01, 1.12MB/s] 97%|█████████▋| 4.66M/4.79M [00:00<00:00, 1.54MB/s]100%|██████████| 4.79M/4.79M [00:00<00:00, 5.83MB/s]
+train

@@ -1,0 +1,22 @@
+wandb_version: 1
+
+batch_size:
+  value: 4
+dataset_color:
+  value: white
+epochs:
+  value: 85
+lr:
+  value: 0.0028242703146986355
+method:
+  value: bayes
+model_name:
+  value: Densenet
+momentum:
+  value: 2.3202782090170917
+num_classes:
+  value: 3
+num_workers:
+  value: 4
+use_pretrained:
+  value: 'True'

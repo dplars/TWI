@@ -1,0 +1,84 @@
+2020-12-02 23:46:59,222 INFO    MainThread:20978 [wandb_setup.py:_flush():70] setting env: {'sweep_id': '37odjau2', 'config_paths': '/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/sweep-37odjau2/config-4xnnn5rk.yaml', 'project': 'pytorch-TWI_spaghetti_sweep', 'root_dir': '/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks', 'entity': 'dplars', 'run_id': '4xnnn5rk'}
+2020-12-02 23:46:59,222 INFO    MainThread:20978 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn,fork,forkserver
+2020-12-02 23:46:59,222 INFO    MainThread:20978 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 23:46:59,222 INFO    MainThread:20979 [wandb_setup.py:_flush():70] setting env: {'sweep_id': '37odjau2', 'config_paths': '/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/sweep-37odjau2/config-4xnnn5rk.yaml', 'project': 'pytorch-TWI_spaghetti_sweep', 'root_dir': '/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks', 'entity': 'dplars', 'run_id': '4xnnn5rk'}
+2020-12-02 23:46:59,223 INFO    MainThread:20979 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn,fork,forkserver
+2020-12-02 23:46:59,223 INFO    MainThread:20978 [wandb_init.py:_log_setup():303] Logging user logs to /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234659-4xnnn5rk/logs/debug.log
+2020-12-02 23:46:59,223 INFO    MainThread:20979 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 23:46:59,223 INFO    MainThread:20978 [wandb_init.py:_log_setup():304] Logging internal logs to /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234659-4xnnn5rk/logs/debug-internal.log
+2020-12-02 23:46:59,223 INFO    MainThread:20979 [wandb_init.py:_log_setup():303] Logging user logs to /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234659-4xnnn5rk/logs/debug.log
+2020-12-02 23:46:59,223 INFO    MainThread:20979 [wandb_init.py:_log_setup():304] Logging internal logs to /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234659-4xnnn5rk/logs/debug-internal.log
+2020-12-02 23:46:59,238 ERROR   MainThread:20979 [wandb_init.py:init():601] error
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+2020-12-02 23:46:59,238 ERROR   MainThread:20978 [wandb_init.py:init():601] error
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+2020-12-02 23:47:01,249 INFO    MainThread:20978 [internal.py:handle_exit():138] Internal process exited
+2020-12-02 23:47:01,253 INFO    MainThread:20979 [internal.py:handle_exit():138] Internal process exited

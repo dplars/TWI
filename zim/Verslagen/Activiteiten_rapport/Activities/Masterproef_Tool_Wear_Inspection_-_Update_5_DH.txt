@@ -1,0 +1,70 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-25T22:53:40+01:00
+
+====== Masterproef Tool Wear Inspection - Update 5 DH ======
+Created woensdag 25 november 2020
+
+Meeting 25/11/2020
+Dries Hulens
+
+Te bespreken:
+
+Wat is al gedaan?
+* Setup bijna klaar, geen gebruik maken van de lange ledtrips, enkel de adresseerbare leds. 
+* Enkele tests met het maken van foto’s
+* Model aangemaakt Resnet18 met transfer learning om de setup mee te testen.
+	* Is het hier belangrijk dat er een hoog percentage gehaald wordt? 
+	* Eventueel met 60 plaatjes ook mogelijk?
+	* 3 wielen geprint waarop plaatjes geklikt kunnen worden zodat ze kunnen blijven zitten terwijl andere worden gefotografeerd.
+	* Beperkt documenteren van de keuze van de architecturen
+	* Beperkt documenteren van licht reflecties
+
+Wat nog gedaan moet worden dit semester:
+	* Heel veel schrijven aan tussentijds verslag
+		* Valt wel mee, goed documenteren
+	* Setup vervolledigen met camera standaard en eventueel extra ledstrip
+		* Gewoon de setup nog maken en een dataset aanleggen, die dataset eens door het huidige model laten gaan mits gegevens van Tom Jacobs er zijn.
+	* Zelf eerst foto’s filteren.
+		* Kijken waar een grote blob lichte pixels te zien is, die foto’s door het model laten gaan en de andere niet?
+			* Misschien beter dat netwerk beslist, een foto kan goed lijken voor een mens, maar het netwerk kan op andere dingen letten.
+	* Grotere dataset aanmaken met alle tot nu toe beschikbare plaatjes
+
+
+Vragen
+	* 3D printen pet PETG? 
+		* T hoger
+		* Bed 80°
+		* Plooibaar bed nemen
+	* Goed als ik slechts een paar modellen implementeer en geen diepgaand onderzoek doe?
+		* Standaard notebook nemen waarin de verschillende naast elkaar worden getest. 
+		* Zien met suggestie van Floris De Feyter: Weights and biases -> is voor model optimalisatie, hoeft hier niet meteen, moet gewoon zien of iets beter is of niet
+	* Richtlijn voor aantal pagina’s voor de related work sectie
+		* Afhankelijk
+
+	* Richtlijnen voor de gehele paper, dingen die moeten worden besproken met promotor:
+		* Mag we gebruikt worden in het onderzoek, aan te raden of niet?
+		* We mag zeker
+	* Mogen de bronnen in Harvard systeem weergegeven worden?
+		* Harvard systeem hanteren
+	* Wanneer moet de masterproef tekst nagelezen worden? 1 week op voorhand?
+		* 1 week zeker goed
+	* Pytorch lightning?
+		* Mr Ophoff of de feyter eens vragen, zij gebruiken het regelmatig.
+
+Cross validation
+	__Opzoeken__ 
+	Kan setting zijn bij dataloaders
+	
+
+Presentatie al eens op voorhand doorsturen naar promotor om na te laten kijken
+
+Diepte van netwerken onderzoeken:
+	Wat geeft een dieper netwerk op de verschillende aantallen foto's
+	Darknet
+	Resnet 
+
+Beste netwerk plotten van verschillende architecturen
+	om een weergave te hebben van welke netwerken het beste waren. 
+	
+

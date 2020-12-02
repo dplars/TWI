@@ -1,0 +1,40 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.5
+batch_size:
+  desc: null
+  value: 15
+dataset_color:
+  desc: null
+  value: red
+epochs:
+  desc: null
+  value: 94
+lr:
+  desc: null
+  value: 0.0013660071473099126
+method:
+  desc: null
+  value: bayes
+model_name:
+  desc: null
+  value: Resnet18
+momentum:
+  desc: null
+  value: 0.8205541947356241
+num_classes:
+  desc: null
+  value: 3
+num_workers:
+  desc: null
+  value: 2
+use_pretrained:
+  desc: null
+  value: 'True'

@@ -1,0 +1,160 @@
+2020-12-02 23:42:53,555 INFO    MainThread:18843 [internal.py:wandb_internal():63] W&B internal server running at pid: 18843
+2020-12-02 23:42:53,557 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: check_version
+2020-12-02 23:42:53,557 INFO    WriterThread:18843 [datastore.py:open_for_write():76] open: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/run-hvf1350n.wandb
+2020-12-02 23:42:53,558 DEBUG   SenderThread:18843 [sender.py:send():90] send: header
+2020-12-02 23:42:53,558 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:42:53,558 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: check_version
+2020-12-02 23:42:53,562 DEBUG   Thread-4  :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): pypi.org:443
+2020-12-02 23:42:53,639 DEBUG   Thread-4  :18843 [connectionpool.py:_make_request():433] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 51947
+2020-12-02 23:42:53,665 DEBUG   SenderThread:18843 [sender.py:send():90] send: run
+2020-12-02 23:42:53,671 DEBUG   SenderThread:18843 [cmd.py:execute():718] Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-12-02 23:42:53,696 DEBUG   SenderThread:18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-02 23:42:53,957 DEBUG   SenderThread:18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-02 23:42:53,964 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: run_start
+2020-12-02 23:42:53,968 INFO    SenderThread:18843 [dir_watcher.py:__init__():165] watching files in: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files
+2020-12-02 23:42:53,968 INFO    SenderThread:18843 [sender.py:_start_run_threads():487] run started: hvf1350n with start time 1606948972
+2020-12-02 23:42:53,968 DEBUG   SenderThread:18843 [sender.py:send():90] send: summary
+2020-12-02 23:42:53,969 INFO    SenderThread:18843 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-02 23:42:53,972 DEBUG   HandlerThread:18843 [cmd.py:execute():718] Popen(['git', 'cat-file', '--batch-check'], cwd=/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI, universal_newlines=False, shell=None, istream=<valid stream>)
+2020-12-02 23:42:53,991 DEBUG   HandlerThread:18843 [cmd.py:execute():718] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI, universal_newlines=False, shell=None, istream=None)
+2020-12-02 23:42:54,010 DEBUG   SenderThread:18843 [sender.py:send():90] send: files
+2020-12-02 23:42:54,010 INFO    SenderThread:18843 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-12-02 23:42:54,012 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: status
+2020-12-02 23:42:54,012 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:42:54,012 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: status
+2020-12-02 23:42:54,018 DEBUG   SenderThread:18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-02 23:42:54,019 DEBUG   Thread-11 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-02 23:42:54,269 DEBUG   SenderThread:18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-02 23:42:54,278 DEBUG   Thread-11 :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-02 23:42:54,284 DEBUG   Thread-11 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-02 23:42:54,716 DEBUG   Thread-11 :18843 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/wandb-metadata.json?Expires=1607035374&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Xr05T43BoQQ1Z2DojdGDk9iY%2FZMFdSVnpI92Fy0kapzUP1tFXOxNK4RR7xjTEV3FciKyhP12vsF3FI1GIJwegnnA4Q91aVU62KmVJLN3oYWdRCDT025dK5vTKDs1ln1hB4BzeqSuWEKXe68KMmZUkH7SkeGjYcY%2F8u052YtHa4Wv96awim6iPQVyT7fbK2KNip47eAGnFob8b3lRDhR%2F%2BQnKe9OkRlpxXEddikfLoEGA3W34GTiPB5AdStgVDTGGuME1ya8K1p2xUNVMec%2Bbl2Do1piG4H6xiQWSCzwekLlwoqHDFvdhHetKtaxVIuiecDHQtSPBNoEEEDH08ITlqA%3D%3D HTTP/1.1" 200 0
+2020-12-02 23:42:54,719 INFO    Thread-11 :18843 [upload_job.py:push():131] Uploaded file /var/folders/wq/29rz_y4n2j3dz8pjrnyq3wj80000gn/T/tmpamfmlkpgwandb/ocgyrgwc-wandb-metadata.json
+2020-12-02 23:42:54,974 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/requirements.txt
+2020-12-02 23:42:54,974 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log
+2020-12-02 23:42:54,975 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/wandb-metadata.json
+2020-12-02 23:42:54,975 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_created():213] file/dir created: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/wandb-summary.json
+2020-12-02 23:42:55,975 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log
+2020-12-02 23:42:56,277 DEBUG   Thread-5  :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-02 23:42:56,711 DEBUG   Thread-5  :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/file_stream HTTP/1.1" 200 None
+2020-12-02 23:42:56,980 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log
+2020-12-02 23:42:57,350 DEBUG   SenderThread:18843 [sender.py:send():90] send: stats
+2020-12-02 23:42:57,985 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log
+2020-12-02 23:42:58,678 DEBUG   Thread-5  :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/file_stream HTTP/1.1" 200 None
+2020-12-02 23:42:58,986 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log
+2020-12-02 23:43:01,849 DEBUG   SenderThread:18843 [sender.py:send():90] send: stats
+2020-12-02 23:43:02,026 DEBUG   Thread-5  :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/file_stream HTTP/1.1" 200 None
+2020-12-02 23:43:02,993 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log
+2020-12-02 23:43:04,868 DEBUG   Thread-5  :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/file_stream HTTP/1.1" 200 None
+2020-12-02 23:43:04,998 INFO    Thread-9  :18843 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log
+2020-12-02 23:43:05,075 DEBUG   SenderThread:18843 [sender.py:send():90] send: exit
+2020-12-02 23:43:05,075 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-02 23:43:05,075 INFO    SenderThread:18843 [sender.py:send_exit():168] handling exit code: 1
+2020-12-02 23:43:05,075 INFO    SenderThread:18843 [sender.py:send_exit():176] send defer
+2020-12-02 23:43:05,075 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:05,076 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: defer
+2020-12-02 23:43:05,076 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: poll_exit
+2020-12-02 23:43:05,076 INFO    HandlerThread:18843 [handler.py:handle_request_defer():69] handle defer: 0
+2020-12-02 23:43:05,077 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:05,077 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: defer
+2020-12-02 23:43:05,077 INFO    SenderThread:18843 [sender.py:send_request_defer():185] handle sender defer: 0
+2020-12-02 23:43:05,077 INFO    SenderThread:18843 [sender.py:send_request_defer():221] send defer: 1
+2020-12-02 23:43:05,077 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: defer
+2020-12-02 23:43:05,077 INFO    HandlerThread:18843 [handler.py:handle_request_defer():69] handle defer: 1
+2020-12-02 23:43:05,105 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:05,106 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: defer
+2020-12-02 23:43:05,106 INFO    SenderThread:18843 [sender.py:send_request_defer():185] handle sender defer: 1
+2020-12-02 23:43:05,106 INFO    SenderThread:18843 [sender.py:send_request_defer():221] send defer: 2
+2020-12-02 23:43:05,106 DEBUG   SenderThread:18843 [sender.py:send():90] send: stats
+2020-12-02 23:43:05,107 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: defer
+2020-12-02 23:43:05,107 INFO    HandlerThread:18843 [handler.py:handle_request_defer():69] handle defer: 2
+2020-12-02 23:43:05,107 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:05,107 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: defer
+2020-12-02 23:43:05,108 INFO    SenderThread:18843 [sender.py:send_request_defer():185] handle sender defer: 2
+2020-12-02 23:43:05,108 INFO    SenderThread:18843 [sender.py:send_request_defer():221] send defer: 3
+2020-12-02 23:43:05,108 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: defer
+2020-12-02 23:43:05,108 INFO    HandlerThread:18843 [handler.py:handle_request_defer():69] handle defer: 3
+2020-12-02 23:43:05,108 DEBUG   SenderThread:18843 [sender.py:send():90] send: summary
+2020-12-02 23:43:05,109 INFO    SenderThread:18843 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-02 23:43:05,110 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:05,110 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: defer
+2020-12-02 23:43:05,110 INFO    SenderThread:18843 [sender.py:send_request_defer():185] handle sender defer: 3
+2020-12-02 23:43:05,110 INFO    SenderThread:18843 [sender.py:send_request_defer():221] send defer: 4
+2020-12-02 23:43:05,110 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: defer
+2020-12-02 23:43:05,110 INFO    HandlerThread:18843 [handler.py:handle_request_defer():69] handle defer: 4
+2020-12-02 23:43:05,111 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:05,111 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: defer
+2020-12-02 23:43:05,111 INFO    SenderThread:18843 [sender.py:send_request_defer():185] handle sender defer: 4
+2020-12-02 23:43:05,111 INFO    SenderThread:18843 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-12-02 23:43:06,004 INFO    SenderThread:18843 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log
+2020-12-02 23:43:06,004 INFO    SenderThread:18843 [dir_watcher.py:_on_file_modified():226] file/dir modified: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/wandb-summary.json
+2020-12-02 23:43:06,004 INFO    SenderThread:18843 [dir_watcher.py:finish():309] scan: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files
+2020-12-02 23:43:06,005 INFO    SenderThread:18843 [dir_watcher.py:finish():315] scan save: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/requirements.txt requirements.txt
+2020-12-02 23:43:06,005 INFO    SenderThread:18843 [dir_watcher.py:finish():315] scan save: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log output.log
+2020-12-02 23:43:06,008 INFO    SenderThread:18843 [dir_watcher.py:finish():315] scan save: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/config.yaml config.yaml
+2020-12-02 23:43:06,013 INFO    SenderThread:18843 [dir_watcher.py:finish():315] scan save: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/wandb-summary.json wandb-summary.json
+2020-12-02 23:43:06,015 DEBUG   Thread-12 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-02 23:43:06,019 INFO    SenderThread:18843 [dir_watcher.py:finish():315] scan save: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/wandb-metadata.json wandb-metadata.json
+2020-12-02 23:43:06,019 INFO    SenderThread:18843 [sender.py:send_request_defer():221] send defer: 5
+2020-12-02 23:43:06,019 DEBUG   Thread-13 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-02 23:43:06,020 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: defer
+2020-12-02 23:43:06,021 INFO    HandlerThread:18843 [handler.py:handle_request_defer():69] handle defer: 5
+2020-12-02 23:43:06,025 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:06,025 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: defer
+2020-12-02 23:43:06,025 INFO    SenderThread:18843 [sender.py:send_request_defer():185] handle sender defer: 5
+2020-12-02 23:43:06,025 INFO    SenderThread:18843 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-02 23:43:06,026 INFO    SenderThread:18843 [sender.py:send_request_defer():221] send defer: 6
+2020-12-02 23:43:06,026 DEBUG   Thread-14 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-02 23:43:06,027 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: defer
+2020-12-02 23:43:06,028 INFO    HandlerThread:18843 [handler.py:handle_request_defer():69] handle defer: 6
+2020-12-02 23:43:06,028 DEBUG   Thread-15 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-02 23:43:06,028 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:06,028 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: defer
+2020-12-02 23:43:06,028 INFO    SenderThread:18843 [sender.py:send_request_defer():185] handle sender defer: 6
+2020-12-02 23:43:06,344 DEBUG   Thread-12 :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-02 23:43:06,346 DEBUG   Thread-14 :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-02 23:43:06,352 DEBUG   Thread-12 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-02 23:43:06,353 DEBUG   Thread-13 :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-02 23:43:06,358 DEBUG   Thread-15 :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-02 23:43:06,359 DEBUG   Thread-14 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-02 23:43:06,364 DEBUG   Thread-13 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-02 23:43:06,364 DEBUG   Thread-5  :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/file_stream HTTP/1.1" 200 None
+2020-12-02 23:43:06,367 DEBUG   Thread-15 :18843 [connectionpool.py:_new_conn():939] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-02 23:43:06,608 DEBUG   Thread-5  :18843 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/file_stream HTTP/1.1" 200 None
+2020-12-02 23:43:06,610 INFO    SenderThread:18843 [sender.py:send_request_defer():221] send defer: 7
+2020-12-02 23:43:06,611 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: defer
+2020-12-02 23:43:06,611 INFO    HandlerThread:18843 [handler.py:handle_request_defer():69] handle defer: 7
+2020-12-02 23:43:06,611 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:06,611 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: defer
+2020-12-02 23:43:06,611 INFO    SenderThread:18843 [sender.py:send_request_defer():185] handle sender defer: 7
+2020-12-02 23:43:06,611 INFO    SenderThread:18843 [sender.py:send_request_defer():221] send defer: 8
+2020-12-02 23:43:06,612 DEBUG   SenderThread:18843 [sender.py:send():90] send: final
+2020-12-02 23:43:06,612 DEBUG   SenderThread:18843 [sender.py:send():90] send: footer
+2020-12-02 23:43:06,612 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: defer
+2020-12-02 23:43:06,612 INFO    HandlerThread:18843 [handler.py:handle_request_defer():69] handle defer: 8
+2020-12-02 23:43:06,613 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:06,613 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: defer
+2020-12-02 23:43:06,613 INFO    SenderThread:18843 [sender.py:send_request_defer():185] handle sender defer: 8
+2020-12-02 23:43:06,853 DEBUG   Thread-15 :18843 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/wandb-summary.json?Expires=1607035386&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=LtjZVTh92hkEuNtaPPrOq2fUDhIrUzaLxjgTA%2FPeUGzGEq%2Fl%2FTuvEbjcwlsWhhXjyYgxaByxCc5llPU%2B%2BSxNLN4nQZp6DYQ266o4Sp2ZFt31gBFv62QYcP9hCPmOti1bl59qb%2FG%2FwkxPGfKBbB44Vmp6DIbBXZKYv41w80dAolJNxZAFSrUnbEddhnDXOLbUJGmJ64HPeVf%2FoB%2B2QUM57SM2xSou8cSv438maViusiCj3KUY1OAwwt51YcO7sjhvF1A58BfXSr8MFh3ATV7REi%2FYvY%2FnF0Gw%2Beg9QRyqxw%2FaNIIN0iwgDJm7nweQyk2YTzzWHgev3BQJjwvIsui4Qg%3D%3D HTTP/1.1" 200 0
+2020-12-02 23:43:06,855 INFO    Thread-15 :18843 [upload_job.py:push():131] Uploaded file /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/wandb-summary.json
+2020-12-02 23:43:06,861 DEBUG   Thread-14 :18843 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/config.yaml?Expires=1607035386&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=VXIAERSyBo4qf9nGPWfg4nwRykaSlg2c%2FajZE2YNz3suha0ngpj64MgYYM7sFvvgieyjKFavSn2E48Vp2k8aEHRcV56IP0eMrQ0fBMh8adq9B1tRjs2MQkAHLRL6rTT1OsoI1SgaOX524fij6j1RKkLRlR%2BT2szAvdSCSfhYPHIGM%2Bkvf9RTVhi0fdx9HtEpALTN9WHDRDjrtKipO5rh4pCglFgQ4Pi7Gk1eAk9fY9BCxoy%2FzbGe8aDX%2FOfVwqwrzGfbrGe57I3Ji%2FkEy%2FfvCo1kVmLdY8ZihjiHQnxpiSUU%2BGrrDIWIutnCYh5n0OW98yvosGEmWq%2F7XoN0g8xYCQ%3D%3D HTTP/1.1" 200 0
+2020-12-02 23:43:06,865 INFO    Thread-14 :18843 [upload_job.py:push():131] Uploaded file /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/config.yaml
+2020-12-02 23:43:06,934 DEBUG   Thread-12 :18843 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/requirements.txt?Expires=1607035386&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Qvj%2FpEkGaWDHAqG2GkzMeH75FKBjv3PjjlrCblnKV1UlXdsfXN%2Fr72%2FU2BIgdLtjwKg9YU%2F4Az8CAAdT93092w1UoJUxN6JHgdUkGb1NTocpA0EzJKnCboF6OC6s%2B4auV4aoUrsfTX09GQtOfRrrsrWKz%2FBDRfDNI0l9spSnxCOeGnWCTDMAK9HAnYDCh91UCTbLeDnRom0TSP7d49c2niyEbDA9S5oapjy%2BpCoxykFrhnLoI1nlzjSWl8C4XyJwg7CZPihVLKL44C8m%2B9mtwJj1qX9%2F6hNpgcAMAFCv%2Bb9OMxLbaRcctVppj%2Bd3yrKGM0Ja13KdwyUP%2BrJ9bsPbXg%3D%3D HTTP/1.1" 200 0
+2020-12-02 23:43:06,938 INFO    Thread-12 :18843 [upload_job.py:push():131] Uploaded file /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/requirements.txt
+2020-12-02 23:43:06,982 DEBUG   Thread-13 :18843 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dplars/pytorch-TWI_spaghetti_sweep/hvf1350n/output.log?Expires=1607035386&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=ZxKRDlF4dEfnQow3%2BLrXStexASmPsyzuYtCKt%2FpK%2BOy3dV94falnU9%2FWqsXISx35MBvl65r3nYNcYXfYu7hh2jzKcys34fT7bp4eWwq7w9LhRtU0JkcCmX8QxR1bFX9Oeelo8RW8a50RJlJ4%2B5IRS%2B8ZGX6RgC%2FO34oOsUI1aHM95uhiprol8uMNA5PBHgLDmtfpmCB9GhLWAU73R2RZG6F7%2FY5hEyTeJAl60XeC3%2Fuo2hnEwv5goYQ2YPmehGGX7ZRQHkfa9qOY%2BSJvGX3MLRRTAN4GNVmfGNIFkAxwft4DwpQzRvN40dRkBCMdFbQ9e003So2el3eWPjCQKg83yA%3D%3D HTTP/1.1" 200 0
+2020-12-02 23:43:06,985 INFO    Thread-13 :18843 [upload_job.py:push():131] Uploaded file /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/files/output.log
+2020-12-02 23:43:07,081 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-02 23:43:07,081 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:07,081 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: poll_exit
+2020-12-02 23:43:09,087 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-02 23:43:09,088 DEBUG   SenderThread:18843 [sender.py:send():90] send: request
+2020-12-02 23:43:09,088 DEBUG   SenderThread:18843 [sender.py:send_request():99] send_request: poll_exit
+2020-12-02 23:43:09,088 INFO    SenderThread:18843 [file_pusher.py:join():174] waiting for file pusher
+2020-12-02 23:43:09,089 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: get_summary
+2020-12-02 23:43:09,089 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: sampled_history
+2020-12-02 23:43:09,090 DEBUG   HandlerThread:18843 [handler.py:handle_request():55] handle_request: shutdown
+2020-12-02 23:43:09,090 INFO    HandlerThread:18843 [handler.py:finish():271] shutting down handler
+2020-12-02 23:43:09,617 INFO    WriterThread:18843 [datastore.py:close():257] close: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234252-hvf1350n/run-hvf1350n.wandb
+2020-12-02 23:43:10,091 INFO    SenderThread:18843 [sender.py:finish():642] shutting down sender
+2020-12-02 23:43:10,091 INFO    SenderThread:18843 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-02 23:43:10,091 INFO    SenderThread:18843 [file_pusher.py:join():174] waiting for file pusher
+2020-12-02 23:43:10,092 INFO    MainThread:18843 [internal.py:handle_exit():138] Internal process exited

@@ -17,3 +17,7 @@ Than we will implement SDD-inception v3
 
 These described models should perform rather good without any transfer learning. 
 After the first tests these results can be compared with a transfer learning model.
+
+
+===== [[Vision:GoogleColab:Test Camera Setup:All Networks|All Networks]] =====
+For this all networks test, some networks where tested and an algorithm is created to make it possible to add more networks along the way

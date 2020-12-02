@@ -1,0 +1,22 @@
+wandb_version: 1
+
+batch_size:
+  value: 28
+dataset_color:
+  value: white
+epochs:
+  value: 43
+lr:
+  value: 0.0006362344134360925
+method:
+  value: bayes
+model_name:
+  value: VGG11_bn
+momentum:
+  value: 1.691077597382498
+num_classes:
+  value: 3
+num_workers:
+  value: 2
+use_pretrained:
+  value: 'True'

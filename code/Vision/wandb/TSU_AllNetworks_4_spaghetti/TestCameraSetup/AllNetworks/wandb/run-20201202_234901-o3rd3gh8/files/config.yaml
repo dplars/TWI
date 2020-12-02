@@ -1,0 +1,40 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.11
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.5
+batch_size:
+  desc: null
+  value: 23
+dataset_color:
+  desc: null
+  value: white
+epochs:
+  desc: null
+  value: 74
+lr:
+  desc: null
+  value: 0.004112202002869847
+method:
+  desc: null
+  value: bayes
+model_name:
+  desc: null
+  value: Densenet
+momentum:
+  desc: null
+  value: 2.5573631987745737
+num_classes:
+  desc: null
+  value: 3
+num_workers:
+  desc: null
+  value: 1
+use_pretrained:
+  desc: null
+  value: 'True'

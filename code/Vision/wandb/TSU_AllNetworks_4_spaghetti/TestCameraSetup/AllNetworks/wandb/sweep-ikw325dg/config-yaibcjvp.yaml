@@ -1,0 +1,22 @@
+wandb_version: 1
+
+batch_size:
+  value: 12
+dataset_color:
+  value: red
+epochs:
+  value: 26
+lr:
+  value: 0.002041128662801815
+method:
+  value: bayes
+model_name:
+  value: Squeezenet
+momentum:
+  value: 1.145860433805914
+num_classes:
+  value: 3
+num_workers:
+  value: 4
+use_pretrained:
+  value: 'True'

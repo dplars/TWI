@@ -142,3 +142,34 @@ Voor alle bovenstaande tests werden de labels van [[~/Documents/Lars.nosync/Docu
 3. Masterproef opgave lezen om te weten wat de literatuur studie/ tussentijds verslag inhoud.
 	a. Tegengekomen dat een activiteiten verslag moet ingediend worden 
 4. activiteiten verslag aanmaken waarin alles wordt besproken wat per week gebeurt is en wat er te doen is voor de komende weken.
+
+===== Week 23/11/2020 - 29/11/2020 =====
+Dinsdag 24/11/2020
+1. Verschillende architecturen testen met en zonder transfer learning
+2. opzoeken over Weights and biases en implementeren
+
+Woensdag 25/11/2020
+1. [[https://wandb.ai/dplars/pytorch-twi_second_handmade_sweep?workspace=user-dplars|Weights and biases sweep]] implementeren en eerste 500 sweeps uitvoeren, tijdens de nacht nog 2500 laten uitvoeren.
+2. Afwerken van de camera setup, verschillende dingen 3D printen om camera te kunnen monteren. Veel moeite met de PETG degelijk te laten printen, na veel werk lukte het. Het probleem was dat de PETG niet genoeg plakte aan het bed met de toen ingestelde settings. Uiteindelijk geprint met 240 nozzle temperatuur en 60 bed temperatuur met steeds een ondervlak onder de print zodat deze zeker niet zou bewegen.
+3. Meeting met Dries Hulens, bespreken wat er dit semester nog zal gebeuren en hoe het tussentijds verslag en de presentatie er uit zien. 
+
+===== Week 30/11/2020 - 06/12/2020 =====
+Maandag, dinsdag
+3D printen van de nodige wielen en clips. Met zeer veel problemen met 3D printer waarbij printer ook stuk is gegaan, terug gerepareerd en verder gewerkt. Alle tandwielen uiteindelijk woensdag geprint gekregen. 
+Meeste plaatjes op de wielen gestoken en die van het eerste wiel voor batch 1 en 2 omgedraaid zodat deze ook met de 'bullet' naar dezelfde kant wijzen als de ander wielen. Echter zit hier nog een probleem dat deze rechtsdraaiend genummerd zijn in plaats van linksdraaiend zoals op de andere wielen. Dit moet nog opgelost worden of ze moeten nog op een zwart wiel.
+
+Woensdag
+Overige clips en rad geprint en plaatjes op de raden gestoken. 
+Een deel gedocumenteerd over de aangelegde datasets:
+* [[Vision:Dataset:camera position:1 camera position side]] aangevuld
+* [[Vision:Dataset:camera position:2 camera position top]] aangevuld
+* [[Vision:Dataset]] aangevuld
+
+
+Afwerken van de setup door toevoeging van nieuwe staander voor motor
+aanmaken van een nieuwe dataset genaamd spaghetti met vier foto's per plaatje
+
+foto's van spaghetti door algoritme laten gaan en sweep laten uitvoeren. Eerste resultaten zien er zeer slecht uit. Slechtere accuracy dan bij de vorige dataset die met de hand was gemaakt. ([[Vision:Dataset:Second handmade dataset|second handmade dataset)]]
+Wel meer data om te testen en valideren. Test resultaten zien er wel beter uit.
+
+wandb proberen instellen om te runnen vanaf mijn eigen computer tot hiertoe zonder succes

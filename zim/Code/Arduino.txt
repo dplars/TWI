@@ -7,3 +7,5 @@ Created maandag 02 november 2020
 
 First project to control simple Led strips on off with mosfet and controll motor found on:
 [[+motorLed]]
+
+

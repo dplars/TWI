@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-02T22:33:18+01:00
+
+====== All Networks ======
+Created woensdag 02 december 2020
+

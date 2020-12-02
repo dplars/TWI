@@ -1,0 +1,277 @@
+initialize
+Downloading: "https://download.pytorch.org/models/vgg11_bn-6002323d.pth" to /Users/larsdepauw/.cache/torch/hub/checkpoints/vgg11_bn-6002323d.pth
+  0%|          | 0.00/507M [00:00<?, ?B/s]  0%|          | 784k/507M [00:00<01:06, 8.02MB/s]  0%|          | 1.91M/507M [00:00<00:59, 8.89MB/s]  1%|          | 2.88M/507M [00:00<00:58, 9.00MB/s]  1%|          | 3.49M/507M [00:00<01:25, 6.20MB/s]  1%|          | 4.62M/507M [00:00<01:12, 7.23MB/s]  1%|          | 5.77M/507M [00:00<01:04, 8.20MB/s]  1%|▏         | 6.91M/507M [00:00<00:57, 9.04MB/s]  2%|▏         | 8.01M/507M [00:00<00:54, 9.52MB/s]  2%|▏         | 9.25M/507M [00:00<00:50, 10.4MB/s]  2%|▏         | 10.4M/507M [00:01<00:48, 10.8MB/s]  2%|▏         | 11.5M/507M [00:01<00:47, 10.9MB/s]  2%|▏         | 12.7M/507M [00:01<00:46, 11.2MB/s]  3%|▎         | 13.8M/507M [00:01<00:44, 11.6MB/s]  3%|▎         | 15.0M/507M [00:01<00:44, 11.5MB/s]  3%|▎         | 16.1M/507M [00:01<00:44, 11.6MB/s]  3%|▎         | 17.3M/507M [00:01<00:43, 11.8MB/s]  4%|▎         | 18.5M/507M [00:01<00:43, 11.9MB/s]  4%|▍         | 19.6M/507M [00:01<00:43, 11.9MB/s]  4%|▍         | 20.8M/507M [00:02<00:42, 11.9MB/s]  4%|▍         | 21.9M/507M [00:02<00:42, 11.9MB/s]  5%|▍         | 23.0M/507M [00:02<00:42, 11.9MB/s]  5%|▍         | 24.2M/507M [00:02<00:42, 11.9MB/s]  5%|▍         | 25.3M/507M [00:02<00:42, 11.9MB/s]  5%|▌         | 26.5M/507M [00:02<00:42, 11.9MB/s]  5%|▌         | 27.6M/507M [00:02<00:42, 11.9MB/s]  6%|▌         | 28.7M/507M [00:02<00:42, 11.9MB/s]  6%|▌         | 29.9M/507M [00:02<00:41, 11.9MB/s]  6%|▌         | 31.0M/507M [00:02<00:41, 11.9MB/s]  6%|▋         | 32.2M/507M [00:03<00:44, 11.3MB/s]  7%|▋         | 33.5M/507M [00:03<00:41, 12.0MB/s]  7%|▋         | 34.7M/507M [00:03<00:41, 12.0MB/s]  7%|▋         | 35.8M/507M [00:03<00:41, 12.0MB/s]  7%|▋         | 37.0M/507M [00:03<00:41, 12.0MB/s]  8%|▊         | 38.1M/507M [00:03<00:41, 11.9MB/s]  8%|▊         | 39.3M/507M [00:03<00:41, 11.9MB/s]  8%|▊         | 40.4M/507M [00:03<00:41, 11.9MB/s]  8%|▊         | 41.5M/507M [00:03<00:41, 11.9MB/s]  8%|▊         | 42.7M/507M [00:03<00:40, 11.9MB/s]  9%|▊         | 43.8M/507M [00:04<00:40, 11.9MB/s]  9%|▉         | 45.0M/507M [00:04<00:40, 11.9MB/s]  9%|▉         | 46.1M/507M [00:04<00:40, 11.9MB/s]  9%|▉         | 47.2M/507M [00:04<00:40, 11.9MB/s] 10%|▉         | 48.4M/507M [00:04<00:40, 11.8MB/s] 10%|▉         | 49.5M/507M [00:04<00:40, 11.8MB/s] 10%|▉         | 50.7M/507M [00:04<00:40, 11.9MB/s] 10%|█         | 51.8M/507M [00:04<00:40, 11.9MB/s] 10%|█         | 53.0M/507M [00:04<00:40, 11.9MB/s] 11%|█         | 54.1M/507M [00:04<00:39, 11.9MB/s] 11%|█         | 55.2M/507M [00:05<00:39, 11.9MB/s] 11%|█         | 56.4M/507M [00:05<00:39, 11.9MB/s] 11%|█▏        | 57.5M/507M [00:05<00:39, 11.9MB/s] 12%|█▏        | 58.7M/507M [00:05<00:39, 11.9MB/s] 12%|█▏        | 59.8M/507M [00:05<00:39, 11.9MB/s] 12%|█▏        | 61.0M/507M [00:05<00:39, 11.9MB/s] 12%|█▏        | 62.1M/507M [00:05<00:39, 11.9MB/s] 12%|█▏        | 63.3M/507M [00:05<00:45, 10.2MB/s] 13%|█▎        | 65.0M/507M [00:05<00:39, 11.8MB/s] 13%|█▎        | 66.2M/507M [00:06<00:39, 11.8MB/s] 13%|█▎        | 67.4M/507M [00:06<00:38, 11.8MB/s] 14%|█▎        | 68.6M/507M [00:06<00:38, 11.9MB/s] 14%|█▍        | 69.8M/507M [00:06<00:38, 11.9MB/s] 14%|█▍        | 71.0M/507M [00:06<00:38, 11.9MB/s] 14%|█▍        | 72.1M/507M [00:06<00:38, 11.7MB/s] 14%|█▍        | 73.3M/507M [00:06<00:38, 11.9MB/s] 15%|█▍        | 74.5M/507M [00:06<00:37, 12.0MB/s] 15%|█▍        | 75.6M/507M [00:06<00:38, 11.9MB/s] 15%|█▌        | 76.8M/507M [00:06<00:37, 11.9MB/s] 15%|█▌        | 77.9M/507M [00:07<00:37, 11.9MB/s] 16%|█▌        | 79.0M/507M [00:07<00:37, 11.9MB/s] 16%|█▌        | 80.2M/507M [00:07<00:37, 11.9MB/s] 16%|█▌        | 81.3M/507M [00:07<00:37, 11.9MB/s] 16%|█▋        | 82.5M/507M [00:07<00:37, 11.9MB/s] 16%|█▋        | 83.6M/507M [00:07<00:37, 11.9MB/s] 17%|█▋        | 84.8M/507M [00:07<00:37, 11.9MB/s] 17%|█▋        | 85.9M/507M [00:07<00:37, 11.8MB/s] 17%|█▋        | 87.0M/507M [00:07<00:36, 11.9MB/s] 17%|█▋        | 88.2M/507M [00:07<00:36, 11.9MB/s] 18%|█▊        | 89.3M/507M [00:08<00:36, 11.9MB/s] 18%|█▊        | 90.5M/507M [00:08<00:36, 11.8MB/s] 18%|█▊        | 91.6M/507M [00:08<00:36, 11.9MB/s] 18%|█▊        | 92.8M/507M [00:08<00:36, 11.9MB/s] 19%|█▊        | 93.9M/507M [00:08<00:36, 11.9MB/s] 19%|█▉        | 95.1M/507M [00:08<00:36, 11.9MB/s] 19%|█▉        | 96.2M/507M [00:08<00:41, 10.4MB/s] 19%|█▉        | 97.9M/507M [00:08<00:36, 11.9MB/s] 20%|█▉        | 99.1M/507M [00:08<00:35, 11.9MB/s] 20%|█▉        | 100M/507M [00:09<00:35, 11.9MB/s]  20%|██        | 101M/507M [00:09<00:35, 11.9MB/s] 20%|██        | 103M/507M [00:09<00:35, 11.9MB/s] 20%|██        | 104M/507M [00:09<00:35, 11.9MB/s] 21%|██        | 105M/507M [00:09<00:35, 11.9MB/s] 21%|██        | 106M/507M [00:09<00:35, 11.9MB/s] 21%|██        | 107M/507M [00:09<00:35, 11.9MB/s] 21%|██▏       | 108M/507M [00:09<00:35, 11.9MB/s] 22%|██▏       | 110M/507M [00:09<00:35, 11.9MB/s] 22%|██▏       | 111M/507M [00:10<00:48, 8.50MB/s] 22%|██▏       | 112M/507M [00:10<00:55, 7.42MB/s] 22%|██▏       | 113M/507M [00:10<00:49, 8.36MB/s] 22%|██▏       | 114M/507M [00:10<00:44, 9.17MB/s] 23%|██▎       | 115M/507M [00:10<00:41, 9.85MB/s] 23%|██▎       | 116M/507M [00:10<00:39, 10.4MB/s] 23%|██▎       | 117M/507M [00:10<00:37, 10.8MB/s] 23%|██▎       | 118M/507M [00:10<00:37, 10.9MB/s] 24%|██▎       | 119M/507M [00:11<00:59, 6.85MB/s] 24%|██▎       | 120M/507M [00:11<01:01, 6.58MB/s] 24%|██▍       | 121M/507M [00:11<00:53, 7.60MB/s] 24%|██▍       | 123M/507M [00:11<00:47, 8.51MB/s] 24%|██▍       | 124M/507M [00:11<00:43, 9.31MB/s] 25%|██▍       | 125M/507M [00:11<00:40, 9.97MB/s] 25%|██▍       | 126M/507M [00:11<00:38, 10.5MB/s] 25%|██▌       | 127M/507M [00:11<00:36, 10.8MB/s] 25%|██▌       | 128M/507M [00:12<00:35, 11.2MB/s] 26%|██▌       | 129M/507M [00:12<00:34, 11.4MB/s] 26%|██▌       | 131M/507M [00:12<00:34, 11.5MB/s] 26%|██▌       | 132M/507M [00:12<00:33, 11.6MB/s] 26%|██▌       | 133M/507M [00:12<00:33, 11.7MB/s] 26%|██▋       | 134M/507M [00:12<00:33, 11.7MB/s] 27%|██▋       | 135M/507M [00:12<00:33, 11.8MB/s] 27%|██▋       | 136M/507M [00:12<00:32, 11.8MB/s] 27%|██▋       | 137M/507M [00:12<00:32, 11.9MB/s] 27%|██▋       | 139M/507M [00:12<00:32, 11.9MB/s] 28%|██▊       | 140M/507M [00:13<00:32, 11.9MB/s] 28%|██▊       | 141M/507M [00:13<00:32, 11.9MB/s] 28%|██▊       | 142M/507M [00:13<00:32, 11.9MB/s] 28%|██▊       | 143M/507M [00:13<00:32, 11.9MB/s] 28%|██▊       | 144M/507M [00:13<00:31, 11.9MB/s] 29%|██▊       | 145M/507M [00:13<00:31, 11.9MB/s] 29%|██▉       | 147M/507M [00:13<00:31, 11.9MB/s] 29%|██▉       | 148M/507M [00:13<00:31, 11.9MB/s] 29%|██▉       | 149M/507M [00:13<00:31, 11.9MB/s] 30%|██▉       | 150M/507M [00:13<00:31, 11.9MB/s] 30%|██▉       | 151M/507M [00:14<00:31, 11.9MB/s] 30%|███       | 152M/507M [00:14<00:31, 11.9MB/s] 30%|███       | 153M/507M [00:14<00:31, 11.9MB/s] 30%|███       | 155M/507M [00:14<00:31, 11.9MB/s] 31%|███       | 156M/507M [00:14<00:30, 11.9MB/s] 31%|███       | 157M/507M [00:14<00:30, 11.9MB/s] 31%|███       | 158M/507M [00:14<00:30, 11.9MB/s] 31%|███▏      | 159M/507M [00:14<00:30, 11.9MB/s] 32%|███▏      | 160M/507M [00:14<00:30, 11.8MB/s] 32%|███▏      | 161M/507M [00:14<00:30, 11.9MB/s] 32%|███▏      | 163M/507M [00:15<00:30, 11.9MB/s] 32%|███▏      | 164M/507M [00:15<00:30, 11.9MB/s] 33%|███▎      | 165M/507M [00:15<00:30, 11.9MB/s] 33%|███▎      | 166M/507M [00:15<00:30, 11.8MB/s] 33%|███▎      | 167M/507M [00:15<00:30, 11.9MB/s] 33%|███▎      | 168M/507M [00:15<00:29, 11.9MB/s] 33%|███▎      | 169M/507M [00:15<00:29, 11.9MB/s] 34%|███▎      | 171M/507M [00:15<00:29, 11.8MB/s] 34%|███▍      | 172M/507M [00:15<00:29, 11.9MB/s] 34%|███▍      | 173M/507M [00:15<00:29, 11.9MB/s] 34%|███▍      | 174M/507M [00:16<00:29, 11.9MB/s] 35%|███▍      | 175M/507M [00:16<00:29, 11.9MB/s] 35%|███▍      | 176M/507M [00:16<00:29, 11.9MB/s] 35%|███▌      | 177M/507M [00:16<00:29, 11.9MB/s] 35%|███▌      | 179M/507M [00:16<00:29, 11.9MB/s] 35%|███▌      | 180M/507M [00:16<00:31, 11.0MB/s] 36%|███▌      | 181M/507M [00:16<00:30, 11.2MB/s] 36%|███▌      | 182M/507M [00:16<00:29, 11.4MB/s] 36%|███▌      | 183M/507M [00:16<00:29, 11.6MB/s] 36%|███▋      | 184M/507M [00:16<00:29, 11.6MB/s] 37%|███▋      | 185M/507M [00:17<00:28, 11.7MB/s] 37%|███▋      | 187M/507M [00:17<00:28, 11.7MB/s] 37%|███▋      | 188M/507M [00:17<00:28, 11.8MB/s] 37%|███▋      | 189M/507M [00:17<00:28, 11.8MB/s] 37%|███▋      | 190M/507M [00:17<00:28, 11.8MB/s] 38%|███▊      | 191M/507M [00:17<00:27, 11.8MB/s] 38%|███▊      | 192M/507M [00:17<00:27, 11.8MB/s] 38%|███▊      | 193M/507M [00:17<00:28, 11.7MB/s] 38%|███▊      | 195M/507M [00:17<00:27, 11.9MB/s] 39%|███▊      | 196M/507M [00:17<00:27, 11.9MB/s] 39%|███▉      | 197M/507M [00:18<00:27, 11.9MB/s] 39%|███▉      | 198M/507M [00:18<00:27, 11.9MB/s] 39%|███▉      | 199M/507M [00:18<00:27, 11.9MB/s] 40%|███▉      | 200M/507M [00:18<00:27, 11.9MB/s] 40%|███▉      | 202M/507M [00:18<00:26, 11.9MB/s] 40%|███▉      | 203M/507M [00:18<00:26, 11.9MB/s] 40%|████      | 204M/507M [00:18<00:26, 11.9MB/s] 40%|████      | 205M/507M [00:18<00:26, 11.9MB/s] 41%|████      | 206M/507M [00:18<00:26, 11.9MB/s] 41%|████      | 207M/507M [00:18<00:26, 11.9MB/s] 41%|████      | 208M/507M [00:19<00:26, 11.9MB/s] 41%|████▏     | 210M/507M [00:19<00:26, 11.9MB/s] 42%|████▏     | 211M/507M [00:19<00:26, 11.9MB/s] 42%|████▏     | 212M/507M [00:19<00:26, 11.9MB/s] 42%|████▏     | 213M/507M [00:19<00:25, 11.9MB/s] 42%|████▏     | 214M/507M [00:19<00:25, 11.9MB/s] 42%|████▏     | 215M/507M [00:19<00:25, 11.9MB/s] 43%|████▎     | 216M/507M [00:19<00:25, 11.9MB/s] 43%|████▎     | 218M/507M [00:19<00:25, 11.9MB/s] 43%|████▎     | 219M/507M [00:20<00:25, 11.9MB/s] 43%|████▎     | 220M/507M [00:20<00:25, 11.9MB/s] 44%|████▎     | 221M/507M [00:20<00:25, 11.9MB/s] 44%|████▍     | 222M/507M [00:20<00:25, 11.9MB/s] 44%|████▍     | 223M/507M [00:20<00:25, 11.8MB/s] 44%|████▍     | 224M/507M [00:20<00:25, 11.8MB/s] 44%|████▍     | 226M/507M [00:20<00:25, 11.5MB/s] 45%|████▍     | 227M/507M [00:20<00:25, 11.6MB/s] 45%|████▍     | 228M/507M [00:20<00:25, 11.7MB/s] 45%|████▌     | 229M/507M [00:20<00:24, 11.7MB/s] 45%|████▌     | 230M/507M [00:21<00:24, 11.8MB/s] 46%|████▌     | 231M/507M [00:21<00:24, 11.8MB/s] 46%|████▌     | 232M/507M [00:21<00:24, 11.9MB/s] 46%|████▌     | 234M/507M [00:21<00:24, 11.9MB/s] 46%|████▋     | 235M/507M [00:21<00:24, 11.9MB/s] 47%|████▋     | 236M/507M [00:21<00:23, 11.9MB/s] 47%|████▋     | 237M/507M [00:21<00:23, 11.9MB/s] 47%|████▋     | 238M/507M [00:21<00:23, 11.9MB/s] 47%|████▋     | 239M/507M [00:21<00:23, 11.9MB/s] 47%|████▋     | 240M/507M [00:21<00:23, 11.9MB/s] 48%|████▊     | 242M/507M [00:22<00:23, 11.9MB/s] 48%|████▊     | 243M/507M [00:22<00:23, 11.9MB/s] 48%|████▊     | 244M/507M [00:22<00:23, 11.9MB/s] 48%|████▊     | 245M/507M [00:22<00:23, 11.9MB/s] 49%|████▊     | 246M/507M [00:22<00:22, 11.9MB/s] 49%|████▉     | 247M/507M [00:22<00:22, 11.9MB/s] 49%|████▉     | 248M/507M [00:22<00:22, 11.9MB/s] 49%|████▉     | 250M/507M [00:22<00:22, 11.9MB/s] 49%|████▉     | 251M/507M [00:22<00:22, 11.9MB/s] 50%|████▉     | 252M/507M [00:22<00:22, 11.9MB/s] 50%|████▉     | 253M/507M [00:23<00:22, 11.9MB/s] 50%|█████     | 254M/507M [00:23<00:22, 11.9MB/s] 50%|█████     | 255M/507M [00:23<00:22, 11.9MB/s] 51%|█████     | 256M/507M [00:23<00:22, 11.9MB/s] 51%|█████     | 258M/507M [00:23<00:21, 11.9MB/s] 51%|█████     | 259M/507M [00:23<00:21, 11.9MB/s] 51%|█████▏    | 260M/507M [00:23<00:21, 11.9MB/s] 51%|█████▏    | 261M/507M [00:23<00:21, 11.9MB/s] 52%|█████▏    | 262M/507M [00:23<00:21, 11.9MB/s] 52%|█████▏    | 263M/507M [00:23<00:21, 11.9MB/s] 52%|█████▏    | 264M/507M [00:24<00:21, 11.8MB/s] 52%|█████▏    | 265M/507M [00:24<00:21, 11.8MB/s] 53%|█████▎    | 267M/507M [00:24<00:36, 6.98MB/s] 53%|█████▎    | 268M/507M [00:24<00:55, 4.49MB/s] 53%|█████▎    | 268M/507M [00:24<00:48, 5.14MB/s] 53%|█████▎    | 269M/507M [00:25<00:45, 5.43MB/s] 53%|█████▎    | 270M/507M [00:25<00:47, 5.23MB/s] 53%|█████▎    | 270M/507M [00:25<01:10, 3.52MB/s] 53%|█████▎    | 271M/507M [00:25<01:21, 3.03MB/s] 54%|█████▎    | 271M/507M [00:25<01:07, 3.64MB/s] 54%|█████▎    | 272M/507M [00:25<00:56, 4.33MB/s] 54%|█████▍    | 273M/507M [00:26<00:48, 5.09MB/s] 54%|█████▍    | 274M/507M [00:26<00:42, 5.70MB/s] 54%|█████▍    | 275M/507M [00:26<00:35, 6.92MB/s] 55%|█████▍    | 276M/507M [00:26<00:30, 7.92MB/s] 55%|█████▍    | 277M/507M [00:26<00:27, 8.81MB/s] 55%|█████▍    | 279M/507M [00:26<00:25, 9.55MB/s] 55%|█████▌    | 280M/507M [00:26<00:23, 10.2MB/s] 55%|█████▌    | 281M/507M [00:26<00:22, 10.6MB/s] 56%|█████▌    | 282M/507M [00:26<00:21, 10.8MB/s] 56%|█████▌    | 283M/507M [00:27<00:20, 11.3MB/s] 56%|█████▌    | 284M/507M [00:27<00:20, 11.4MB/s] 56%|█████▋    | 285M/507M [00:27<00:20, 11.4MB/s] 57%|█████▋    | 287M/507M [00:27<00:19, 11.7MB/s] 57%|█████▋    | 288M/507M [00:27<00:19, 11.8MB/s] 57%|█████▋    | 289M/507M [00:27<00:19, 11.8MB/s] 57%|█████▋    | 290M/507M [00:27<00:19, 11.7MB/s] 57%|█████▋    | 291M/507M [00:27<00:19, 11.9MB/s] 58%|█████▊    | 292M/507M [00:27<00:19, 11.7MB/s] 58%|█████▊    | 294M/507M [00:27<00:18, 12.0MB/s] 58%|█████▊    | 295M/507M [00:28<00:18, 12.0MB/s] 58%|█████▊    | 296M/507M [00:28<00:18, 11.8MB/s] 59%|█████▊    | 297M/507M [00:28<00:18, 11.8MB/s] 59%|█████▉    | 298M/507M [00:28<00:18, 12.0MB/s] 59%|█████▉    | 299M/507M [00:28<00:18, 12.0MB/s] 59%|█████▉    | 301M/507M [00:28<00:18, 11.9MB/s] 60%|█████▉    | 302M/507M [00:28<00:18, 11.9MB/s] 60%|█████▉    | 303M/507M [00:28<00:17, 11.9MB/s] 60%|█████▉    | 304M/507M [00:28<00:17, 11.9MB/s] 60%|██████    | 305M/507M [00:28<00:17, 11.9MB/s] 60%|██████    | 306M/507M [00:29<00:17, 11.9MB/s] 61%|██████    | 307M/507M [00:29<00:17, 11.9MB/s] 61%|██████    | 309M/507M [00:29<00:17, 11.9MB/s] 61%|██████    | 310M/507M [00:29<00:17, 11.9MB/s] 61%|██████▏   | 311M/507M [00:29<00:17, 11.9MB/s] 62%|██████▏   | 312M/507M [00:29<00:17, 11.8MB/s] 62%|██████▏   | 313M/507M [00:29<00:17, 11.8MB/s] 62%|██████▏   | 314M/507M [00:29<00:17, 11.6MB/s] 62%|██████▏   | 315M/507M [00:29<00:16, 11.9MB/s] 62%|██████▏   | 317M/507M [00:29<00:16, 11.9MB/s] 63%|██████▎   | 318M/507M [00:30<00:16, 11.9MB/s] 63%|██████▎   | 319M/507M [00:30<00:16, 11.9MB/s] 63%|██████▎   | 320M/507M [00:30<00:16, 11.9MB/s] 63%|██████▎   | 321M/507M [00:30<00:16, 11.9MB/s] 64%|██████▎   | 322M/507M [00:30<00:16, 11.9MB/s] 64%|██████▍   | 323M/507M [00:30<00:16, 11.9MB/s] 64%|██████▍   | 325M/507M [00:30<00:16, 11.9MB/s] 64%|██████▍   | 326M/507M [00:30<00:15, 11.9MB/s] 64%|██████▍   | 327M/507M [00:30<00:15, 11.9MB/s] 65%|██████▍   | 328M/507M [00:30<00:15, 11.9MB/s] 65%|██████▍   | 329M/507M [00:31<00:15, 11.9MB/s] 65%|██████▌   | 330M/507M [00:31<00:15, 11.9MB/s] 65%|██████▌   | 331M/507M [00:31<00:15, 11.9MB/s] 66%|██████▌   | 333M/507M [00:31<00:15, 11.9MB/s] 66%|██████▌   | 334M/507M [00:31<00:15, 11.9MB/s] 66%|██████▌   | 335M/507M [00:31<00:15, 11.9MB/s] 66%|██████▋   | 336M/507M [00:31<00:15, 11.8MB/s] 67%|██████▋   | 337M/507M [00:31<00:14, 11.9MB/s] 67%|██████▋   | 338M/507M [00:31<00:14, 11.9MB/s] 67%|██████▋   | 339M/507M [00:31<00:14, 11.8MB/s] 67%|██████▋   | 341M/507M [00:32<00:14, 11.9MB/s] 67%|██████▋   | 342M/507M [00:32<00:14, 11.9MB/s] 68%|██████▊   | 343M/507M [00:32<00:14, 11.9MB/s] 68%|██████▊   | 344M/507M [00:32<00:14, 11.9MB/s] 68%|██████▊   | 345M/507M [00:32<00:14, 11.9MB/s] 68%|██████▊   | 346M/507M [00:32<00:14, 11.7MB/s] 69%|██████▊   | 348M/507M [00:32<00:13, 11.9MB/s] 69%|██████▉   | 349M/507M [00:32<00:13, 11.9MB/s] 69%|██████▉   | 350M/507M [00:32<00:13, 11.9MB/s] 69%|██████▉   | 351M/507M [00:32<00:13, 11.9MB/s] 69%|██████▉   | 352M/507M [00:33<00:13, 11.9MB/s] 70%|██████▉   | 353M/507M [00:33<00:13, 11.9MB/s] 70%|██████▉   | 354M/507M [00:33<00:13, 11.9MB/s] 70%|███████   | 355M/507M [00:33<00:13, 11.9MB/s] 70%|███████   | 357M/507M [00:33<00:13, 11.9MB/s] 71%|███████   | 358M/507M [00:33<00:13, 11.9MB/s] 71%|███████   | 359M/507M [00:33<00:13, 11.9MB/s] 71%|███████   | 360M/507M [00:33<00:12, 11.9MB/s] 71%|███████▏  | 361M/507M [00:33<00:12, 11.9MB/s] 71%|███████▏  | 362M/507M [00:33<00:12, 11.9MB/s] 72%|███████▏  | 363M/507M [00:34<00:12, 11.9MB/s] 72%|███████▏  | 365M/507M [00:34<00:12, 11.9MB/s] 72%|███████▏  | 366M/507M [00:34<00:12, 11.9MB/s] 72%|███████▏  | 367M/507M [00:34<00:12, 11.9MB/s] 73%|███████▎  | 368M/507M [00:34<00:12, 11.9MB/s] 73%|███████▎  | 369M/507M [00:34<00:12, 11.9MB/s] 73%|███████▎  | 370M/507M [00:34<00:12, 11.9MB/s] 73%|███████▎  | 371M/507M [00:34<00:11, 11.9MB/s] 74%|███████▎  | 373M/507M [00:34<00:11, 11.9MB/s] 74%|███████▎  | 374M/507M [00:34<00:11, 11.9MB/s] 74%|███████▍  | 375M/507M [00:35<00:11, 11.9MB/s] 74%|███████▍  | 376M/507M [00:35<00:11, 11.8MB/s] 74%|███████▍  | 377M/507M [00:35<00:11, 11.8MB/s] 75%|███████▍  | 378M/507M [00:35<00:11, 11.9MB/s] 75%|███████▍  | 380M/507M [00:35<00:11, 11.9MB/s] 75%|███████▌  | 381M/507M [00:35<00:11, 11.9MB/s] 75%|███████▌  | 382M/507M [00:35<00:11, 11.9MB/s] 76%|███████▌  | 383M/507M [00:35<00:10, 11.9MB/s] 76%|███████▌  | 384M/507M [00:35<00:10, 11.9MB/s] 76%|███████▌  | 385M/507M [00:36<00:17, 7.18MB/s] 76%|███████▌  | 386M/507M [00:36<00:16, 7.56MB/s] 76%|███████▋  | 388M/507M [00:36<00:14, 8.93MB/s] 77%|███████▋  | 389M/507M [00:36<00:12, 9.63MB/s] 77%|███████▋  | 390M/507M [00:36<00:12, 10.2MB/s] 77%|███████▋  | 391M/507M [00:36<00:11, 10.7MB/s] 77%|███████▋  | 392M/507M [00:36<00:10, 11.0MB/s] 78%|███████▊  | 393M/507M [00:37<00:13, 9.09MB/s] 78%|███████▊  | 394M/507M [00:37<00:13, 8.57MB/s] 78%|███████▊  | 396M/507M [00:37<00:11, 9.74MB/s] 78%|███████▊  | 397M/507M [00:37<00:26, 4.38MB/s] 79%|███████▊  | 398M/507M [00:37<00:21, 5.38MB/s] 79%|███████▉  | 399M/507M [00:38<00:25, 4.46MB/s] 79%|███████▉  | 400M/507M [00:38<00:27, 4.06MB/s] 79%|███████▉  | 401M/507M [00:38<00:27, 4.08MB/s] 79%|███████▉  | 401M/507M [00:38<00:25, 4.28MB/s] 79%|███████▉  | 402M/507M [00:38<00:23, 4.61MB/s] 79%|███████▉  | 402M/507M [00:38<00:21, 5.10MB/s] 80%|███████▉  | 403M/507M [00:39<00:19, 5.58MB/s] 80%|███████▉  | 404M/507M [00:39<00:17, 6.16MB/s] 80%|███████▉  | 405M/507M [00:39<00:15, 6.80MB/s] 80%|████████  | 406M/507M [00:39<00:14, 7.54MB/s] 80%|████████  | 407M/507M [00:39<00:12, 8.32MB/s] 80%|████████  | 408M/507M [00:39<00:11, 9.15MB/s] 81%|████████  | 409M/507M [00:39<00:10, 9.82MB/s] 81%|████████  | 410M/507M [00:39<00:09, 10.4MB/s] 81%|████████  | 411M/507M [00:39<00:09, 10.8MB/s] 81%|████████▏ | 412M/507M [00:39<00:08, 11.1MB/s] 82%|████████▏ | 414M/507M [00:40<00:08, 11.3MB/s] 82%|████████▏ | 415M/507M [00:40<00:08, 11.5MB/s] 82%|████████▏ | 416M/507M [00:40<00:08, 11.6MB/s] 82%|████████▏ | 417M/507M [00:40<00:08, 11.7MB/s] 82%|████████▏ | 418M/507M [00:40<00:07, 11.8MB/s] 83%|████████▎ | 419M/507M [00:40<00:07, 11.8MB/s] 83%|████████▎ | 420M/507M [00:40<00:07, 11.8MB/s] 83%|████████▎ | 422M/507M [00:40<00:07, 11.9MB/s] 83%|████████▎ | 423M/507M [00:40<00:07, 11.7MB/s] 84%|████████▎ | 424M/507M [00:40<00:07, 11.1MB/s] 84%|████████▍ | 425M/507M [00:41<00:09, 8.70MB/s] 84%|████████▍ | 426M/507M [00:41<00:10, 8.27MB/s] 84%|████████▍ | 427M/507M [00:41<00:13, 6.28MB/s] 84%|████████▍ | 427M/507M [00:41<00:14, 5.61MB/s] 84%|████████▍ | 428M/507M [00:41<00:17, 4.78MB/s] 85%|████████▍ | 429M/507M [00:41<00:15, 5.23MB/s] 85%|████████▍ | 429M/507M [00:42<00:14, 5.44MB/s] 85%|████████▍ | 430M/507M [00:42<00:13, 5.85MB/s] 85%|████████▍ | 431M/507M [00:42<00:12, 6.36MB/s] 85%|████████▌ | 432M/507M [00:42<00:11, 6.95MB/s] 85%|████████▌ | 432M/507M [00:42<00:10, 7.49MB/s] 85%|████████▌ | 433M/507M [00:42<00:09, 8.02MB/s] 86%|████████▌ | 434M/507M [00:42<00:10, 7.07MB/s] 86%|████████▌ | 435M/507M [00:43<00:19, 3.94MB/s] 86%|████████▌ | 436M/507M [00:43<00:15, 4.82MB/s] 86%|████████▌ | 437M/507M [00:43<00:12, 5.87MB/s] 86%|████████▋ | 438M/507M [00:43<00:10, 6.92MB/s] 87%|████████▋ | 439M/507M [00:43<00:08, 7.91MB/s] 87%|████████▋ | 440M/507M [00:43<00:07, 8.80MB/s] 87%|████████▋ | 442M/507M [00:43<00:07, 9.55MB/s] 87%|████████▋ | 443M/507M [00:43<00:06, 10.1MB/s] 88%|████████▊ | 444M/507M [00:43<00:06, 10.6MB/s] 88%|████████▊ | 445M/507M [00:44<00:05, 10.9MB/s] 88%|████████▊ | 446M/507M [00:44<00:05, 11.2MB/s] 88%|████████▊ | 447M/507M [00:44<00:05, 11.4MB/s] 88%|████████▊ | 448M/507M [00:44<00:05, 11.5MB/s] 89%|████████▊ | 450M/507M [00:44<00:05, 11.6MB/s] 89%|████████▉ | 451M/507M [00:44<00:05, 11.7MB/s] 89%|████████▉ | 452M/507M [00:44<00:04, 11.7MB/s] 89%|████████▉ | 453M/507M [00:44<00:04, 11.8MB/s] 90%|████████▉ | 454M/507M [00:44<00:04, 11.8MB/s] 90%|████████▉ | 455M/507M [00:44<00:04, 11.0MB/s] 90%|█████████ | 457M/507M [00:45<00:04, 11.6MB/s] 90%|█████████ | 458M/507M [00:45<00:04, 11.7MB/s] 91%|█████████ | 459M/507M [00:45<00:04, 11.7MB/s] 91%|█████████ | 460M/507M [00:45<00:04, 11.7MB/s] 91%|█████████ | 461M/507M [00:45<00:04, 11.8MB/s] 91%|█████████ | 462M/507M [00:45<00:03, 11.8MB/s] 91%|█████████▏| 463M/507M [00:45<00:03, 11.9MB/s] 92%|█████████▏| 465M/507M [00:45<00:03, 11.9MB/s] 92%|█████████▏| 466M/507M [00:45<00:03, 11.9MB/s] 92%|█████████▏| 467M/507M [00:45<00:03, 11.7MB/s] 92%|█████████▏| 468M/507M [00:46<00:03, 11.9MB/s] 93%|█████████▎| 469M/507M [00:46<00:03, 12.0MB/s] 93%|█████████▎| 470M/507M [00:46<00:03, 11.9MB/s] 93%|█████████▎| 472M/507M [00:46<00:03, 11.9MB/s] 93%|█████████▎| 473M/507M [00:46<00:03, 11.9MB/s] 93%|█████████▎| 474M/507M [00:46<00:02, 11.9MB/s] 94%|█████████▎| 475M/507M [00:46<00:03, 11.2MB/s] 94%|█████████▍| 476M/507M [00:46<00:02, 12.0MB/s] 94%|█████████▍| 477M/507M [00:46<00:02, 12.0MB/s] 94%|█████████▍| 479M/507M [00:47<00:02, 11.9MB/s] 95%|█████████▍| 480M/507M [00:47<00:02, 11.9MB/s] 95%|█████████▍| 481M/507M [00:47<00:02, 11.9MB/s] 95%|█████████▌| 482M/507M [00:47<00:02, 11.9MB/s] 95%|█████████▌| 483M/507M [00:47<00:02, 11.9MB/s] 96%|█████████▌| 484M/507M [00:47<00:01, 11.9MB/s] 96%|█████████▌| 486M/507M [00:47<00:01, 11.9MB/s] 96%|█████████▌| 487M/507M [00:47<00:01, 11.9MB/s] 96%|█████████▌| 488M/507M [00:47<00:01, 11.9MB/s] 96%|█████████▋| 489M/507M [00:47<00:01, 11.0MB/s] 97%|█████████▋| 490M/507M [00:48<00:02, 6.65MB/s] 97%|█████████▋| 491M/507M [00:48<00:03, 5.43MB/s] 97%|█████████▋| 494M/507M [00:48<00:01, 7.17MB/s] 98%|█████████▊| 495M/507M [00:48<00:01, 8.15MB/s] 98%|█████████▊| 496M/507M [00:48<00:01, 9.01MB/s] 98%|█████████▊| 497M/507M [00:48<00:01, 9.72MB/s] 98%|█████████▊| 498M/507M [00:49<00:00, 10.3MB/s] 99%|█████████▊| 500M/507M [00:49<00:02, 3.63MB/s] 99%|█████████▉| 502M/507M [00:50<00:00, 4.92MB/s] 99%|█████████▉| 504M/507M [00:50<00:00, 5.98MB/s]100%|█████████▉| 505M/507M [00:50<00:00, 7.02MB/s]100%|█████████▉| 507M/507M [00:50<00:00, 8.02MB/s]100%|██████████| 507M/507M [00:50<00:00, 10.5MB/s]
+train
+wandb: Currently logged in as: dplars (use `wandb login --relogin` to force relogin)
+wandb: Currently logged in as: dplars (use `wandb login --relogin` to force relogin)
+wandb: WARNING Ignored wandb.init() arg project when running a sweep
+wandb: WARNING Ignored wandb.init() arg project when running a sweep
+PyTorch Version:  1.7.0
+Torchvision Version:  0.8.1
+   bn  pn  bullet           foldername             imgname   value
+0   1   1     0.0  batch_001_plate_001  b_001_p_001_nb.jpg  50.730
+1   1   1     1.0  batch_001_plate_001   b_001_p_001_b.jpg  57.122
+2   1   2     0.0  batch_001_plate_002  b_001_p_002_nb.jpg  46.985
+3   1   2     1.0  batch_001_plate_002   b_001_p_002_b.jpg  68.904
+4   1   3     1.0  batch_001_plate_003   b_001_p_003_b.jpg  35.349
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/white/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/red/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+PyTorch Version:  1.7.0
+Torchvision Version:  0.8.1
+   bn  pn  bullet           foldername             imgname   value
+0   1   1     0.0  batch_001_plate_001  b_001_p_001_nb.jpg  50.730
+1   1   1     1.0  batch_001_plate_001   b_001_p_001_b.jpg  57.122
+2   1   2     0.0  batch_001_plate_002  b_001_p_002_nb.jpg  46.985
+3   1   2     1.0  batch_001_plate_002   b_001_p_002_b.jpg  68.904
+4   1   3     1.0  batch_001_plate_003   b_001_p_003_b.jpg  35.349
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/white/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/red/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+wandb: ERROR Abnormal program exit
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+wandb: ERROR Abnormal program exit
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py", line 668, in <module>
+    wandb.init(config=default_config, project="pytorch-TWI_spaghetti_sweep")
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 612, in init
+    six.raise_from(Exception("problem"), error_seen)
+  File "<string>", line 3, in raise_from
+Exception: problem
+Problem at: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py 668 <module>
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py", line 668, in <module>
+    wandb.init(config=default_config, project="pytorch-TWI_spaghetti_sweep")
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 612, in init
+    six.raise_from(Exception("problem"), error_seen)
+  File "<string>", line 3, in raise_from
+Exception: problem
+Problem at: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py 668 <module>
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 872, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/queues.py", line 107, in get
+    if not self._poll(timeout):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 20978) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "train.py", line 712, in <module>
+    run()
+  File "train.py", line 690, in run
+    _,pt_hist = train_model(pt_model, dataloaders_dict, pt_criterion, pt_optimizer, num_epochs=config.epochs, is_inception=(config.model_name=="inception"))
+  File "train.py", line 498, in train_model
+    for inputs, labels in dataloaders[phase]:
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 435, in __next__
+    data = self._next_data()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1068, in _next_data
+    idx, data = self._get_data()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1034, in _get_data
+    success, data = self._try_get_data()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 885, in _try_get_data
+    raise RuntimeError('DataLoader worker (pid(s) {}) exited unexpectedly'.format(pids_str)) from e
+RuntimeError: DataLoader worker (pid(s) 20978, 20979) exited unexpectedly

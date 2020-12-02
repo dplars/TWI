@@ -1,0 +1,44 @@
+2020-12-02 23:49:49,937 INFO    MainThread:21360 [wandb_setup.py:_flush():70] setting env: {'sweep_id': 'qrwtkcgn', 'config_paths': '/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/sweep-qrwtkcgn/config-07l940i7.yaml', 'project': 'pytorch-TWI_spaghetti_sweep', 'root_dir': '/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks', 'entity': 'dplars', 'run_id': '07l940i7'}
+2020-12-02 23:49:49,937 INFO    MainThread:21360 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn,fork,forkserver
+2020-12-02 23:49:49,937 INFO    MainThread:21360 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-02 23:49:49,937 INFO    MainThread:21360 [wandb_init.py:_log_setup():303] Logging user logs to /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234949-07l940i7/logs/debug.log
+2020-12-02 23:49:49,937 INFO    MainThread:21360 [wandb_init.py:_log_setup():304] Logging internal logs to /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/wandb/run-20201202_234949-07l940i7/logs/debug-internal.log
+2020-12-02 23:49:51,440 INFO    MainThread:21360 [wandb_run.py:_console_start():1218] atexit reg
+2020-12-02 23:49:51,441 INFO    MainThread:21360 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.REDIRECT
+2020-12-02 23:49:51,442 INFO    MainThread:21360 [wandb_run.py:_redirect():1088] Redirecting console.
+2020-12-02 23:49:51,442 INFO    MainThread:21360 [redirect.py:install():204] install start
+2020-12-02 23:49:51,442 INFO    MainThread:21360 [redirect.py:install():219] install stop
+2020-12-02 23:49:51,442 INFO    MainThread:21360 [redirect.py:install():204] install start
+2020-12-02 23:49:51,443 INFO    MainThread:21360 [redirect.py:install():219] install stop
+2020-12-02 23:49:51,443 INFO    MainThread:21360 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-12-02 23:49:59,655 INFO    MainThread:21360 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 1
+2020-12-02 23:49:59,655 INFO    MainThread:21360 [wandb_run.py:_restore():1160] restore
+2020-12-02 23:49:59,655 INFO    MainThread:21360 [redirect.py:uninstall():223] uninstall start
+2020-12-02 23:49:59,656 INFO    MainThread:21360 [redirect.py:_stop():278] _stop: stdout
+2020-12-02 23:49:59,656 INFO    stdout    :21360 [redirect.py:_pipe_relay():120] relay done saw last write: stdout
+2020-12-02 23:49:59,656 INFO    stdout    :21360 [redirect.py:_pipe_relay():136] relay done done: stdout
+2020-12-02 23:49:59,657 INFO    MainThread:21360 [redirect.py:_stop():284] _stop closed: stdout
+2020-12-02 23:49:59,657 INFO    MainThread:21360 [redirect.py:_stop():290] _stop joined: stdout
+2020-12-02 23:49:59,657 INFO    MainThread:21360 [redirect.py:_stop():292] _stop rd closed: stdout
+2020-12-02 23:49:59,657 INFO    MainThread:21360 [redirect.py:uninstall():227] uninstall done
+2020-12-02 23:49:59,657 INFO    MainThread:21360 [redirect.py:uninstall():223] uninstall start
+2020-12-02 23:49:59,657 INFO    MainThread:21360 [redirect.py:_stop():278] _stop: stderr
+2020-12-02 23:49:59,657 INFO    MainThread:21360 [redirect.py:_stop():284] _stop closed: stderr
+2020-12-02 23:49:59,657 INFO    stderr    :21360 [redirect.py:_pipe_relay():120] relay done saw last write: stderr
+2020-12-02 23:49:59,657 INFO    stderr    :21360 [redirect.py:_pipe_relay():136] relay done done: stderr
+2020-12-02 23:49:59,658 INFO    MainThread:21360 [redirect.py:_stop():290] _stop joined: stderr
+2020-12-02 23:49:59,658 INFO    MainThread:21360 [redirect.py:_stop():292] _stop rd closed: stderr
+2020-12-02 23:49:59,658 INFO    MainThread:21360 [redirect.py:uninstall():227] uninstall done
+2020-12-02 23:49:59,660 INFO    MainThread:21360 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "e142aaf73b3740b2a56547212d5c29c4"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1082
+      total_bytes: 1082
+    }
+  }
+}
+

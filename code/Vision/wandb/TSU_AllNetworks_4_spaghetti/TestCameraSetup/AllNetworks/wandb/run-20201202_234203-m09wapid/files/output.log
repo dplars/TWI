@@ -1,0 +1,515 @@
+initialize
+Downloading: "https://download.pytorch.org/models/alexnet-owt-4df8aa71.pth" to /Users/larsdepauw/.cache/torch/hub/checkpoints/alexnet-owt-4df8aa71.pth
+  0%|          | 0.00/233M [00:00<?, ?B/s]  0%|          | 688k/233M [00:00<00:35, 6.93MB/s]  1%|          | 1.81M/233M [00:00<00:30, 7.92MB/s]  1%|▏         | 2.96M/233M [00:00<00:27, 8.80MB/s]  2%|▏         | 4.10M/233M [00:00<00:25, 9.54MB/s]  2%|▏         | 5.24M/233M [00:00<00:23, 10.1MB/s]  3%|▎         | 6.15M/233M [00:00<00:24, 9.81MB/s]  3%|▎         | 7.29M/233M [00:00<00:22, 10.4MB/s]  4%|▎         | 8.43M/233M [00:00<00:21, 10.8MB/s]  4%|▍         | 9.57M/233M [00:00<00:21, 11.1MB/s]  5%|▍         | 10.6M/233M [00:01<00:24, 9.66MB/s]  5%|▌         | 12.4M/233M [00:01<00:20, 11.3MB/s]  6%|▌         | 13.6M/233M [00:01<00:20, 11.5MB/s]  6%|▋         | 14.8M/233M [00:01<00:19, 11.6MB/s]  7%|▋         | 15.9M/233M [00:01<00:19, 11.7MB/s]  7%|▋         | 17.1M/233M [00:01<00:19, 11.7MB/s]  8%|▊         | 18.2M/233M [00:01<00:19, 11.8MB/s]  8%|▊         | 19.4M/233M [00:01<00:18, 11.8MB/s]  9%|▉         | 20.5M/233M [00:01<00:18, 11.9MB/s]  9%|▉         | 21.7M/233M [00:01<00:18, 11.8MB/s] 10%|▉         | 22.8M/233M [00:02<00:18, 11.9MB/s] 10%|█         | 24.0M/233M [00:02<00:18, 11.9MB/s] 11%|█         | 25.1M/233M [00:02<00:18, 11.9MB/s] 11%|█▏        | 26.2M/233M [00:02<00:18, 11.9MB/s] 12%|█▏        | 27.4M/233M [00:02<00:18, 11.9MB/s] 12%|█▏        | 28.5M/233M [00:02<00:18, 11.4MB/s] 13%|█▎        | 29.7M/233M [00:02<00:18, 11.5MB/s] 13%|█▎        | 30.8M/233M [00:02<00:18, 11.5MB/s] 14%|█▎        | 32.0M/233M [00:02<00:17, 11.8MB/s] 14%|█▍        | 33.1M/233M [00:03<00:17, 11.8MB/s] 15%|█▍        | 34.2M/233M [00:03<00:17, 11.8MB/s] 15%|█▌        | 35.4M/233M [00:03<00:17, 11.9MB/s] 16%|█▌        | 36.5M/233M [00:03<00:17, 11.9MB/s] 16%|█▌        | 37.7M/233M [00:03<00:17, 11.9MB/s] 17%|█▋        | 38.8M/233M [00:03<00:17, 11.9MB/s] 17%|█▋        | 40.0M/233M [00:03<00:17, 11.9MB/s] 18%|█▊        | 41.1M/233M [00:03<00:16, 11.9MB/s] 18%|█▊        | 42.2M/233M [00:03<00:16, 11.9MB/s] 19%|█▊        | 43.4M/233M [00:03<00:16, 11.9MB/s] 19%|█▉        | 44.5M/233M [00:04<00:16, 11.9MB/s] 20%|█▉        | 45.7M/233M [00:04<00:16, 11.9MB/s] 20%|██        | 46.8M/233M [00:04<00:16, 11.9MB/s] 21%|██        | 48.0M/233M [00:04<00:16, 11.9MB/s] 21%|██        | 49.1M/233M [00:04<00:16, 11.9MB/s] 22%|██▏       | 50.2M/233M [00:04<00:16, 11.9MB/s] 22%|██▏       | 51.4M/233M [00:04<00:15, 11.9MB/s] 23%|██▎       | 52.5M/233M [00:04<00:15, 11.9MB/s] 23%|██▎       | 53.7M/233M [00:04<00:15, 11.9MB/s] 24%|██▎       | 54.8M/233M [00:04<00:15, 11.9MB/s] 24%|██▍       | 56.0M/233M [00:05<00:15, 11.9MB/s] 24%|██▍       | 57.1M/233M [00:05<00:15, 11.9MB/s] 25%|██▍       | 58.2M/233M [00:05<00:15, 11.9MB/s] 25%|██▌       | 59.4M/233M [00:05<00:15, 11.9MB/s] 26%|██▌       | 60.5M/233M [00:05<00:15, 11.9MB/s] 26%|██▋       | 61.7M/233M [00:05<00:15, 11.9MB/s] 27%|██▋       | 62.8M/233M [00:05<00:14, 11.9MB/s] 27%|██▋       | 64.0M/233M [00:05<00:14, 11.9MB/s] 28%|██▊       | 65.1M/233M [00:05<00:14, 11.9MB/s] 28%|██▊       | 66.3M/233M [00:05<00:14, 11.9MB/s] 29%|██▉       | 67.4M/233M [00:06<00:14, 11.9MB/s] 29%|██▉       | 68.6M/233M [00:06<00:14, 11.9MB/s] 30%|██▉       | 69.7M/233M [00:06<00:14, 11.9MB/s] 30%|███       | 70.9M/233M [00:06<00:14, 11.9MB/s] 31%|███       | 72.0M/233M [00:06<00:14, 11.9MB/s] 31%|███▏      | 73.1M/233M [00:06<00:14, 11.9MB/s] 32%|███▏      | 74.3M/233M [00:06<00:13, 11.9MB/s] 32%|███▏      | 75.4M/233M [00:06<00:13, 11.9MB/s] 33%|███▎      | 76.6M/233M [00:06<00:13, 11.9MB/s] 33%|███▎      | 77.7M/233M [00:06<00:13, 11.9MB/s] 34%|███▍      | 78.9M/233M [00:07<00:13, 11.9MB/s] 34%|███▍      | 80.0M/233M [00:07<00:13, 11.9MB/s] 35%|███▍      | 81.1M/233M [00:07<00:13, 11.8MB/s] 35%|███▌      | 82.3M/233M [00:07<00:13, 11.9MB/s] 36%|███▌      | 83.4M/233M [00:07<00:13, 11.9MB/s] 36%|███▋      | 84.6M/233M [00:07<00:13, 11.9MB/s] 37%|███▋      | 85.7M/233M [00:07<00:12, 11.9MB/s] 37%|███▋      | 86.9M/233M [00:07<00:12, 11.9MB/s] 38%|███▊      | 88.0M/233M [00:07<00:12, 11.9MB/s] 38%|███▊      | 89.1M/233M [00:07<00:12, 11.9MB/s] 39%|███▊      | 90.3M/233M [00:08<00:12, 11.9MB/s] 39%|███▉      | 91.4M/233M [00:08<00:12, 11.9MB/s] 40%|███▉      | 92.6M/233M [00:08<00:12, 11.9MB/s] 40%|████      | 93.7M/233M [00:08<00:12, 11.9MB/s] 41%|████      | 94.8M/233M [00:08<00:12, 11.9MB/s] 41%|████      | 96.0M/233M [00:08<00:12, 11.9MB/s] 42%|████▏     | 97.1M/233M [00:08<00:11, 11.9MB/s] 42%|████▏     | 98.3M/233M [00:08<00:11, 11.9MB/s] 43%|████▎     | 99.4M/233M [00:08<00:11, 11.9MB/s] 43%|████▎     | 101M/233M [00:08<00:11, 11.9MB/s]  44%|████▎     | 102M/233M [00:09<00:11, 11.7MB/s] 44%|████▍     | 103M/233M [00:09<00:11, 11.8MB/s] 45%|████▍     | 104M/233M [00:09<00:11, 11.8MB/s] 45%|████▌     | 105M/233M [00:09<00:11, 11.8MB/s] 46%|████▌     | 106M/233M [00:09<00:11, 11.8MB/s] 46%|████▌     | 107M/233M [00:09<00:11, 11.1MB/s] 47%|████▋     | 109M/233M [00:09<00:11, 11.3MB/s] 47%|████▋     | 110M/233M [00:09<00:11, 11.3MB/s] 48%|████▊     | 111M/233M [00:09<00:11, 11.6MB/s] 48%|████▊     | 112M/233M [00:09<00:10, 11.7MB/s] 49%|████▊     | 113M/233M [00:10<00:17, 7.05MB/s] 49%|████▉     | 114M/233M [00:10<00:15, 7.92MB/s] 49%|████▉     | 115M/233M [00:10<00:14, 8.78MB/s] 50%|████▉     | 117M/233M [00:10<00:12, 9.61MB/s] 50%|█████     | 118M/233M [00:10<00:11, 10.1MB/s] 51%|█████     | 119M/233M [00:10<00:11, 10.6MB/s] 51%|█████▏    | 120M/233M [00:10<00:10, 11.0MB/s] 52%|█████▏    | 121M/233M [00:11<00:10, 11.1MB/s] 52%|█████▏    | 122M/233M [00:11<00:10, 11.4MB/s] 53%|█████▎    | 123M/233M [00:11<00:10, 11.5MB/s] 53%|█████▎    | 124M/233M [00:11<00:10, 11.1MB/s] 54%|█████▍    | 126M/233M [00:11<00:10, 10.9MB/s] 54%|█████▍    | 127M/233M [00:11<00:10, 11.0MB/s] 55%|█████▍    | 128M/233M [00:11<00:10, 10.6MB/s] 55%|█████▌    | 129M/233M [00:11<00:10, 10.5MB/s] 56%|█████▌    | 130M/233M [00:11<00:10, 10.3MB/s] 56%|█████▌    | 131M/233M [00:11<00:10, 10.5MB/s] 57%|█████▋    | 132M/233M [00:12<00:10, 10.2MB/s] 57%|█████▋    | 133M/233M [00:12<00:09, 10.5MB/s] 57%|█████▋    | 134M/233M [00:12<00:09, 10.5MB/s] 58%|█████▊    | 135M/233M [00:12<00:09, 10.5MB/s] 58%|█████▊    | 136M/233M [00:12<00:09, 10.5MB/s] 59%|█████▉    | 137M/233M [00:12<00:09, 10.5MB/s] 59%|█████▉    | 138M/233M [00:12<00:09, 10.3MB/s] 60%|█████▉    | 139M/233M [00:12<00:09, 10.3MB/s] 60%|██████    | 140M/233M [00:12<00:09, 10.3MB/s] 60%|██████    | 141M/233M [00:12<00:09, 10.3MB/s] 61%|██████    | 142M/233M [00:13<00:09, 10.4MB/s] 61%|██████▏   | 143M/233M [00:13<00:09, 10.3MB/s] 62%|██████▏   | 144M/233M [00:13<00:09, 10.3MB/s] 62%|██████▏   | 145M/233M [00:13<00:09, 10.1MB/s] 63%|██████▎   | 146M/233M [00:13<00:08, 10.4MB/s] 63%|██████▎   | 147M/233M [00:13<00:08, 10.1MB/s] 64%|██████▎   | 148M/233M [00:13<00:08, 10.5MB/s] 64%|██████▍   | 149M/233M [00:13<00:08, 10.5MB/s] 64%|██████▍   | 150M/233M [00:13<00:08, 10.5MB/s] 65%|██████▍   | 151M/233M [00:14<00:08, 10.4MB/s] 65%|██████▌   | 152M/233M [00:14<00:08, 10.2MB/s] 66%|██████▌   | 153M/233M [00:14<00:08, 10.1MB/s] 66%|██████▋   | 154M/233M [00:14<00:07, 10.8MB/s] 67%|██████▋   | 156M/233M [00:14<00:07, 10.8MB/s] 67%|██████▋   | 157M/233M [00:14<00:07, 10.6MB/s] 68%|██████▊   | 158M/233M [00:14<00:07, 10.5MB/s] 68%|██████▊   | 159M/233M [00:14<00:07, 10.6MB/s] 68%|██████▊   | 160M/233M [00:14<00:07, 10.4MB/s] 69%|██████▉   | 161M/233M [00:14<00:07, 10.3MB/s] 69%|██████▉   | 162M/233M [00:15<00:07, 10.6MB/s] 70%|██████▉   | 163M/233M [00:15<00:07, 10.5MB/s] 70%|███████   | 164M/233M [00:15<00:06, 10.5MB/s] 71%|███████   | 165M/233M [00:15<00:06, 10.5MB/s] 71%|███████   | 166M/233M [00:15<00:06, 10.5MB/s] 72%|███████▏  | 167M/233M [00:15<00:06, 10.0MB/s] 72%|███████▏  | 168M/233M [00:15<00:07, 9.76MB/s] 72%|███████▏  | 169M/233M [00:15<00:07, 9.51MB/s] 73%|███████▎  | 170M/233M [00:15<00:06, 10.2MB/s] 73%|███████▎  | 171M/233M [00:16<00:06, 10.2MB/s] 74%|███████▍  | 172M/233M [00:16<00:06, 10.4MB/s] 74%|███████▍  | 173M/233M [00:16<00:06, 10.4MB/s] 75%|███████▍  | 174M/233M [00:16<00:05, 10.7MB/s] 75%|███████▌  | 175M/233M [00:16<00:05, 10.6MB/s] 76%|███████▌  | 176M/233M [00:16<00:05, 10.6MB/s] 76%|███████▌  | 177M/233M [00:16<00:05, 10.3MB/s] 76%|███████▋  | 178M/233M [00:16<00:05, 10.5MB/s] 77%|███████▋  | 179M/233M [00:16<00:05, 10.7MB/s] 77%|███████▋  | 180M/233M [00:16<00:05, 9.90MB/s] 78%|███████▊  | 181M/233M [00:17<00:05, 10.3MB/s] 78%|███████▊  | 182M/233M [00:17<00:05, 10.6MB/s] 79%|███████▊  | 183M/233M [00:17<00:04, 10.5MB/s] 79%|███████▉  | 185M/233M [00:17<00:04, 10.6MB/s] 80%|███████▉  | 186M/233M [00:17<00:04, 10.6MB/s] 80%|████████  | 187M/233M [00:17<00:04, 10.8MB/s] 81%|████████  | 188M/233M [00:17<00:04, 10.7MB/s] 81%|████████  | 189M/233M [00:17<00:04, 10.8MB/s] 81%|████████▏ | 190M/233M [00:17<00:04, 10.9MB/s] 82%|████████▏ | 191M/233M [00:17<00:04, 11.0MB/s] 82%|████████▏ | 192M/233M [00:18<00:04, 10.8MB/s] 83%|████████▎ | 193M/233M [00:18<00:03, 10.7MB/s] 83%|████████▎ | 194M/233M [00:18<00:03, 10.6MB/s] 84%|████████▎ | 195M/233M [00:18<00:03, 10.6MB/s] 84%|████████▍ | 196M/233M [00:18<00:03, 10.6MB/s] 85%|████████▍ | 197M/233M [00:18<00:03, 10.4MB/s] 85%|████████▍ | 198M/233M [00:18<00:03, 10.4MB/s] 85%|████████▌ | 199M/233M [00:18<00:03, 10.3MB/s] 86%|████████▌ | 200M/233M [00:18<00:03, 10.5MB/s] 86%|████████▋ | 201M/233M [00:19<00:03, 10.5MB/s] 87%|████████▋ | 202M/233M [00:19<00:03, 10.4MB/s] 87%|████████▋ | 203M/233M [00:19<00:03, 10.3MB/s] 88%|████████▊ | 204M/233M [00:19<00:02, 10.4MB/s] 88%|████████▊ | 205M/233M [00:19<00:02, 10.1MB/s] 88%|████████▊ | 206M/233M [00:19<00:02, 10.4MB/s] 89%|████████▉ | 207M/233M [00:19<00:02, 10.4MB/s] 89%|████████▉ | 208M/233M [00:19<00:02, 10.3MB/s] 90%|████████▉ | 209M/233M [00:19<00:02, 10.3MB/s] 90%|█████████ | 210M/233M [00:19<00:02, 10.2MB/s] 91%|█████████ | 211M/233M [00:20<00:02, 10.1MB/s] 91%|█████████ | 212M/233M [00:20<00:02, 10.4MB/s] 92%|█████████▏| 213M/233M [00:20<00:02, 10.4MB/s] 92%|█████████▏| 214M/233M [00:20<00:01, 10.2MB/s] 92%|█████████▏| 215M/233M [00:20<00:01, 10.3MB/s] 93%|█████████▎| 216M/233M [00:20<00:02, 5.97MB/s] 93%|█████████▎| 217M/233M [00:20<00:02, 6.44MB/s] 93%|█████████▎| 218M/233M [00:21<00:02, 6.66MB/s] 94%|█████████▍| 219M/233M [00:21<00:02, 7.14MB/s] 94%|█████████▍| 219M/233M [00:21<00:01, 7.37MB/s] 94%|█████████▍| 220M/233M [00:21<00:01, 7.37MB/s] 95%|█████████▍| 221M/233M [00:21<00:01, 7.27MB/s] 95%|█████████▌| 222M/233M [00:21<00:01, 7.96MB/s] 96%|█████████▌| 223M/233M [00:21<00:01, 8.40MB/s] 96%|█████████▌| 224M/233M [00:21<00:01, 8.36MB/s] 96%|█████████▋| 225M/233M [00:21<00:01, 8.34MB/s] 97%|█████████▋| 226M/233M [00:21<00:00, 8.88MB/s] 97%|█████████▋| 226M/233M [00:22<00:00, 9.10MB/s] 98%|█████████▊| 227M/233M [00:22<00:00, 9.30MB/s] 98%|█████████▊| 228M/233M [00:22<00:00, 9.49MB/s] 98%|█████████▊| 229M/233M [00:22<00:00, 9.85MB/s] 99%|█████████▉| 230M/233M [00:22<00:00, 9.55MB/s] 99%|█████████▉| 231M/233M [00:22<00:00, 9.91MB/s]100%|█████████▉| 232M/233M [00:22<00:00, 9.81MB/s]100%|██████████| 233M/233M [00:22<00:00, 10.7MB/s]
+train
+wandb: Currently logged in as: dplars (use `wandb login --relogin` to force relogin)
+wandb: WARNING Ignored wandb.init() arg project when running a sweep
+PyTorch Version:  1.7.0
+Torchvision Version:  0.8.1
+   bn  pn  bullet           foldername             imgname   value
+0   1   1     0.0  batch_001_plate_001  b_001_p_001_nb.jpg  50.730
+1   1   1     1.0  batch_001_plate_001   b_001_p_001_b.jpg  57.122
+2   1   2     0.0  batch_001_plate_002  b_001_p_002_nb.jpg  46.985
+3   1   2     1.0  batch_001_plate_002   b_001_p_002_b.jpg  68.904
+4   1   3     1.0  batch_001_plate_003   b_001_p_003_b.jpg  35.349
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/white/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/red/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+wandb: Currently logged in as: dplars (use `wandb login --relogin` to force relogin)
+wandb: Currently logged in as: dplars (use `wandb login --relogin` to force relogin)
+wandb: WARNING Ignored wandb.init() arg project when running a sweep
+wandb: WARNING Ignored wandb.init() arg project when running a sweep
+wandb: Currently logged in as: dplars (use `wandb login --relogin` to force relogin)
+wandb: WARNING Ignored wandb.init() arg project when running a sweep
+PyTorch Version:  1.7.0
+Torchvision Version:  0.8.1
+   bn  pn  bullet           foldername             imgname   value
+0   1   1     0.0  batch_001_plate_001  b_001_p_001_nb.jpg  50.730
+1   1   1     1.0  batch_001_plate_001   b_001_p_001_b.jpg  57.122
+2   1   2     0.0  batch_001_plate_002  b_001_p_002_nb.jpg  46.985
+3   1   2     1.0  batch_001_plate_002   b_001_p_002_b.jpg  68.904
+4   1   3     1.0  batch_001_plate_003   b_001_p_003_b.jpg  35.349
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/white/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/red/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+PyTorch Version:  1.7.0
+Torchvision Version:  0.8.1
+   bn  pn  bullet           foldername             imgname   value
+0   1   1     0.0  batch_001_plate_001  b_001_p_001_nb.jpg  50.730
+1   1   1     1.0  batch_001_plate_001   b_001_p_001_b.jpg  57.122
+2   1   2     0.0  batch_001_plate_002  b_001_p_002_nb.jpg  46.985
+3   1   2     1.0  batch_001_plate_002   b_001_p_002_b.jpg  68.904
+4   1   3     1.0  batch_001_plate_003   b_001_p_003_b.jpg  35.349
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/white/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/red/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+PyTorch Version:  1.7.0
+Torchvision Version:  0.8.1
+   bn  pn  bullet           foldername             imgname   value
+0   1   1     0.0  batch_001_plate_001  b_001_p_001_nb.jpg  50.730
+1   1   1     1.0  batch_001_plate_001   b_001_p_001_b.jpg  57.122
+2   1   2     0.0  batch_001_plate_002  b_001_p_002_nb.jpg  46.985
+3   1   2     1.0  batch_001_plate_002   b_001_p_002_b.jpg  68.904
+4   1   3     1.0  batch_001_plate_003   b_001_p_003_b.jpg  35.349
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/white/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/red/train/bad/
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+(480, 640, 3)
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+wandb: ERROR Abnormal program exit
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py", line 668, in <module>
+    wandb.init(config=default_config, project="pytorch-TWI_spaghetti_sweep")
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 612, in init
+    six.raise_from(Exception("problem"), error_seen)
+  File "<string>", line 3, in raise_from
+Exception: problem
+Problem at: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py 668 <module>
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+wandb: ERROR Abnormal program exit
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+wandb: ERROR Abnormal program exit
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py", line 668, in <module>
+    wandb.init(config=default_config, project="pytorch-TWI_spaghetti_sweep")
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 612, in init
+    six.raise_from(Exception("problem"), error_seen)
+  File "<string>", line 3, in raise_from
+Exception: problem
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py", line 668, in <module>
+    wandb.init(config=default_config, project="pytorch-TWI_spaghetti_sweep")
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 612, in init
+    six.raise_from(Exception("problem"), error_seen)
+  File "<string>", line 3, in raise_from
+Exception: problem
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+wandb: ERROR Abnormal program exit
+Problem at: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py 668 <module>
+Problem at: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py 668 <module>
+Problem at: /Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py 668 <module>
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 575, in init
+    run = wi.init()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 367, in init
+    backend.ensure_launched(
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/backend/backend.py", line 81, in ensure_launched
+    self.wandb_process.start()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/context.py", line 284, in _Popen
+    return Popen(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 32, in __init__
+    super().__init__(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/popen_spawn_posix.py", line 42, in _launch
+    prep_data = spawn.get_preparation_data(process_obj._name)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 154, in get_preparation_data
+    _check_not_importing_main()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 134, in _check_not_importing_main
+    raise RuntimeError('''
+RuntimeError: 
+        An attempt has been made to start a new process before the
+        current process has finished its bootstrapping phase.
+
+        This probably means that you are not using fork to start your
+        child processes and you have forgotten to use the proper idiom
+        in the main module:
+
+            if __name__ == '__main__':
+                freeze_support()
+                ...
+
+        The "freeze_support()" line can be omitted if the program
+        is not going to be frozen to produce an executable.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/TWI/code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/AllNetworks/train.py", line 668, in <module>
+    wandb.init(config=default_config, project="pytorch-TWI_spaghetti_sweep")
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 612, in init
+    six.raise_from(Exception("problem"), error_seen)
+  File "<string>", line 3, in raise_from
+Exception: problem
+Traceback (most recent call last):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 872, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/queues.py", line 107, in get
+    if not self._poll(timeout):
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/connection.py", line 424, in _poll
+    r = wait([self], timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/multiprocessing/connection.py", line 931, in wait
+    ready = selector.select(timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 18787) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "train.py", line 712, in <module>
+    run()
+  File "train.py", line 690, in run
+    _,pt_hist = train_model(pt_model, dataloaders_dict, pt_criterion, pt_optimizer, num_epochs=config.epochs, is_inception=(config.model_name=="inception"))
+  File "train.py", line 498, in train_model
+    for inputs, labels in dataloaders[phase]:
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 435, in __next__
+    data = self._next_data()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1068, in _next_data
+    idx, data = self._get_data()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1034, in _get_data
+    success, data = self._try_get_data()
+  File "/Users/larsdepauw/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 885, in _try_get_data
+    raise RuntimeError('DataLoader worker (pid(s) {}) exited unexpectedly'.format(pids_str)) from e
+RuntimeError: DataLoader worker (pid(s) 18787, 18788, 18789) exited unexpectedly
