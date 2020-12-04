@@ -12,7 +12,7 @@ extra documents of the results in the folders images/dataset/.....
 
 ===== Camera position to top =====
 The second test was conducted with the camera mounted a little more to the top of the inserts. This made the reflection from the worn area to the camera better. 
-The first test results where also all black pictures caused by the same problem. On a second test this issue was solved and the following pictures where the result. The issue was resolved by adding enormous amounts of delay for each command sent to the arduino. This made the process take very long (about 1 second per photo).
+The first test results where also all black pictures caused by the same problem as on the first test of [[Vision:Dataset:automated datasets:1 check camera position:1 camera position side|camera position side]]. On a second test this issue was resolved and the following pictures where the result. The issue was resolved by adding enormous amounts of delay for each command sent to the arduino. This made the process take very long (about 1 second per photo).
 
 One picture was taken for every two leds of the strip with red light. for batch number 4 insert 3 with leds 5,6 and 7 turned on.
 

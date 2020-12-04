@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-11-11T19:53:00+01:00
+
+====== 1 camera position side ======
+Created woensdag 11 november 2020
+
+===== Camera position on the side =====
+Taken on the first 4 plates of batch 04 with red lighting only from the adressable led strips. 
+
+1st light position is made with a setup with two led strips where one image is taken for every set of two led lights. 
+output is bad. Reflection angle wasn't good. 
+Results saved in next directory
+/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma ing/Masterproef/Images/dataset/First_automated/camera_zijkant_dual_ledstrip
+
+{{./achter2.jpeg?width=400}}
+
+The images that where taken with this setup are found here:
+Due to the problems with the arduino communications described [[:Code:Problems:arduino loop time|here]] the first dataset wasn't successfull because the leds didn't turn on when the photo's where taken. So the results are all black pictures with al little shadow of the insert caused by the polluting light. 
+
+{{./p3_l6_black.png?width=400}}
+
+===== Camera position on the side take two =====
+
+A delay was entered before sending a command to the arduino to provide the wanted lighting conditions. Although this was a very long process the results are way better than the ones from the first take on this camera setup. 
+
+The same setup was used with the camera in the same position. For red led only the following image is the result.
+
+The leds shown here leds 8 through 10. There is a nice lighting of every part of the wear
+{{./p3_l8.png?width=300}}{{./p3_l9.png?width=300}}{{./p3_l10.png?width=300}}
+
+This lightens the worn area very good. Although th ebackground is lighted as well and makes it harder to only see the worn area. On this we can build the first dataset. 
+Next the [[Vision:Dataset:automated datasets:1 check camera position:2 camera position top|top view]] was tested 

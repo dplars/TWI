@@ -2,7 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
 Creation-Date: 2020-11-27T16:41:09+01:00
 
-====== Second automated dataset ======
+====== conducted tests before creation ======
 Created vrijdag 27 november 2020
 
 Getting first full dataset with images of all plates
@@ -32,7 +32,7 @@ b_xxx_p_xxx_bullet_l_xxx_color_strip.png
 possibly 3 and 4 no bullet wrong 
 rest went okay just check the batches 3 and 4
 
-===== [[+Birthday dataset|Birthday dataset]] =====
+===== [[1 Birthday dataset|Birthday dataset]] =====
 batch 3 plate 7 no bullet:  had restants of 3D print plastic on worn area
 batch 3 plate 8 no bullet:  is a bit off picture
 from here in batch 3 plates go out of sight for no bullet side. 

@@ -122,7 +122,7 @@ Voor alle bovenstaande tests werden de labels van [[~/Documents/Lars.nosync/Docu
 	d. feature/<featurename> branch
 6. Belichten van de fotos verliep zeer goed, alleen was het zeer moeilijk om de camera te positioneren en scherp te stellen met de huidige standaard. Hiervoor werd gevraagd of nieuwe materialen konden besteld worden om deze standaard te vervangen.
 7. Vraag om ander print materiaal te kunnen gebruiken voor de print van de clips. Nu werd witte PLA gebruikt wat nogal snel afbreekt, met PETG hopen we de problemen niet meer te hebben.
-8. Aanmaken van een [[:Vision:Dataset:Second handmade dataset|nieuwe dataset]] met de eerste batch van plaatjes gezien niet duidelijk was welke kant de a kant was en welke de b-kant.
+8. Aanmaken van een [[:Vision:Dataset:handmade datasets:Second handmade dataset|nieuwe dataset]] met de eerste batch van plaatjes gezien niet duidelijk was welke kant de a kant was en welke de b-kant.
 	a. Dit werd gedaan met een simpele setup waarbij de camera op de bureau stond en handmatig werden van alle plaatjes foto's genomen en vergeleken met de gekregen foto's van Sirris.
 	b. Blijkt dat de B kant de kant is met de streep
 
@@ -161,15 +161,28 @@ Meeste plaatjes op de wielen gestoken en die van het eerste wiel voor batch 1 en
 Woensdag
 Overige clips en rad geprint en plaatjes op de raden gestoken. 
 Een deel gedocumenteerd over de aangelegde datasets:
-* [[Vision:Dataset:camera position:1 camera position side]] aangevuld
-* [[Vision:Dataset:camera position:2 camera position top]] aangevuld
+* [[Vision:Dataset:automated datasets:1 check camera position:1 camera position side]] aangevuld
+* [[Vision:Dataset:automated datasets:1 check camera position:2 camera position top]] aangevuld
 * [[Vision:Dataset]] aangevuld
 
 
 Afwerken van de setup door toevoeging van nieuwe staander voor motor
 aanmaken van een nieuwe dataset genaamd spaghetti met vier foto's per plaatje
 
-foto's van spaghetti door algoritme laten gaan en sweep laten uitvoeren. Eerste resultaten zien er zeer slecht uit. Slechtere accuracy dan bij de vorige dataset die met de hand was gemaakt. ([[Vision:Dataset:Second handmade dataset|second handmade dataset)]]
+foto's van spaghetti door algoritme laten gaan en sweep laten uitvoeren. Eerste resultaten zien er zeer slecht uit. Slechtere accuracy dan bij de vorige dataset die met de hand was gemaakt. ([[Vision:Dataset:handmade datasets:Second handmade dataset|second handmade dataset)]]
 Wel meer data om te testen en valideren. Test resultaten zien er wel beter uit.
 
 wandb proberen instellen om te runnen vanaf mijn eigen computer tot hiertoe zonder succes
+
+Vrijdag
+Documenteren van de verschillende tests die uitgevoerd werden op de verkregen datasets.
+zie:
+* [[Vision:GoogleColab:Test Camera Setup:All Networks:All Networks 1|All networks 1]]
+* [[Vision:GoogleColab:Test Camera Setup:All Networks:All Networks 2|All networks 2]]
+* [[Vision:GoogleColab:Test Camera Setup:All Networks:All Networks 4 Spaghetti|All networks 4 Spaghetti]]
+* [[Vision:GoogleColab:Test Camera Setup:All Networks:All networks 4 spaghetti first 5 batches|All networks 4 Spaghetti first 5 batches]]
+
+Aanmaken pagina met foto's van [[Camera setup:Tool Holder:Wheel Holder:Second Wheel Holder|nieuw rad v2]]
+
+Datasets documenteren:
+[[Vision:Dataset:automated datasets:2 created datasets:2 Spaghetti dataset|Spaghetti dataset]]

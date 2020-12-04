@@ -5,23 +5,32 @@ Creation-Date: 2020-11-13T16:46:46+01:00
 ====== Dataset ======
 Created vrijdag 13 november 2020
 
+A separation is made between hand made datasets and automated datasets because they take a very different approach and produce very differing pictures.
 
-===== [[+initial dataset|initial dataset]] =====
-The initial dataset where the images made by a microscopic camera at Sirris. These pictures were taken for the measurement of the toolwear. 
+===== [[Vision:Dataset:handmade datasets|Handmade datasets]] =====
+The following datasets where produced using a microscopic camera to take pictures of single inserts all placed under the camera by hand.
 
-===== [[+Second handmade dataset|Second handmade dataset]] =====
-A second dataset was made to compare the pictures with the previous dataset. This is done to verify the images and the results and to determine what the marker means.
+==== [[+handmade datasets:initial dataset|initial dataset]] ====
+	The initial dataset where the images made by a microscopic camera at Sirris. These pictures were taken for the measurement of the toolwear. This dataset provided the labels for the first 5 batches labeled with 00x.
 
-===== [[:Vision:Dataset:camera position:1 camera position side|First automated dataset]] =====
-This is the first test with the automated camera setup using the wheel to make the inserts go past the camera. The camera is slightly tilted to the side for this work.
+==== [[+handmade datasets:Second handmade dataset|Second handmade dataset]] ====
+	A second dataset was made to compare the pictures with the previous dataset. This is done to verify the images and the results and to determine 	what the marker meant. This dataset also handles the first 5 batches labeled with 00x
 
-This includes the [[Vision:Dataset:camera position:1 camera position side|1 camera position side dataset]] and the [[Vision:Dataset:camera position:2 camera position top|2 camera position top dataset]]
+==== [[Vision:Dataset:handmade datasets:second initial dataset|second initial dataset]] ====
+	The second initial dataset was made with the inserts from batches 11 to 19 labeled with 01x. Here the images where taken with the same microscope as the first initial dataset but instead of phtotographing only the one insert at a time; two inserts are photographed per shot.
 
-[[Vision:Dataset:camera position:camera position first full dataset|camera position first full dataset]]
+===== [[Vision:Dataset:automated datasets|Automated datasets]] =====
+First the camera position is discussed and than the datasets are all listed.
 
-===== [[Vision:Dataset:camera position:camera position first full dataset:Birthday dataset|Birthday dataset]] =====
-Created a dataset on 27/11/2020 with a part of the given inserts for every possible color and led setting where pictures are taken from two separate led strips and every led one after another. This is done for white, red, green and blue colors. 
-Done for batch 1 to 11
+==== [[Vision:Dataset:automated datasets:1 check camera position|Camera position]] ====
+	This discussed two setups where on the one the camerea is more pointed to the side of the insert and the other one is pointed more to the top of the insert.
+	1. [[+automated datasets:1 check camera position:1 camera position side|1 camera position side dataset]]
+	2. [[+automated datasets:1 check camera position:2 camera position top|2 camera position top dataset]]
 
+==== [[Vision:Dataset:automated datasets:2 created datasets|created datasets]] ====
+	All created datasets which conduct a few images that are worth processing are discussed here. 
 
-===== spaghetti dataset =====
+	1. [[Vision:Dataset:automated datasets:2 created datasets:1 Birthday dataset|birthday dataset]]
+		a. [[Vision:Dataset:automated datasets:2 created datasets:1 Birthday dataset:conducted tests before creation|conducted tests]]
+	2. Spaghetti dataset
+		a. conducted tests

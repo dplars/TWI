@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T21:53:34+01:00
+
+====== All networks 4 spaghetti first 5 batches ======
+Created vrijdag 04 december 2020
+
+Only the first five batches are analysed in this report to check if the dataset is as good as the dataset created by hand of these batches.
+Also the difference is checked between the red and white leds.
+

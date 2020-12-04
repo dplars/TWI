@@ -39,3 +39,12 @@ short term
 
 ===== Week 30/11/2020 - 06/12/2020 =====
 Verder documenteren datasets en beginnen aan documentatie van de resultaten en opschrijven wat er in het tussentijds verslag komt.
+
+[*] second wheel holder [[Camera setup:Tool Holder:Wheel Holder:Second Wheel Holder]]
+[*] second initial dataset description
+[*] AllNetworks 1
+[*] allnetworks 2
+[*] allnetworks 3
+[*] all networks 4
+[*] Spaghetti dataset
+[ ] create overview of different dataset and compare them with results

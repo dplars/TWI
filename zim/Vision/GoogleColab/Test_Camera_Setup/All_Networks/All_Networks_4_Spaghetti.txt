@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T13:44:22+01:00
+
+====== All Networks 4 Spaghetti ======
+Created vrijdag 04 december 2020
+
+The code for this can be found in here: [[https://colab.research.google.com/drive/1kKCU9pAsVRqNR-lX1p45Z7BLTxp76CMq|TSU_AllNetworks_4_spaghetti]]
+
+
+The report is noted in [[https://wandb.ai/dplars/pytorch-TWI_spaghetti_sweep/reports/Spaghetti-sweep-with-TSU_AllNetworks_4_spaghetti--VmlldzozNTIxNjM|Spaghetti sweep with TSU_AllNetworks_4_spaghetti]] This can be transformed into latex without further problems i hope.

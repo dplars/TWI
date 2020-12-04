@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T13:42:54+01:00
+
+====== All Networks 3 Birthday ======
+Created vrijdag 04 december 2020
+
+The code for this project is to be found here: [[https://colab.research.google.com/drive/1_DKPtHi231TMalsj-uaBLytjcX2DuyV4#scrollTo=vmsTN_T4xoXP|TSU_AllNetworks_3_Birthday]]

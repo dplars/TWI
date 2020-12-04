@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T11:19:56+01:00
+
+====== automated datasets ======
+Created vrijdag 04 december 2020
+
+Divided in a few topics:
+
+* [[Vision:Dataset:automated datasets:1 check camera position|check camera position]] which will discuss different camera position angles
+* [[Vision:Dataset:automated datasets:2 created datasets|created datasets]] where all fully created datasets will be discussed

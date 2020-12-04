@@ -1,11 +1,9 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.6
-Creation-Date: 2020-12-02T22:36:56+01:00
+Creation-Date: 2020-12-04T13:42:40+01:00
 
-====== All Networks 1 ======
-Created woensdag 02 december 2020
-
-All networks 1 can be found [[https://colab.research.google.com/drive/1bWt0DgypiYoOOgnSGjlmSdDo7elvJnH4|here.]]
+====== All Networks 2 ======
+Created vrijdag 04 december 2020
 
 ===== Network architectures =====
 This model is used to test different model architectures namely:
@@ -40,10 +38,13 @@ Interesting results will be bespoken here;
 Tests for different models: 
 | model name | test accuracy % | validation accuracy% | transfer learning |
 |------------|-----------------|----------------------|:------------------|
-| Alexnet    | 100             | 90                   | yes               |
-| VGG11_bn   | 89              | 85                   | yes               |
-| Densenet   | 89              | 85                   | yes               |
-| Squeezenet | 89              | 85                   | yes               |
-| Resnet18   | 89              | 90                   | no                |
+| Alexnet    | 100             | 100                  | yes               |
+| Resnet18   | 100             | 95                   | no                |
+| Densenet   | 100             | 85                   | yes               |
+| Squeezenet | 100             | 85                   | yes               |
+| VGG11_bn   | 100             | 90                   | no                |
 										
 An overview of the best runs for every model architecture. Since there are only nine test images; the test scores are set to a very high granularity. Further results of this test are to be found on wandb as [[https://wandb.ai/dplars/pytorch-TWI_second_handmade/reports/Testing-on-first-handmade-dataset--VmlldzozNTE5NzM|Testing on first handmade dataset]]
+
+
+Trying to sweep over different parameter settings didn't work on my local computer; all runs failed or crashed

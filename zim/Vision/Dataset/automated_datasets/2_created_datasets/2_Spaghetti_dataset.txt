@@ -1,0 +1,79 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T12:32:31+01:00
+
+====== 2 Spaghetti dataset ======
+Created vrijdag 04 december 2020
+
+After the [[Vision:Dataset:automated datasets:2 created datasets:1 Birthday dataset|Birthday dataset]] a new dataset was created using the things learned from that. Now the amount of leds driven is reduced to 5 leds. Where led 6 to 11 is used to lighten the inserts. 
+only the colors white and red are used for this dataset. This was discussed thad the red color could have an influence on the reflection of the carbide of which the inserts are made see [[Research:Light:Light Reflection|light reflection.]]
+
+===== Dataset explanation =====
+For every insert, two pictures are taken. One with leds 6 to 11 on red and one with these leds white. This was experimentally found to be the best setting for reflecting the light off the worn area and into the camera. 
+Turning on a led to much on the upper bounary will lighten the side of the insert which isn't of much use in this paper. Turining on a led to much on the bottom boundary makes the background very bright which supports unnessesary information.
+
+The images are separated in a folder for every insert named with batch number and insert number:
+batch_aaa_plate_bbb where aaa is the batch number and bbb is the insert number.
+Images are named with their settings, batch number and insert number:
+b_aaa_p_bbb_l_006-011_color_bullet.png 
+where 
+* aaa is the batch number; 
+* bbb is the plate number, 
+* 006-011 are the leds that turned on at the same time; 
+* color is the color: red or white
+* bullet is the appearance of a bullet on the side of the inset and has values of b for bullet or nb for no bullet.
+
+The dataset inserts consisted of a few different types and coatings. 
+
+===== Setup =====
+The setup used is exactly the same as on the Birthday dataset where the camera is positioned as much to the top as possible. This can be seen on the picture:
+Here we can see the led strips are a little bit twisted and are positioned very close to each other. This made the reflection better and should result in beter outcome of the algorithm.
+
+{{./IMG_9295.jpeg?width=400}}
+
+The camera angle is kept the same a little to the top and very close to the inserts as seen on the next picture:
+{{./IMG_9296.jpeg?width=400}}
+
+Through the whole dataset the direct light coming from other sources eg. the light of the room was blocked to have full control of the lighting conditions.
+
+===== Results =====
+Underneath are some pictures of good examples in the dataset.
+
+Underneath are two pictures of batch 3 insert 6. These where lid with red light on the left and white light on the right. Here is a nice wear shown and lighted. However if we zoom in to the picture the top part of the wear is not lighted that well. We can also see a white piece of the insert holder on the image which is providing som extra difficulties. The discussion of these difficulties will be bespoken in [[Research:Vision Algorithm|vision algorithm.]]
+{{./b_003_p_006_l_006-011_red_nb.png?width=300}}{{./b_003_p_006_l_006-011_white_nb.png?width=300}}
+
+Some pictures aren't sharp like the one shown next.
+like batch 5 insert 5 withoud bullet.
+{{./b_005_p_005_l_006-011_white_nb.png?width=300}}
+
+=== Different insert types ===
+First type are the grey inserts with very visible wear. These are seen in batches 1 to 5 consistently. This type will be called grey inserts.
+{{./gray_b_003_p_004_l_006-011_white_nb.png?width=300}}
+
+Than there are other inserts in batch 11 which are also grey but have a different shape on the cutting part. These will be called rounded grey inserts.
+{{./rounded_grey_b_011_p_008_l_006-011_white_nb.png?width=300}}
+In batch 12 and 13 there are the same shape of inserts but with a black coating which results in way darker pictures as seen here on batch 13 insert 2 no bullet. These inserts are the rounded black inserts.
+{{./rounded_black_b_013_p_002_l_006-011_white_nb.png?width=300}}
+
+The next type are copper colored inserts with the rounded shape. Seen in batch 14 insert 5 no bullet.
+{{./rounded_copper_b_014_p_005_l_006-011_white_nb.png?width=300}}
+
+Than we have inserts with a gold coating and hooked shape. For batch 15 insert 6 no bullet that gives the next picture:
+{{./rounded_gold_b_015_p_006_l_006-011_white_nb.png?width=300}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

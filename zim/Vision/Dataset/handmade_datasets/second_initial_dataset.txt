@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T12:07:41+01:00
+
+====== second initial dataset ======
+Created vrijdag 04 december 2020
+
+With the second number of inserts (batch 11 to 19) another dataset was created for measurement.
+Since the photo's where labeled with two inserts at a time; the images taken where not relevant for the data processing and were not saved
+
+The distance for these inserts is measured between the line connecting the two highest points visible on the insert and the outer most point of the wear area.
+
+

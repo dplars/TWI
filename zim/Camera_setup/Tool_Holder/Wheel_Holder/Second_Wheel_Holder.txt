@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T16:49:03+01:00
+
+====== Second Wheel Holder ======
+Created vrijdag 04 december 2020
+
+The first wheel holder wasn't good because the inserts where clamped in with the knife side so it was very hard to remove them.
+In a new wheel holder the clamps got changed by new clips that can easily be removed and printed again when the design changes. 
+The inner tube that slides over the motor shaft is made bigger to fit over the motor axis.
+
+{{./radhouder_v2.png?width=500}}
+
+In the wheel there are holes in which the clips fit. The center hole is as big as the hole in the inserts. This keeps the insert from moving round the hole.
+The slads between the holes are made to fit the insert perfectly so this doesn't move or shift around. 
+
+On the pictures the slads are visible which is not ideal so they will probably have to be adjusted in a future design.
+
+The printing of these wheels was very difficult since it was with another material as we were used to and the print wouldn't stick to the print bed. This made a few bad runs and hours of wasted printing time. At the end 8 wheels of this are printed correctly and were used to create the [[Vision:Dataset:automated datasets:2 created datasets:1 Birthday dataset|Birthday dataset]] and the [[Vision:Dataset:automated datasets:2 created datasets:2 Spaghetti dataset|spaghetti dataset.]]
+
+The clips looked like this:
+{{./clip_9.png?width=300}}

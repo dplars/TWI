@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T11:23:14+01:00
+
+====== 2 created datasets ======
+Created vrijdag 04 december 2020
+
+The full datasets will be discussed in this page where firstly the dataset is documented and after that the tests that lead to this dataset are discussed.
+
+===== Birthday dataset =====
+Created a dataset on 27/11/2020 with a part of the given inserts for every possible color and led setting where pictures are taken from two separate led strips and every led one after another. This is done for white, red, green and blue colors. 
+Done for batch 1 to 11
+
+
+===== spaghetti dataset =====

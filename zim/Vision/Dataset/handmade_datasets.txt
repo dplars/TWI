@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T11:19:16+01:00
+
+====== handmade datasets ======
+Created vrijdag 04 december 2020
+

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2020-12-04T11:20:54+01:00
+
+====== 1 check camera position ======
+Created vrijdag 04 december 2020
+
+===== 1 & 2 =====
+In this set there will be defined what the best camera position is for the creation of the dataset. [[+1 camera position side|Top view]] as well as [[+2 camera position top|side view]] will be checked.

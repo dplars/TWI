@@ -13,3 +13,5 @@ While again checking the inserts out, a new dataset is created since this didn't
 
 
 
+{{./initial dataset pictuer.PNG?width=300}}
+
