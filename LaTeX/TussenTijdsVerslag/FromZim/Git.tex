@@ -1,0 +1,96 @@
+\documentclass{scrartcl}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[usenames]{color}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{enumerate}
+
+\usepackage{listings}
+
+\lstset{ %
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,                   % adds a frame around the code
+tabsize=2,                      % sets default tabsize to 2 spaces
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+}
+
+
+\title{Git}
+\date{dinsdag 08 december 2020}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+		\section{Git}
+
+Created vrijdag 13 november 2020
+
+
+
+Git workflow:
+
+
+
+Branches
+
+\begin{itemize}
+\item master
+\item develop
+\item feature/\textless{}feature-name\textgreater{}
+\end{itemize}
+
+
+Standard working;
+
+\begin{enumerate}[1]
+\item Git pull -\textgreater{} in correct map
+\item work
+\item git add \textless{}working folder name\textgreater{}/*
+\end{enumerate}
+4.git commit
+
+	\begin{enumerate}[a]
+	\item -m "commit text"
+	\item -\textgreater{} just commit opens new editor window. first line short text than two empty lines and than long text for commit
+	\end{enumerate}
+\begin{enumerate}[1]
+\setcounter{enumi}{4}
+\item git pull
+\item git push
+\item git push origin \textless{}branch name\textgreater{} -\textgreater{} push to branch on remote git
+\end{enumerate}
+
+
+Creating new feature
+
+\begin{enumerate}[1]
+\item git checkout develop	-\textgreater{} go to develop branch
+\item git branch -d feature/\textless{}feature name\textgreater{}		-\textgreater{} create branch
+\item git push origin feature/\textless{}feature name\textgreater{}	-\textgreater{} push branch to remote
+\item work
+\item git checkout develop					-\textgreater{} set active branch to develop
+\item git merge feature/\textless{}feature name\textgreater{}		-\textgreater{} merge branch to local current branch
+\item edit files that couldn't be merged
+\item git add \textless{}file name\textgreater{}
+\end{enumerate}
+
+
+Creating a tag 
+
+\begin{enumerate}[1]
+\item git tag 1.0.0 \textless{}first 10 characters of commit id\textgreater{}
+\end{enumerate}
+
+
+\end{document}

@@ -1,0 +1,128 @@
+\documentclass{scrartcl}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[usenames]{color}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{enumerate}
+
+\usepackage{listings}
+
+\lstset{ %
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,                   % adds a frame around the code
+tabsize=2,                      % sets default tabsize to 2 spaces
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+}
+
+
+\title{All Networks 1}
+\date{dinsdag 08 december 2020}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+		\section{All Networks 1}
+
+Created woensdag 02 december 2020
+
+
+
+All networks 1 can be found \href{https://colab.research.google.com/drive/1bWt0DgypiYoOOgnSGjlmSdDo7elvJnH4}{here.}
+
+
+
+\subsection{Network architectures}
+
+This model is used to test different model architectures namely:
+
+\begin{itemize}
+\item Resnet18
+\item Alexnet
+\item VGG11\_bn
+\item Squeezenet
+\item Densenet
+\end{itemize}
+
+
+inception v3 didn't seem to work
+
+
+
+These models are all relatively small and should provide quite good results for a small dataset. 
+
+More on why the models should work can be found \href{../../../../Research/Vision_Algorithm/camera_position_validation.tex}{here}
+
+
+
+\subsection{Dataset}
+
+
+
+This algorithm had the input of images from the \href{../../../Dataset/handmade_datasets/Second_handmade_dataset.tex}{Second handmade dataset} which was devided into 3 classes based on their measured wear value. 
+
+\begin{tabular}{ |l|l|l| }
+\hline
+ class & min value (micron) & max value (micron) \tabularnewline
+\hline
+\hline
+ good & 0 & 130 \tabularnewline
+\hline
+ medium & 130 & 230 \tabularnewline
+\hline
+ bad & 230 & ∞ \tabularnewline
+\hline
+\end{tabular}
+
+
+
+
+
+
+
+
+
+
+\subsection{Results}
+
+Results of this notebook are available on wandb as \href{https://wandb.ai/dplars/pytorch-TWI_second_handmade?workspace=user-dplars}{pytorch-TWI\_second\_handmade}
+
+
+
+Interesting results will be bespoken here;
+
+Tests for different models: 
+
+\begin{tabular}{ |l|l|l|l| }
+\hline
+ model name & test accuracy \% & validation accuracy\% & transfer learning \tabularnewline
+\hline
+\hline
+ Alexnet & 100 & 90 & yes \tabularnewline
+\hline
+ VGG11\_bn & 89 & 85 & yes \tabularnewline
+\hline
+ Densenet & 89 & 85 & yes \tabularnewline
+\hline
+ Squeezenet & 89 & 85 & yes \tabularnewline
+\hline
+ Resnet18 & 89 & 90 & no \tabularnewline
+\hline
+\end{tabular}
+										
+
+An overview of the best runs for every model architecture. Since there are only nine test images; the test scores are set to a very high granularity. Further results of this test are to be found on wandb as \href{https://wandb.ai/dplars/pytorch-TWI_second_handmade/reports/Testing-on-first-handmade-dataset--VmlldzozNTE5NzM}{Testing on first handmade dataset}
+
+
+
+\end{document}

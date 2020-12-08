@@ -1,0 +1,147 @@
+\documentclass{scrartcl}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[usenames]{color}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{enumerate}
+
+\usepackage{listings}
+
+\lstset{ %
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,                   % adds a frame around the code
+tabsize=2,                      % sets default tabsize to 2 spaces
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+}
+
+
+\title{Masterproef Tool Wear Inspection - Meeting2 DH}
+\date{dinsdag 08 december 2020}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+		\section{Masterproef Tool Wear Inspection - Meeting2 DH}
+
+Created vrijdag 20 november 2020
+
+
+
+Meeting 21/10/2020
+
+Dries Hulens
+
+
+
+Plaatjes tonen
+
+
+
+Camera opstelling maken 
+
+-	Licht? -\textgreater{} led
+
+o	\href{https://www.ni.com/en-gb/innovations/white-papers/12/a-practical-guide-to-machine-vision-lighting.html}{https://www.ni.com/en-gb/innovations/white-papers/12/a-practical-guide-to-machine-vision-lighting.html}
+
+	Eender wat checken golflengte 
+
+Zien bij welke frequentie het materiaal waarmee het plaatje gemaakt is het meeste licht weerkaatst.  Zo sneller nuttig van onnutig scheiden op de beelden
+
+
+
+-	Camera setup tools
+
+Statief/ houder -\textgreater{} twee kanten tegelijk nakijken
+
+	 3d printen om de opstelling te maken 
+
+
+
+-	Lenzen
+
+20px per fout -\textgreater{} 20micron fout meten -\textgreater{} 1px per micron detecteren
+
+	Resulutie is hoog genoeg om de fouten te detecteren, eventueel kan een hogere resolutie gewenst zijn als de soorten fouten moeilijk zichtbaar zijn
+
+
+
+Schrijven workflow?
+
+	Lezen en meteen wat typen over het artikel?
+	
+		Goed -\textgreater{} nog niet te veel schrijven, eerst veel testen
+		
+	Schrijven kan op 2 weken als alles goed gedocumenteerd is tijdens de testen
+
+	Hoeveel moet gefundeerd worden met artikels? -\textgreater{}meer tijd steken in testings?
+	
+	Artikels voor alles wat opgezocht moet worden, de rest gewoon testresultaten meegeven en kort staven
+
+		
+
+Pytorch begonnen
+
+	Regressie model niet kunnen doen
+	
+	
+
+	Wel binaire classificatie 
+	
+-\textgreater{} slechtere resultaten dan met keras tot hiertoe nu transfer learning aan toe aan het voegen
+
+-\textgreater{} binaire classificatie gebruiken om te checken of een testopstelling goed is of niet.
+
+
+
+Volgende is regressie en dan het zo goed mogelijke model bepalen en daar de tests met verschillende datasets mee doen.
+
+
+
+Fout uitsnijden met grootste reflectie blob
+
+	Om de fout er zo goed mogelijk uit te kunnen halen. Na tests na de meeting is te zien dat dit misschien niet meer nodig zal zijn
+
+
+
+
+
+Datasets maken
+
+	Verschillende tests:
+	
+-	licht? -\textgreater{} reflectie goed naar voor brengen
+
+o	Geconcentreerd -\textgreater{} dit
+
+o	Ambient 
+
+-	Kijkhoek -\textgreater{} de slijtage zo goed mogelijk op de normaalvlak krijgen
+
+Belichtings kleuren testen
+
+
+
+Verschillende kanten belichten en in meerdere channels steken
+
+	Plaatje belichten met apart adresseerbare leds die een voor een aangaan en bij elke verandering een foto nemen, voor de verwerking deze foto’s behandelen als multi channel afbeeldingen ipv RGB een aantal channels dat evengroot is als het aantal verschillende led posities
+
+
+
+Scope op enkel deze plaatjes zetten
+
+	Geen rekening houden met andere tools te kunnen zien (algemeen zelf de scope stilaan wat vastzetten) 
+
+
+
+\end{document}

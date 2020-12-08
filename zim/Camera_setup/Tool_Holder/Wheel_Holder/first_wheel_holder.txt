@@ -4,7 +4,7 @@ Creation-Date: 2020-11-13T17:26:36+01:00
 
 ====== first wheel holder ======
 Created vrijdag 13 november 2020
-
+used
 To be able to quickly create a lot of photos in a consistant way, a wheel is designed to mount 20 tools at once; using a stepper motor and a fixed camera and lighting setup the process of taking images would be automated for every 20 tools. The holder will be 3D printed so a few wheels can be made to be able to swap the wheels with new tools for an efficient dataset creation.
 
 {{./radhouder.png?height=300}}

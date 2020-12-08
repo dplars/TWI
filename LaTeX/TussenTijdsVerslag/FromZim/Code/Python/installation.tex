@@ -1,0 +1,142 @@
+\documentclass{scrartcl}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[usenames]{color}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{enumerate}
+
+\usepackage{listings}
+
+\lstset{ %
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,                   % adds a frame around the code
+tabsize=2,                      % sets default tabsize to 2 spaces
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+}
+
+
+\title{installation}
+\date{dinsdag 08 december 2020}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+		\section{installation}
+
+Created woensdag 11 november 2020
+
+
+
+\subsection{Install opencv}
+
+\begin{enumerate}[1]
+\item brew install python
+\item pip install numpy
+\item brew tap homebrew/science
+\item brew install opencv
+\end{enumerate}
+
+
+\subsection{extra installation for pycharm}
+
+\href{https://stackoverflow.com/questions/43372432/can-not-install-open-cv-on-my-pycharm-version-mac}{https://stackoverflow.com/questions/43372432/can-not-install-open-cv-on-my-pycharm-version-mac}
+
+For installing OpenCV on Mac and using it in PyCharm, follow these steps:
+
+
+
+Prerequisites: Python 2.7 or 3xx, virtualenv and OpenCV installed.
+
+
+
+Open a terminal and create a virtual environment, pyimagesearch here
+
+
+
+\$  mkvirtualenv pyimagesearch
+
+Step 2 is miscellaneous, depending on your needs.
+
+
+
+pip install numpy
+
+
+
+pip install scipy
+
+
+
+pip install matplotlib
+
+Sym-link your cv2.so and cv.py files. (only cv2.so files for OpenCV 3xx ). On my system, OpenCV is installed in /usr/local/lib/python/2.7/site\_packages/
+
+
+
+\$  cd ~/.virtualenvs/pyimagesearch/lib/python2.7/site-packages/
+
+
+
+\$  ln -s /usr/local/lib/python2.7/site-packages/cv.py cv.py
+
+
+
+\$  ln -s /usr/local/lib/python2.7/site-packages/cv2.so cv2.so
+
+These steps are essentially for setting up this virtual environment for PyCharm.
+
+Open up PyCharm and create a new "Pure Python" project
+
+
+
+Set up the location of our Python Interpreter. By default, PyCharm will point to the system install of Python, however, for our case we need it to point to the virtual environment pyimagesearch.
+
+
+
+So click on the gear icon and select "Add Local". In my case, the pyimagesearch  virtual environment is located in  ~/.virtualenvs/pyimagesearch/ with the actual Python binary in  ~/.virtualenvs/pyimagesearch/bin. Once you have successfully navigated to your folder, choose the virtual environment binary which is python2.7 in the bin folder for me.
+
+
+
+Hope it helps!
+
+
+
+After this, you are all set. PyCharm will use your pyimagesearch virtual environment and will recognize the OpenCV library.
+
+
+
+\subsection{installation on virtual GNU}
+
+
+
+\subsubsection{opencv install}
+
+\href{https://docs.opencv.org/3.4/d7/d9f/tutorial_linux_install.html}{https://docs.opencv.org/3.4/d7/d9f/tutorial\_linux\_install.html}
+
+
+
+packages installeren. 
+
+\begin{enumerate}[1]
+\item [compiler] sudo apt-get install build-essential
+\item [required] sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+\item [optional] sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+\end{enumerate}
+directory aanmaken waar de source files in komen
+
+\href{/Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma%20ing/Masterproef/TWI/LaTeX/TussenTijdsVerslag/TexMaker/figdocuments/opencv/opencv4.5}{/documents/opencv/opencv4.5} 
+
+
+
+\end{document}

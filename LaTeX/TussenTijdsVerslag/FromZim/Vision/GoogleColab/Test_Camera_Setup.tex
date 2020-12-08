@@ -1,0 +1,75 @@
+\documentclass{scrartcl}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[usenames]{color}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{enumerate}
+
+\usepackage{listings}
+
+\lstset{ %
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,                   % adds a frame around the code
+tabsize=2,                      % sets default tabsize to 2 spaces
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+}
+
+
+\title{Test Camera Setup}
+\date{dinsdag 08 december 2020}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+		\section{Test Camera Setup}
+
+Created woensdag 04 november 2020
+
+
+
+To test the camera setup, a binary classification model is made. This model will tell with a treshold of 150 (200 the real treshold but 150 to warn before tool is worn out) wether a tool is good to work with or must be removed from the machine. 
+
+This model should be trainable with as less images as possible, preferably 20 because that is the amount of pictures taken in one batch.
+
+
+
+
+
+\subsection{\href{./Test_Camera_Setup/Resnet18.tex}{Resnet18}}
+
+First we will try to implement SDD-Resnet18 to classify the few images in good or bad. 
+
+
+
+\subsection{\href{./Test_Camera_Setup/inception_v3.tex}{inception v3}}
+
+Than we will implement SDD-inception v3 
+
+
+
+These described models should perform rather good without any transfer learning. 
+
+After the first tests these results can be compared with a transfer learning model.
+
+
+
+
+
+\subsection{\href{./Test_Camera_Setup/All_Networks.tex}{All Networks}}
+
+For this all networks test, some networks where tested and an algorithm is created to make it possible to add more networks along the way
+
+
+
+\end{document}

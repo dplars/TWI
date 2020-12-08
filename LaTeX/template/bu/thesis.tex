@@ -1,0 +1,126 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+% LaTeX, FIIW thesis template                                          %
+% 28/11/2014 v1.2                                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,a4paper]{report}
+% Indien je je thesis recto-verso wil afdrukken gebruik je onderstaande opties i.p.v. bovenstaande
+%\documentclass[11pt,a4paper,twoside,openright]{report}
+
+\usepackage[a4paper,left=3.5cm, right=2.5cm, top=3.5cm, bottom=3.5cm]{geometry}
+\usepackage[dutch]{babel}
+\usepackage{graphicx}
+\usepackage[latin1]{inputenc}           % om niet ascii karakters rechtstreeks te kunnen inputten
+%\usepackage[utf8]{inputenc}            % commentarieer deze regel uit als je utf8 encoded files gebruikt in plaats van latin1
+\usepackage{natbib}
+\usepackage{listings}             		% voor het weergeven van broncode
+\usepackage{verbatim}					% weergeven van code, commando's, ...
+\usepackage{hyperref}					% maak PDF van de thesis navigeerbaar
+\usepackage{url}						% URL's invoegen in tekst met behulp van \url{http://}
+\usepackage[small,bf,hang]{caption}     % om de captions wat te verbeteren
+\usepackage[final]{pdfpages}            % gebruikt voor het invoegen van het artikel in pdf-formaat
+\usepackage{pslatex}					% andere lettertype's dan de standaard types
+\usepackage{lipsum}
+\usepackage{sectsty}					% aanpassen van de fonts van sections en chapters
+%\usepackage[nottoc,numbib]{tocbibind}	% Bibliography mee in de ToC
+
+\allsectionsfont{\sffamily}
+\chapterfont{\raggedleft\sffamily}
+
+\usepackage{float}                      % De optie H voor de plaatsing van figuren op de plaats waar je ze invoegt. bvb. \begin{figure}[H]
+%\usepackage{longtable}					% tabellen die over meerdere pagina's gespreid worden
+%\usepackage[times]{quotchap}           % indien je fancy hoofdstuktitels wil
+%\usepackage[none]{hyphenat}
+%\usepackage{latexsym}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+
+% MFA: zet zoekpad voor figure
+\graphicspath{{fig/}}
+
+\usepackage{fiiw}
+% \usepackage{fiiw_denayer_eng} % For the english version (also change last page at the bottom of this file!
+
+%door onderstaande regels in commentaar te zetten, of op false, kan je pagina's weglaten
+%bijvoorbeeld het weglaten van een voorwoord, lijst met symbolen, ...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%voorwoord toevoegen?
+\acknowledgementspagetrue
+\acknowledgements{voorwoord}			%.tex file met daarin het voorwoord
+
+%samenvatting toevoegen
+\summarypagetrue
+\summary{samenvatting}					%.tex met daarin de samenvatting
+
+%abstract toevoegen?
+\abstractpagetrue
+\abstracts{abstract}					%.tex file met daarin het abstract
+%lijst van figuren toevoegen?
+\listoffigurespagetrue
+%lijst van tabellen toevoegen?
+\listoftablespagetrue
+%lijst van symbolen toevoegen?
+\listofsymbolspagetrue
+\listofsymbols{symbolen}				%.tex file met daarin de lijst van symbolen
+
+
+
+%informatie over het eindwerk, de promotor, ...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\opleiding{naam opleiding}
+\afdeling{afstudeerrichting vermelden}
+
+\campus{groupteng} %denayer,denayereng,geel,geeleng,gent,ghenteng,groept,groupteng,brugge,brugeseng
+
+\title{Titel masterproef}
+\subtitle{Ondertitel (facultatief)}
+% \author{naam student}
+\forenameA{Jan}
+\surnameA{Janssens}
+
+% l
+\forenameB{Peter}
+\surnameB{Peeters}
+
+\academicyear{2017 - 2018}
+
+\promotorA[Promotor]{Prof. dr. ir. Grote Baas}
+\promotorB[Co-promotor(en)]{Prof. dr. ir. Andere Baas}
+\promotorC[]{dr. Bedrijf Baas (Bedrijf)}
+
+\begin{document}
+\selectlanguage{dutch}
+% \selectlanguage{english} % For the english version
+\preface
+
+\input{hfdst1}
+\input{hfdst2}
+\input{hfdst3}
+\input{hfdst4}
+\input{hfdst5}
+% Bibliografie: referenties. De items zitten in bibliografie.bib
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Indien je ook de niet geciteerde werken in je bibliografie wil opnemen, commentarieer dan onderstaande regel uit!
+%\nocite{*}
+\bibliographystyle{apalike}
+\bibliography{bibliografie}
+
+% Eventueel enkele appendices
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+\input{bijlage1}
+
+% Back cover: change according to the correct campus
+\includepdf{private/back_fiiw_denayer.pdf}
+% \includepdf{private/back_fiiw_denayer_eng.pdf} % For the english version
+%\includepdf{private/back_fiiw_geel.pdf}
+% \includepdf{private/back_fiiw_geel_eng.pdf} % For the english version
+%\includepdf{private/back_fiiw_gent.pdf}
+% \includepdf{private/back_fiiw_ghent_eng.pdf} % For the english version
+%\includepdf{private/back_fiiw_brugge.pdf}
+% \includepdf{private/back_fiiw_bruges_eng.pdf} % For the english version
+%\includepdf{private/back_fiiw_groept.pdf}
+% \includepdf{private/back_fiiw_groupt_eng.pdf} % For the english version
+
+\end{document}

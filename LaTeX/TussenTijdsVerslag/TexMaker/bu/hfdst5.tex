@@ -1,0 +1,45 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%                                                                 %
+%                            CHAPTER                              %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\chapter{Richtlijnen voor referenties}
+
+\section{Inleiding}
+De referentielijst bevat de volledige lijst van literatuur en bronnen waarnaar in de tekst wordt verwezen. Door systematisch de referentielijst aan te vullen bij het schrijven van het literatuuroverzicht gaat er achteraf geen tijd verloren aan het opnieuw opzoeken van referenties.
+
+\section{Referentiestijl}
+
+Voor het verwijzen naar informatiebronnen wordt gebruik gemaakt van het numerisch systeem  of van het auteur-jaar systeem. Dit kies je door volgend commando in het latex bronbestand aan te passen:
+
+\begin{itemize}
+	\item numerisch (IEEE) : \verb|\bibliographystyle{ieee}|
+	\item alfabetisch (APA) : \verb|\bibliographystyle{apalike}|
+\end{itemize}
+
+Plaats je bronnen in een \textit{bibtex} bestand (evt. via software zoals bv. Jabref Endnote of Mendeley), waarnaar je verwijst vanuit je thesis text a.d.h.v. het commando \verb|\cite|. Enkele links naar nuttige software in deze context:
+
+\begin{itemize}
+	\item \href{http://www.jabref.org/}{JabRef (Open Source)}
+	\item \href{http://www.mendeley.com}{Mendeley (Freeware)}
+	\item \href{http://www.endnote.com}{EndNote (Paid license)}
+\end{itemize}
+
+Indien je zelf een .bibtex bestand wil aanleggen dien je volgende syntax te volgen voor een tijdschriftartikel:
+\clearpage
+\verb|@article{hughes2005,|\\
+\verb|title={Isogeometric analysis: CAD, finite elements, NURBS, exact geometry|\\ \verb|and mesh refinement},|\\
+\verb|author={Hughes, Thomas JR and Cottrell, John A and Bazilevs, Yuri},|\\
+\verb|journal={Computer methods in applied mechanics and engineering},|\\
+\verb|volume={194},|\\
+\verb|number={39},|\\
+\verb|pages={4135--4195},|\\
+\verb|year={2005},|\\
+\verb|publisher={Elsevier}|\\
+\verb|}|
+
+Enkele voorbeelden van het gebruik van bronnen in een tekst (in APA stijl): 
+
+Recent werd het Higgs boson experimenteel vastgesteld door Aad et al.\ \cite{aad2012} (syntax: \verb|\cite{aad2012}|). 
+
+Als alternatief voor het discretiseren van een CAD model vooraleer een eindige elementenanalyse te kunnen toepassen, stellen Hughes et al.\ voor om de nodige elementenformulering rechtstreeks uit de NURBS beschrijving van de CAD geometrie te halen \cite{hughes2005} (syntax: \verb|\cite{hughes2005}|). Daarnaast introduceren ze tevens een k-iteratieve procedure als een verfijning van de geldende p- en h-iteratieve procedures in eindige elementen methoden \cite{cottrell2009} (syntax: \verb|\cite{cottrell2009}|).

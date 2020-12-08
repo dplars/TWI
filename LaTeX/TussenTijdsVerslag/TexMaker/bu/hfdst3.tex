@@ -1,0 +1,68 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%                                                                 %
+%                            CHAPTER                              %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+ 
+\chapter{Figuren en tabellen}
+\section{Algemene richtlijnen}
+
+ Alle figuren en tabellen worden genummerd en binnen een float omgeving geplaatst \\ (\verb|\begin{figure} figuurcontent \end{figure}| )
+ 
+ Foto's, grafieken, schema's,... worden alle onder de benaming 'Figuur' 
+ gecatalogeerd. 
+ 
+ Het is belangrijk dat tabellen en figuren duidelijk zijn en dat ze alle informatie bevatten die nodig is om ze te begrijpen. 
+ 
+ Tabellen worden bij voorkeur niet gesplitst over twee bladzijden. Indien een tabel niet op \'e\'en bladzijde past, wordt het bijschrift op de volgende bladzijde hernomen en aangevuld met (vervolg). Ook de kolomkoppen van de tabel worden hernomen.
+ 
+ In de tekst wordt naar alle tabellen en figuren verwezen met het itemnummer. Schrijf dus niet 'onderstaande figuur toont....', maar wel 'Figuur 3.1 toont...'. Doe dit door gebruik te maken van de commando's \verb|\label{}| en \verb|\ref{}|. Geef figuren ook zinvolle captions (\verb|\caption{Caption}|).
+ Figuren worden gecentreerd op de bladzijde. Ook het bijschrift wordt gecentreerd en onder de figuur geplaatst. Na de figuurnummer volgt een de beschrijving van de figuur. 
+ 
+ Figuur \ref{fig:VoorbeeldFigFloat} toont een voorbeeld gegeven van een float omgeving voor een figuur. Hieronder wordt de syntax weergegeven.
+
+
+\verb| \begin{figure}[!ht] |\\
+\verb|	\centering|\\
+\verb|	\includegraphics[width=0.75\linewidth]{image.jpg}|\\
+\verb|	\caption{Dit is een voorbeeld van een figuur-float}|\\
+\verb|	\label{fig:VoorbeeldFigFloat}|\\
+\verb| \end{figure}|
+
+ 
+ \begin{figure}[!ht]
+ 	\centering
+ 	\includegraphics[width=0.75\linewidth]{image.jpg}
+ 	\caption{Dit is een voorbeeld van een figuur-float}
+ 	\label{fig:VoorbeeldFigFloat}
+ \end{figure}
+
+Tabellen worden links uitgelijnd op de bladzijde. Ook het bijschrift wordt links uitgelijnd en boven de tabel geplaatst. Na de tabelnummer volgt de beschrijving van de tabel. Tabel \ref{tab:VoorbeeldTableFloat} toont een voorbeeld van een eigen tabel. Vermijd om tabellen te kopie\"eren van andere werken, maar herwerk ze en plaats de nodige bronvermelding. De nodige syntax om tabel \ref{tab:VoorbeeldTableFloat} te generen wordt hieronder weergegeven:
+
+\verb|\begin{table}[!ht]|\\
+\verb|\caption{Dit is een voorbeeld van een tabel}|\\
+\verb|\begin{tabular}{ccc}|\\
+\verb|\hline|\\
+\verb|Kolom 1 & Kolom 2 & Kolom 3\|\\
+\verb|\hline|\\
+\verb|1 & 2 & 3\\|\\
+\verb|4 & 5 & 6\\|\\
+\verb|\hline|\\
+\verb|\end{tabular}|\\
+\verb|\label{tab:VoorbeeldTableFloat}|\\
+\verb|\end{table}|
+
+Tot slot, let er op dat er expliciet naar elke tabel en figuur verwezen wordt vanuit de tekst. 
+
+\begin{table}[!ht]
+		\caption{Dit is een voorbeeld van een tabel}
+	\begin{tabular}{ccc}
+		\hline
+		Kolom 1 & Kolom 2 & Kolom 3\\
+		\hline
+		1 & 2 & 3\\
+		4 & 5 & 6\\
+		\hline
+	\end{tabular}
+\label{tab:VoorbeeldTableFloat}
+\end{table}

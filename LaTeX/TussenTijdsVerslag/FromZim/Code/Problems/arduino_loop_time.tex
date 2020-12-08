@@ -1,0 +1,289 @@
+\documentclass{scrartcl}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[usenames]{color}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{enumerate}
+
+\usepackage{listings}
+
+\lstset{ %
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,                   % adds a frame around the code
+tabsize=2,                      % sets default tabsize to 2 spaces
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+}
+
+
+\title{arduino loop time}
+\date{dinsdag 08 december 2020}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+		\section{arduino loop time}
+
+Created vrijdag 13 november 2020
+
+
+
+\subsection{Finding out the loop time}
+
+To check where the delay is created, the time per arduino loop is printed out in micro seconds. Per function this time will be in the next table
+
+\begin{tabular}{ |l|l|l| }
+\hline
+ Function & time in arduino & seconds in arduino \tabularnewline
+\hline
+\hline
+ s & 999125 & 1 \tabularnewline
+\hline
+ nrled+160 & 1000922 & 1 \tabularnewline
+\hline
+ nrled+ & 1005941 & 1 \tabularnewline
+\hline
+ nrled & 1000597 & 1 \tabularnewline
+\hline
+ no command & 3 & 0 \tabularnewline
+\hline
+\end{tabular}
+
+
+
+
+\subsubsection{First conclusions}
+
+When too much is send before the loop ends; 
+
+the delay becomes much bigger depending on the amount of data read. 
+
+if we type nrleds 5 times with enters in between in a realy short time period -\textgreater{} less than 1s between the enters: the time of one loop will be 5 seconds.
+
+
+
+\subsubsection{Finding out what takes so long in the loop}
+
+
+
+\paragraph{Uncommenting all unnecessary FastLED.show functions}
+
+with only one on the end of the function
+
+creates following results:
+
+\begin{tabular}{ |l|l|l| }
+\hline
+ Function & time in arduino & seconds in arduino \tabularnewline
+\hline
+\hline
+ s & 1000669 & 1 \tabularnewline
+\hline
+ nrled+160 & 1000132 & 1 \tabularnewline
+\hline
+ nrled+ & 1000246 & 1 \tabularnewline
+\hline
+ nrled & 1000982 & 1 \tabularnewline
+\hline
+ no command & 3 & 0 \tabularnewline
+\hline
+\end{tabular}
+
+
+This doesn't give better results
+
+
+
+\paragraph{No FastLED.show functions}
+
+\begin{tabular}{ |l|l|l| }
+\hline
+ Function & time in arduino & seconds in arduino \tabularnewline
+\hline
+\hline
+ s & 999549 & 1 \tabularnewline
+\hline
+ nrled+160 & 1002195 & 1 \tabularnewline
+\hline
+ nrled+ & 1000931 & 1 \tabularnewline
+\hline
+ nrled & 1000211 & 1 \tabularnewline
+\hline
+ no command & 3 & 0 \tabularnewline
+\hline
+\end{tabular}
+
+
+Conclusion;
+
+The number of characters doesn't affect the time of the loop that much.
+
+
+
+\paragraph{no ch = Serial.readStringUntil('$\backslash$n');}
+
+if loop serial.available() is not entered the time elapsed is 3 microseconds.
+
+when the loop is entered and nothing is passed in the string; an elapsed time of 850 microseconds is printed. 
+
+when hardcoding nrled in the code instead of getting it from readStringUntil; the delay is around 950 microseconds. Not close to 1second
+
+
+
+The problem must lay in the waiting for $\backslash$n;
+
+possibly the algorithm waits for the $\backslash$n and if it doesn't come it will stop searching after a set delay
+
+
+
+looking this function up in arduino reference manual gives the next output:
+
+\uline{readStringUntil() reads characters from the serial buffer into a String. The function terminates if it times out (see setTimeout()).}
+
+
+
+The setTimeout defaults to 1000 miliseconds. Whis is 1 second. if the input of the serial monitor is changed to the same but with $\backslash$n added to the end the next results pop up:
+
+\begin{tabular}{ |l|l|l| }
+\hline
+ Function & time in arduino & seconds in arduino \tabularnewline
+\hline
+\hline
+ s$\backslash$n & 1000313 & 1 \tabularnewline
+\hline
+ nrled+160$\backslash$n & 1000859 & 1 \tabularnewline
+\hline
+ nrled+$\backslash$n & 1000562 & 1 \tabularnewline
+\hline
+ nrled$\backslash$n & 1000367 & 1 \tabularnewline
+\hline
+ no command & 3 & 0 \tabularnewline
+\hline
+\end{tabular}
+
+
+
+
+\paragraph{ch = Serial.readStringUntil('$\backslash$n') changed by  ch = Serial.readString();}
+
+Serial.readString will also wait until the timeout is passed. 
+
+Changing this timeout will repair the problem but this is dependant on the time it takes to read the bytes from the python script; this would be the same as from the arduino serial monitor normally.
+
+Since the information is send at a rate of 9600 baud the time for one byte to be send is 1.04 miliseconds since one byte of send information contains a start and stop bit which results in 10 bits send.
+
+With this information we can calculate how much miliseconds we need. Since the data that is send isnt more than 10 characters we can set the timeout at 10 miliseconds. This would speed things up by 100 times and would make the proces of taking pictures much smoother.
+
+
+
+\begin{tabular}{ |l|l|l| }
+\hline
+ Function & time in arduino & seconds in arduino \tabularnewline
+\hline
+\hline
+ s & 1001125 & 1 \tabularnewline
+\hline
+ nrled+160 & 1000968 & 1 \tabularnewline
+\hline
+ nrled+ & 1000636 & 1 \tabularnewline
+\hline
+ nrled & 1000884 & 1 \tabularnewline
+\hline
+ no command & 3 & 0 \tabularnewline
+\hline
+\end{tabular}
+
+
+
+
+\paragraph{Serial.setTimeout(10)}
+
+Set a timeout at 10 miliseconds at which the readString will stop reading. 
+
+This should make the loop 100 times faster
+
+
+
+\begin{tabular}{ |l|l|l| }
+\hline
+ Function & time in arduino & seconds in arduino \tabularnewline
+\hline
+\hline
+ s & 10531 & 0.01 \tabularnewline
+\hline
+ nrled+160 & 11089 & 0.01 \tabularnewline
+\hline
+ nrled+ & 10236 & 0.01 \tabularnewline
+\hline
+ nrled & 10716 & 0.01 \tabularnewline
+\hline
+ no command & 3 & 0 \tabularnewline
+\hline
+\end{tabular}
+
+
+
+
+
+
+This solution isn't ideal so a character must be send to conclude the sent string. Otherwise the rate of 10 miliseconds will always be lost. Trying a random character instead of $\backslash$n
+
+ch = Serial.readStringUntil('/');  // $\backslash$n isn't detected
+
+
+
+\begin{tabular}{ |l|l|l| }
+\hline
+ Function & time in arduino & seconds in arduino \tabularnewline
+\hline
+\hline
+ s/ & 1192 & 0.001 \tabularnewline
+\hline
+ nrled+160/ & 1274 & 0.001 \tabularnewline
+\hline
+ nrled+/ & 1153 & 0.001 \tabularnewline
+\hline
+ nrled/ & 1132 & 0.001 \tabularnewline
+\hline
+ no command & 3 & 0 \tabularnewline
+\hline
+\end{tabular}
+
+
+
+
+This solves the problem and times are 1000 times shorter than before. Now the tests from the python script can continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

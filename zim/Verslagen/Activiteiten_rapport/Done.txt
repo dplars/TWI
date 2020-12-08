@@ -180,9 +180,18 @@ zie:
 * [[Vision:GoogleColab:Test Camera Setup:All Networks:All Networks 1|All networks 1]]
 * [[Vision:GoogleColab:Test Camera Setup:All Networks:All Networks 2|All networks 2]]
 * [[Vision:GoogleColab:Test Camera Setup:All Networks:All Networks 4 Spaghetti|All networks 4 Spaghetti]]
-* [[Vision:GoogleColab:Test Camera Setup:All Networks:All networks 4 spaghetti first 5 batches|All networks 4 Spaghetti first 5 batches]]
+* [[Vision:GoogleColab:Test Camera Setup:All Networks:All networks 4 spaghetti first 5 batches|All networks 4 Spaghetti first 5 batches]] 
 
 Aanmaken pagina met foto's van [[Camera setup:Tool Holder:Wheel Holder:Second Wheel Holder|nieuw rad v2]]
 
 Datasets documenteren:
 [[Vision:Dataset:automated datasets:2 created datasets:2 Spaghetti dataset|Spaghetti dataset]]
+
+
+
+===== Week 07/12/2020 - 13/12/2020 =====
+Dinsdag
+Alle informatie uit Zim kopieren naar TexMaker om latex te editen.
+Test van enkele pagina's nog niet volledig afgerond
+
+

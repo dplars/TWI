@@ -4,10 +4,10 @@ Creation-Date: 2020-10-28T13:19:55+01:00
 
 ====== Desk Lamp Test ======
 Created Wednesday 28 October 2020
-
+used
 First test using following setup:
 
-{{file:///media/psf/Home/Documents/Lars.nosync/Documents/School/1Ma%20ing/Masterproef/Images/Testopstellingen/Eerste%20testopstelling/eerste_setup_andere_richting_beeld2.jpeg?height=300}}{{./IMG_9183.jpeg?height=300}}
+{{./eerste_setup_andere_richting.jpeg?width=400}}{{./eerste_setup_andere_richting_beeld2.jpeg?width=400}}
 
 This setup was using the top light of the camera. This light was good to be able to adjust the camera. Without the light, the errornous places where more visible. But the desk lamp had to much brightness. Therefor and to test other lighting conditions a led strip will be used for further tests. 
 
@@ -15,7 +15,7 @@ The result with this setup can be seen in the above picture on the screen. here 
 
 The result of this is shown in the following picture where the light is blocked off of the rest of the tool and only the errornous part is lightened. This would be a good start to start creating a dataset.
 
-{{file:///media/psf/Home/Documents/Lars.nosync/Documents/School/1Ma%20ing/Masterproef/Images/Testopstellingen/Eerste%20testopstelling/eerste-opstelling_donkere_achtergrond2.jpg?height=206}}
+{{./eerste-opstelling_donkere_achtergrond2.jpg?width=400}}
 
 The color of the desk light set a good gradient of bad vs good sets. White areas are worn very hard while orange is not worn that hard.
 

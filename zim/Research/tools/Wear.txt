@@ -4,6 +4,7 @@ Creation-Date: 2020-11-04T10:59:53+01:00
 
 ====== Wear ======
 Created woensdag 04 november 2020
+used
 
 The wear of the tool begins with wear on the coating and goes right through the the coating in the base material of the tool. 
 This base material will mostly be carbide due to its strength and heat resistance. 

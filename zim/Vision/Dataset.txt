@@ -4,7 +4,7 @@ Creation-Date: 2020-11-13T16:46:46+01:00
 
 ====== Dataset ======
 Created vrijdag 13 november 2020
-
+used
 A separation is made between hand made datasets and automated datasets because they take a very different approach and produce very differing pictures.
 
 ===== [[Vision:Dataset:handmade datasets|Handmade datasets]] =====

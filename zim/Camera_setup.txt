@@ -1,10 +1,10 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 Creation-Date: 2020-10-24T16:06:19+02:00
 
 ====== Camera setup ======
 Created zaterdag 24 oktober 2020
-
+used
 Tests of the setup: 
 * 3D printing the tool holder
 * 3D printing a easy way of photographing many tools in an easy way

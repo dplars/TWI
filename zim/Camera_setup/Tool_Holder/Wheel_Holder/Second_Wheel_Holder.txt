@@ -4,7 +4,7 @@ Creation-Date: 2020-12-04T16:49:03+01:00
 
 ====== Second Wheel Holder ======
 Created vrijdag 04 december 2020
-
+used
 The first wheel holder wasn't good because the inserts where clamped in with the knife side so it was very hard to remove them.
 In a new wheel holder the clamps got changed by new clips that can easily be removed and printed again when the design changes. 
 The inner tube that slides over the motor shaft is made bigger to fit over the motor axis.

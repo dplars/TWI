@@ -48,3 +48,13 @@ Verder documenteren datasets en beginnen aan documentatie van de resultaten en o
 [*] all networks 4
 [*] Spaghetti dataset
 [ ] create overview of different dataset and compare them with results
+
+===== Week 07/12/2020 - 13/12/2020 =====
+[ ] create overview of different dataset and compare them with results
+[ ] Check copied text on errors
+[ ] Read through text and define structure
+[ ] send mail with thesis structure
+[ ] Extend result reports with other useful results
+[ ] include results in paper
+[ ] Fill extra information to different topics
+[ ] read some papers

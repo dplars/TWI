@@ -1,0 +1,360 @@
+\documentclass{scrartcl}
+\usepackage[mathletters]{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[usenames]{color}
+\usepackage{hyperref}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\usepackage{enumerate}
+
+\usepackage{listings}
+
+\lstset{ %
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,                   % adds a frame around the code
+tabsize=2,                      % sets default tabsize to 2 spaces
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+}
+
+
+\title{Done}
+\date{dinsdag 08 december 2020}
+\author{}
+
+\begin{document}
+
+\maketitle
+
+		\section{Done}
+
+Created vrijdag 20 november 2020
+
+
+
+\subsection{Wat is er reeds gedaan deze periode tot 10 November?}
+
+
+
+\subsection{Week 05/10/2020 - 11/10/2020}
+
+opstellen en indienen van het tussentijds verslag in de eerste helft van de week.
+
+Na 07/10/2020 was het verslag ingediend en werd gestart met het formuleren van een beschrijving van het probleem.
+
+Het schrijven ging zeer moeizaam omdat ik weinig perspectief had over wat het doel van de masterproef was. Het is ook zeer moeilijk om een weg te banen tussen alle literatuur en de goede er tussenuit te vinden. Er werd heel wat tijd verspild met het lezen van bronnen die onvoldoende zijn of net niet goed genoeg waren. Hier moest een systeem in gevonden worden om de bronnen snel te kunnen inschatten. 
+
+
+
+\begin{enumerate}[1]
+\item bezoek gebracht aan Tom Jacobs van Sirris om de eerste plaatjes op te halen. 
+	\begin{itemize}
+	\item frees getoond en 
+	\item uitleg gegeven over het bredere kader van het onderzoek. 
+	\item Een verslag is \href{./Activities/Masterproef_Tool_Wear_Inspection_-_Meeting1_TJ.tex}{hier} te vinden. 
+	\end{itemize}
+\item Bedrijfs bezoek bij Aperam waar een vriend een visie inspectie systeem heeft geïnstalleerd dat fouten detecteerd in grote stalen platen. 
+	\begin{itemize}
+	\item Hier was het zeer nuttig om eens te zien hoe een systeem wordt geïmplementeerd in een productielijn. 
+	\item De schaal was hier wel een stuk verschillend waardoor er niet echt dingen kunnen overgenomen worden.
+	\end{itemize}
+\item Start aan een beschrijving van het verleden van dit onderwerp.
+	\begin{itemize}
+	\item ging zeer moeizaam om dezelfde redenen als het zoeken van de probleem beschrijving.
+	\end{itemize}
+\item Implementatie maken voor een binair transfer learning model dat bepaald of een tool versleten is of niet. te vinden in \href{https://colab.research.google.com/drive/1N2r6nplmx88pUOKkLN0Hmy42D7YRUypC}{TWI 5} Dit bouwde verder op \href{https://colab.research.google.com/drive/1Qsoj7WmGClsslivGGI4DGL10NNVdIHC2}{TWI 4} waar een zelfde model werd gemaakt zonder tranfer learning.  \href{https://colab.research.google.com/drive/1Qsoj7WmGClsslivGGI4DGL10NNVdIHC2}{TWI 4} is een volledig werkend prototype van een algoritme in Keras.
+\item implementatie maken voor een classificatie model \href{https://colab.research.google.com/drive/1QN68qaE84fq9dBnZFNExsS5F8tZk-8Ow}{TWI 6} in Keras waarbij tranfer learning wordt gebruikt. Hierbij waren alle voorspellingen voor dezelfde klasse. Niet verklaard hoe dit kon, misschien omdat de data niet gelijk verdeeld was over de klassen. De beste learning rates waren reeds bepaald voor dit probleem en lagen rond 3e-5 
+\end{enumerate}
+
+
+Voor alle bovenstaande tests werden de labels van \href{file:///Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma%20ing/Masterproef/TWI/code/Vision/Datasets/labels/labels3.csv}{labels3.csv} gebruikt op de \href{file:///Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma%20ing/Masterproef/TWI/code/Vision/Datasets/handmade/first_handmade}{first handmade dataset}
+
+
+
+
+
+\subsection{Week 12/10/2020 - 18/10/2020}
+
+
+
+\begin{enumerate}[1]
+\item Verder schrijven aan het verleden van het onderwerp. 
+	\begin{enumerate}[a]
+	\item Ging zeer moeizaam en vergde veel tijd voor zeer weinig resultaat. 
+	\item Gekomen tot een aantal bronnen. 
+	\item opzetten mendeley om bronnen in bij te kunnen houden.
+	\end{enumerate}
+\item Aanmaken van Engelse latex file op overleaf
+\item implementatie maken in keras waarbij een regressie model wordt getraind op de eerste honderd foto's die verkregen zijn
+	\begin{enumerate}[a]
+	\item fotos te vinden als \href{file:///Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma%20ing/Masterproef/TWI/code/Vision/Datasets/handmade/first_handmade}{first handmade dataset}
+	\item Een regressie model wordt niet ondersteund door Keras waardoor het zeer omslachtig was om de labels en de foto's met elkaar te kunnen verbinden. Dit zorgde voor heel wat problemen.
+		\begin{enumerate}[1]
+		\item classificatie model met transfer learning maken met Keras dat de gegevens opdeeld in 3 klassen waarbij ook een verschillende batch size werd getest. Te zien in \href{https://colab.research.google.com/drive/1QN68qaE84fq9dBnZFNExsS5F8tZk-8Ow}{TWI 6} en  \href{https://colab.research.google.com/drive/1zeKin3shLk_ogrFCwHrzpnjJmaWaoCq0#scrollTo=CDnGBD0NGkbM}{TWI 7}
+		\item proberen de labels toch gelinkt te krijgen via de data loader functies van Keras. Dit werkte echter niet dus werd een andere methode geprobeerd
+		\item Het regressie probleem omzetten in een classificatie model wat betreft de data. Hiervoor werd een map aangemaakt per waarde en dus per foto om zo de gegevens in te lezen. Dan werd de model architectuur aangepast zodat deze een output gaf van een getal waarde in dezelfde grootte orde als de waarden van de metingen. 
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+			Dit werkte echter ook niet en er werden geen resultaten bekomen.
+			
+			De uitwerking is te vinden op Google Colab onder de naam \href{https://colab.research.google.com/drive/1qR4reWAIvIs59eZKWSmZHboZ1gjGA4jS}{TWI 8} waarbij ook transfer learning werd toegepast om de weinige data toch te kunnen omzetten in een werkend model
+			
+\begin{enumerate}[1]
+\setcounter{enumi}{3}
+\item Er werd gekeken welke andere frameworks er nog zijn en wat het verschil is tussen deze. Hier is ook beslist om verder te gaan met Pytorch gezien dit het meest open framework is. 
+\end{enumerate}
+
+
+\subsection{Week 19/10/2020 - 25/10/2020}
+
+
+
+\begin{enumerate}[1]
+\item Een nieuwe implementatie \href{https://colab.research.google.com/drive/1f-Rfei8QrHotvgktp8hzviR8dv1XJJjz}{TWI 9} waarin een eerste model werd gemaakt met pytorch. 
+	\begin{enumerate}[a]
+	\item er werden wat problemen gevonden bij het tonen van de foto's eens ze genormaliseerd waren waardoor het moeilijk was om de data voor te stellen die gebruikt werd. 
+	\item Een model van het internet werd geïmplementeerd en er werden resultaten bekomen ± 60\% accuracy op de train en validation data. Dat lijkt niet zo correct. op een test set van slechts enkele beelden werd 25\% accuracy gehaald. Er leek ergens iets mis te zijn met de transformaties van de foto's naar pil voorstelling. 
+	\end{enumerate}
+\item Een binaire classificatie implementatie \href{https://colab.research.google.com/drive/1t4Yvzj1rqNy24pj4dDtyBH2CStDePXMw}{TWI 10} werd gemaakt waarin een zelfde model architectuur werd geprobeerd te maken als bij het model van Keras. 
+	\begin{enumerate}[a]
+	\item Echter was dit zeer lastig zonder voorkennis van hoe architecturen er uit zien. Door het sterk verschil in benamingen tussen functies is dit niet geslaagd. 
+	\item De foto's in juiste mappen plaatsen via een programma werd ook gerealiseerd na heel wat problemen met de google colab mappen structuur. 
+	\item In het model waren de data augmentation regels te hard. Hierdoor werden de foto's zeer sterk bewerkt wat zorgde voor heel wat meer foto's, maar tegelijk deed het afbreuk aan het model gezien de foto's in het echt makkelijker te interpreteren vallen. 
+	\item De training en validation loss ging niet naar beneden tijdens de training.
+	\end{enumerate}
+\item Meeting met Dries Hulens waarin werd overlopen hoe de opstelling zou gemaakt worden en waar op te letten.
+	\begin{enumerate}[a]
+	\item hierbij werd aangehaald dat het schrijven nog niet belangrijk zou zijn, en dat dit nog even kon wachten tot december eventueel.
+	\item licht reflecties onderzoeken hoe het materiaal reageerd op bepaalde licht frequenties.
+	\item eventueel kijken of een stuk uit de fotos kan gesneden worden (felste blob) om enkel daar het model mee te voeden.
+	\item adresseerbare ledstrip mee gekregen
+	\item camera mee gekregen.
+	\end{enumerate}
+\item Een eerste testopstelling maken om de camera te leren gebruiken.
+	\begin{enumerate}[a]
+	\item De camera moest zeer goed ingesteld worden om een scherp beeld te krijgen van de slijtage
+	\item Setup is besproken in: \href{../../Camera_setup/Camera_mount/First_Camera_Mount.tex}{first camera mount} 
+		\begin{enumerate}[1]
+		\item hiervoor is een \href{../../Camera_setup/Tool_Holder/Simple_holder.tex}{houder} ge 3D print.
+		\item De belichting besproken in \href{../../Camera_setup/Light/Desk_Lamp_Test.tex}{desk lamp test}
+		\item de camera werd met de \href{../../Camera_setup/Camera_mount/First_Camera_Mount.tex}{normale houder} op de bureau gezet. 
+		\end{enumerate}
+	\item De beelden hiervan waren zeer indrukwekkend en gaven een mooi resultaat zonder veel werk te hoeven steken in een setup.
+	\end{enumerate}
+\end{enumerate}
+
+
+\subsection{Week 26/10/2020 - 1/11/2020}
+
+
+
+\begin{enumerate}[1]
+\item 3D model gemaakt van het \href{../../Camera_setup/Tool_Holder/Wheel_Holder/first_wheel_holder.tex}{eerste rad} dat gebruikt zal worden voor een automatisch systeem dat de plaatjes voor de camera beweegt.
+	\begin{enumerate}[a]
+	\item Creatie van een 3D model
+	\item 3D printen 
+	\item berekening welke nauwkeurigheid nodig is om de stappen motor aan te sturen
+	\end{enumerate}
+\item Een programma aangemaakt om de stepper motor aan te sturen met de motor drivers. 
+\item documenteren van de afgelopen tests
+\item Test met vaste led strips om ze te kunnen aansturen vanaf een raspberry pi
+	\begin{enumerate}[a]
+	\item Ging niet goed met zeer kleine transistors. 
+	\item overgeschakeld naar relais. Gaf zeer veel problemen met solid state relais die ook in gesloten toestand nog een stroom doorlieten.
+	\item Gewone analoge stuurbare relais werkten wel, maar maken een klik geluid. 
+	\item Volgende stap is om mosfets te gebruiken voor deze sturing.
+	\item Test met verschillende voltages met een potentiometer voor de strips.
+	\end{enumerate}
+\item PCB maken om de aansturing mogelijk te maken gezien het breadboard de hoge stroom niet aan kan. 
+\end{enumerate}
+
+
+\subsection{Week 02/11/2020 - 08/11/2020}
+
+
+
+\begin{enumerate}[1]
+\item Ophalen van een volgende batch plaatjes
+	\begin{enumerate}[a]
+	\item bekijken hoe de plaatjes worden gelabeld. 
+	\item opzoeken en documenteren of de plaatjes reageren op een bepaalde golflengte zonder goede resultaten, dit moet nog verder onderzocht worden.
+	\item materialen van de plaatjes opzoeken
+	\item Afslijting komt recht op de hoek van het plaatje
+	\item Frees kan niet zelf nauwkeurig draaien, een mogelijke oplossing is de voledige snijplaat houder uit de frees halen en fotograferen.
+	\item Er zijn ongeveer 4 hoofdklassen van slijtages, maar deze zijn moeilijk zelf na te maken
+	\item Een extra metric toevoegen die de oppervlakte van de slijtage weergeeft. 
+	\end{enumerate}
+\item Een testopstelling gemaakt met het rad met de stepper motor en enkele bandijzers om de leds aan te bevestigen.
+\item Arduino finetunen zodat deze volledig werkt met de adressable led en de motor makkelijk kan aangestuurd worden met commandos via de seriele input.
+\item Eerste beelden maken met een geautomatiseerde setup
+	\begin{enumerate}[a]
+	\item \href{file:///Users/larsdepauw/Documents/Lars.nosync/Documents/School/1Ma%20ing/Masterproef/TWI/code/Vision/Datasets/First_automated/camera_zij_boven_dual_ledstrip/first_test}{zie first automated dataset}
+	\item werkte niet, de communicatie tussen de computer en arduino was te traag. Dit wordt (tijdelijk) opgelost door delays te plaatsen die de trage communicatie opvangen. 
+	\item Eerste beelden konden gemaakt worden en het python script is gemaakt.
+	\end{enumerate}
+\item PCB finetunen 
+	\begin{enumerate}[a]
+	\item nieuwe weerstand die de spanning begrensd voor de ledstrip
+		\begin{enumerate}[1]
+		\item is doorgebrand en terug vervangen door een grotere weerstand
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+
+
+\subsection{Week 09/11/2020 - 15/11/2020}
+
+\begin{enumerate}[1]
+\item Oplossen van het \href{../../Code/Problems/arduino_loop_time.tex}{probleem van de trage communicatie} tussen de computer en arduino. 
+	\begin{enumerate}[a]
+	\item Dit lag aan een time delay die gezet was voor het inlezen van een nieuwe lijn van de seriele input. 
+		\begin{enumerate}[1]
+		\item door de tijd te verlagen van de delay was het probleem al grotendeels verholpen. (van 1 seconde naar 10 miliseconden)
+		\item Door een nieuw line end karakter te kiezen was het probleem volledig weg. Dit stond op '$\backslash$0', wijzigen naar / was voldoende om het einde van de lijn aan te geven
+		\end{enumerate}
+	\end{enumerate}
+\item Nieuwe foto's nemen met de aangepaste code. Te zien in second dataset
+\item Een \href{../../Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel_Holder.tex}{nieuw rad} ontwerpen dat toelaat om de plaatjes makkelijker te monteren en demonteren door clips te gebruiken waardoor de plaatjes niet met hun snijkant moeten glijden over plastiek. Dit zorgt er ook voor dat de clips makkelijk kunnen aangepast worden om met toekomstige veranderingen mee te kunnen.
+	\begin{enumerate}[a]
+	\item Het 3D model van de plaatjes online gevonden waardoor de juiste afmetingen bekend waren.
+	\item Het 3D model printen zorgde er voor dat de afmetingen van de modellen niet werden gerespecteerd. Hierdoor pasten de eerste tests niet. Door Steeds 0.4 mm extra te rekenen voor elke maat paste het wel. 
+	\item De clips werden geprint met een langere midelste pin om deze makkelijk van het rad te kunnen verwijderen. 
+	\end{enumerate}
+\item Bijwonen van de presentaties van twee studenten die in januari hun masterproef zullen indienen om een beeld te krijgen van hoe de presentaties in elkaar zitten.
+\item Alle bestanden die tot hiertoe gemaakt zijn reorganiseren en opslaan in GITHUB.
+	\begin{enumerate}[a]
+	\item werken met meerdere branches. 
+	\item Master branch 
+	\item develop branch
+	\item feature/\textless{}featurename\textgreater{} branch
+	\end{enumerate}
+\item Belichten van de fotos verliep zeer goed, alleen was het zeer moeilijk om de camera te positioneren en scherp te stellen met de huidige standaard. Hiervoor werd gevraagd of nieuwe materialen konden besteld worden om deze standaard te vervangen.
+\item Vraag om ander print materiaal te kunnen gebruiken voor de print van de clips. Nu werd witte PLA gebruikt wat nogal snel afbreekt, met PETG hopen we de problemen niet meer te hebben.
+\item Aanmaken van een \href{../../Vision/Dataset/handmade_datasets/Second_handmade_dataset.tex}{nieuwe dataset} met de eerste batch van plaatjes gezien niet duidelijk was welke kant de a kant was en welke de b-kant.
+	\begin{enumerate}[a]
+	\item Dit werd gedaan met een simpele setup waarbij de camera op de bureau stond en handmatig werden van alle plaatjes foto's genomen en vergeleken met de gekregen foto's van Sirris.
+	\item Blijkt dat de B kant de kant is met de streep
+	\end{enumerate}
+\end{enumerate}
+
+
+\subsection{Week 16/11/2020 - 22/11/2020}
+
+
+
+\begin{enumerate}[1]
+\item verder bouwen op de netwerken die reeds gemaakt waren om een model te verkrijgen dat de camera setups zal kunnen beoordelen met zo min mogelijk afbeeldingen. netwerk wordt getraind met de beelden van de tweede hand made dataset
+	\begin{enumerate}[a]
+	\item dit werkte niet zo goed. daarom terug van nul begonnen met het opbouwen van de modellen. 
+	\item Duurde zeer lang om de foto's juist ingelezen te krijgen.
+	\item Een klassificatie netwerk kunnen opbouwen met transfer learning met een Resnet18 architectuur
+	\item \href{https://colab.research.google.com/drive/1iUkA7DjNarxSnYvV8T397PHwNeK0OGI1}{TSU\_Resnet18\_1} proberen van een tutorial een model op te bouwen from scratch, heeft niet gewerkt doordat er te veel aanpassignen waren die niet nodig waren. bijvoorbeeld zelf een dataset klasse aanmaken
+	\item \href{https://colab.research.google.com/drive/1uh-lWXxS50Y3o4Fly4Wq9ZXmDzeXVAKN}{TSU\_Resnet18\_2} is een bestand waarin het veel makkelijker wordt gedaan en waar de code werkt. Komt uit op een test accuracy van 88\% Dit zal nog hoger moeten worden met betere foto's, maar is een zeer goed begin met slechts 100 foto's
+	\item Het tweede gevonden netwerk is incept
+	\end{enumerate}
+\item Onderzoeken welke netwerk architecturen goed zijn voor projecten met zeer weinig data
+	\begin{enumerate}[a]
+	\item alles met weinig parameters is makkelijk te trainen. 
+	\item steeds met transfer learning werken om goede resultaten te bekomen
+	\item 20 beelden om een setup te beoordelen zal te weinig zijn. eventueel meerdere wielen printen om alle plaatjes op een wiel te kunnen monteren om zo zeer snel alle plaatjes te kunnen fotograferen met steeds een verschillende camera positie
+	\end{enumerate}
+\item Masterproef opgave lezen om te weten wat de literatuur studie/ tussentijds verslag inhoud.
+	\begin{enumerate}[a]
+	\item Tegengekomen dat een activiteiten verslag moet ingediend worden 
+	\end{enumerate}
+\item activiteiten verslag aanmaken waarin alles wordt besproken wat per week gebeurt is en wat er te doen is voor de komende weken.
+\end{enumerate}
+
+
+\subsection{Week 23/11/2020 - 29/11/2020}
+
+Dinsdag 24/11/2020
+
+\begin{enumerate}[1]
+\item Verschillende architecturen testen met en zonder transfer learning
+\item opzoeken over Weights and biases en implementeren
+\end{enumerate}
+
+
+Woensdag 25/11/2020
+
+\begin{enumerate}[1]
+\item \href{https://wandb.ai/dplars/pytorch-twi_second_handmade_sweep?workspace=user-dplars}{Weights and biases sweep} implementeren en eerste 500 sweeps uitvoeren, tijdens de nacht nog 2500 laten uitvoeren.
+\item Afwerken van de camera setup, verschillende dingen 3D printen om camera te kunnen monteren. Veel moeite met de PETG degelijk te laten printen, na veel werk lukte het. Het probleem was dat de PETG niet genoeg plakte aan het bed met de toen ingestelde settings. Uiteindelijk geprint met 240 nozzle temperatuur en 60 bed temperatuur met steeds een ondervlak onder de print zodat deze zeker niet zou bewegen.
+\item Meeting met Dries Hulens, bespreken wat er dit semester nog zal gebeuren en hoe het tussentijds verslag en de presentatie er uit zien. 
+\end{enumerate}
+
+
+\subsection{Week 30/11/2020 - 06/12/2020}
+
+Maandag, dinsdag
+
+3D printen van de nodige wielen en clips. Met zeer veel problemen met 3D printer waarbij printer ook stuk is gegaan, terug gerepareerd en verder gewerkt. Alle tandwielen uiteindelijk woensdag geprint gekregen. 
+
+Meeste plaatjes op de wielen gestoken en die van het eerste wiel voor batch 1 en 2 omgedraaid zodat deze ook met de 'bullet' naar dezelfde kant wijzen als de ander wielen. Echter zit hier nog een probleem dat deze rechtsdraaiend genummerd zijn in plaats van linksdraaiend zoals op de andere wielen. Dit moet nog opgelost worden of ze moeten nog op een zwart wiel.
+
+
+
+Woensdag
+
+Overige clips en rad geprint en plaatjes op de raden gestoken. 
+
+Een deel gedocumenteerd over de aangelegde datasets:
+
+\begin{itemize}
+\item \href{../../Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_position_side.tex}{Vision:Dataset:automated datasets:1 check camera position:1 camera position side} aangevuld
+\item \href{../../Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_position_top.tex}{Vision:Dataset:automated datasets:1 check camera position:2 camera position top} aangevuld
+\item \href{../../Vision/Dataset.tex}{Vision:Dataset} aangevuld
+\end{itemize}
+
+
+
+
+Afwerken van de setup door toevoeging van nieuwe staander voor motor
+
+aanmaken van een nieuwe dataset genaamd spaghetti met vier foto's per plaatje
+
+
+
+foto's van spaghetti door algoritme laten gaan en sweep laten uitvoeren. Eerste resultaten zien er zeer slecht uit. Slechtere accuracy dan bij de vorige dataset die met de hand was gemaakt. (\href{../../Vision/Dataset/handmade_datasets/Second_handmade_dataset.tex}{second handmade dataset)}
+
+Wel meer data om te testen en valideren. Test resultaten zien er wel beter uit.
+
+
+
+wandb proberen instellen om te runnen vanaf mijn eigen computer tot hiertoe zonder succes
+
+
+
+Vrijdag
+
+Documenteren van de verschillende tests die uitgevoerd werden op de verkregen datasets.
+
+zie:
+
+\begin{itemize}
+\item \href{../../Vision/GoogleColab/Test_Camera_Setup/All_Networks/All_Networks_1.tex}{All networks 1}
+\item \href{../../Vision/GoogleColab/Test_Camera_Setup/All_Networks/All_Networks_2.tex}{All networks 2}
+\item \href{../../Vision/GoogleColab/Test_Camera_Setup/All_Networks/All_Networks_4_Spaghetti.tex}{All networks 4 Spaghetti}
+\item \href{../../Vision/GoogleColab/Test_Camera_Setup/All_Networks/All_networks_4_spaghetti_first_5_batches.tex}{All networks 4 Spaghetti first 5 batches}
+\end{itemize}
+
+
+Aanmaken pagina met foto's van \href{../../Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel_Holder.tex}{nieuw rad v2}
+
+
+
+Datasets documenteren:
+
+\href{../../Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset.tex}{Spaghetti dataset}
+
+
+
+\end{document}

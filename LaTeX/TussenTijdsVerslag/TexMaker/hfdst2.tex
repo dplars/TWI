@@ -1,0 +1,50 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%                                                                 %
+%                            CHAPTER                              %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\chapter{Literature review}
+
+\section{Verleden}
+    \subsection{}
+        \subsubsection{Machine Vision System for inspecting Flank Wear on Cutting Tools}
+            machine vision
+            
+            \cite{Schmitt2012} discribes a way of using machine vision to inspect flank wear on cutting tools. The process they use is very labor intensive and should be redone when inspecting a new tool. Their steps are "image acquisition, tool edge detection, highlighting wear region, feature extraction, wear type classification and finally wear measurement." In our paper we will try to make this process a lot simpler by using deep neural networks which will be trained on different tool types. But we will need more labeled data to be able to perform such a task which may be expensive to create. A accuracy of 7.5 micrometer is achieved.
+            
+        \subsubsection{Novel spatial cutting tool-wear measurement system development and its evaluation}
+            laser sensor
+            
+            \cite{Cerce2015} Provides a way to measure tool-wear with a 3D laser profile sensor. This would be more accurate since more data is available to the algorithms. Here tool-wear is divided in two categories: premature tool failure and progressive tool-wear. The premature tool failure "mostly occurs as sudden and unpredictable breakage of the cutting edge" these types of error's wont be detected. The progressive tool-wear on the other hand is easier to predict and measure. Here the inability of measuring wear profiles in depth is the main disadvantage of direct measuring methods. The results of this paper are really good, they detect the numbers on the crater wear and nose wear of the tool. This with an accuracy of 1 micrometer. 
+            
+        \subsubsection{A Review on Applications of Image Processing in Inspection of Cutting Tool Surfaces}
+        --> goes out of the range of this paper... summarizes the different inspections which can be done
+            machine vision
+            
+            \cite{Prabhu2015} Gives an overview of where image processing is used in the industry. They use a CCD camera to grab images which will be processed. Surfach roughness is another topic interesting for research to determine the wear of tools. This will not be covered in the scope of this paper. Toolwear measurement is done by indirect methods: empirical formulae. And by direct methods: Toolmaker microscope, graduated magnifying lens. To that date (2015) the accuracy of the measurements was 50 microns using vision based inspections. In this paper the accuracy will be pushed even more. Three parameters where used to estimate a degree of tool wear: vizual intensity histogram, image frequency domain content and spatial domain surface texture. Here it is said 40\% of all metal removal operations are drilling.
+            
+            The coating measurement, images taken using confocal scanning laser microscopy (CSLM). 
+            Surface defect inspection of cutting tool: coating defects occur onperiphery of cutting tools -> are observed as black or white spots in a different surrounding. this is detected using a fluorescent lamp to have highly diffused light
+            
+            The cost saved by automatic tool inspection is created by: cost of tool inserts, costs associated with non productive periods due to tool replacement.
+            
+        \subsubsection{An online optical system for inspecting tool condition in milling of H13 tool steel and in 718 alloy}
+            Creates a nice overview of tests on different materials and different coatings, this gives the reason why it is important to detect toolwear in an early stage to produce as many goed materials as possible
+            
+            \cite{Li2013} proposes a setup which will detect the tool wear in-line. Which is the end goal of this research. 
+            
+            
+\section{Light reflections on the tools}
+ The next paper is good to get an overview of the light reflection seen in different types of materials and even multi layeres tools.
+	article: New color from multilayer coating applied machining tools based on tungsten carbide insert
+	J. C. Caicedo1
+
+Here is described that the best reflection occurs at the highest wavelength. This translates to the visible color red and will mean that the reflection should be the highest when the lighting is on the top of the spectrum of the camera lens. 
+
+The material is best cut with a laser at wavelengths 1030nm and 515nm. This is proved in: 
+	article: Fundamental investigations of ultrashort pulsed laser ablation on stainless steel and cemented tungsten carbide
+	is the good removal also a good reflector?
+		
+Study of absorption of certain wavelengths by the material. Not as usefull. unless all waves are absorbed by the material and only the rest is lightened. this is in the infrared spectrum so not realy possible with this camera.
+	article: FTIR studies of tungsten carbide in bulk material and thin film samples

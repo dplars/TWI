@@ -4,6 +4,7 @@ Creation-Date: 2020-11-18T12:20:02+01:00
 
 ====== camera position validation ======
 Created woensdag 18 november 2020
+used
 
 ===== Information =====
 The next data input structure is made:

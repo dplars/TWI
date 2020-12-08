@@ -1,0 +1,168 @@
+\BOOKMARK [1][-]{section.1}{Camera setup}{}% 1
+\BOOKMARK [1][-]{section.2}{Camera mount}{}% 2
+\BOOKMARK [1][-]{section.3}{First Camera Mount}{}% 3
+\BOOKMARK [1][-]{section.4}{Wheel Camera Mount}{}% 4
+\BOOKMARK [1][-]{section.5}{Light}{}% 5
+\BOOKMARK [1][-]{section.6}{Adressable Color Changeable Led Strip}{}% 6
+\BOOKMARK [1][-]{section.7}{Desk Lamp Test}{}% 7
+\BOOKMARK [1][-]{section.8}{White Led Strips}{}% 8
+\BOOKMARK [1][-]{section.9}{Tool Holder}{}% 9
+\BOOKMARK [1][-]{section.10}{Simple holder}{}% 10
+\BOOKMARK [1][-]{section.11}{Wheel Holder}{}% 11
+\BOOKMARK [2][-]{subsection.11.1}{First Wheel Holder:}{section.11}% 12
+\BOOKMARK [2][-]{subsection.11.2}{Second Wheel Holder:}{section.11}% 13
+\BOOKMARK [1][-]{section.12}{first wheel holder}{}% 14
+\BOOKMARK [1][-]{section.13}{Second Wheel Holder}{}% 15
+\BOOKMARK [1][-]{section.14}{Code}{}% 16
+\BOOKMARK [1][-]{section.15}{Arduino}{}% 17
+\BOOKMARK [1][-]{section.16}{AdressableLed}{}% 18
+\BOOKMARK [1][-]{section.17}{Control motor leds}{}% 19
+\BOOKMARK [1][-]{section.18}{motorLed}{}% 20
+\BOOKMARK [1][-]{section.19}{Problems}{}% 21
+\BOOKMARK [1][-]{section.20}{arduino loop time}{}% 22
+\BOOKMARK [2][-]{subsection.20.1}{Finding out the loop time}{section.20}% 23
+\BOOKMARK [3][-]{subsubsection.20.1.1}{First conclusions}{subsection.20.1}% 24
+\BOOKMARK [3][-]{subsubsection.20.1.2}{Finding out what takes so long in the loop}{subsection.20.1}% 25
+\BOOKMARK [1][-]{section.21}{inception v3 won't run}{}% 26
+\BOOKMARK [1][-]{section.22}{Python}{}% 27
+\BOOKMARK [1][-]{section.23}{cameracontrol}{}% 28
+\BOOKMARK [1][-]{section.24}{installation}{}% 29
+\BOOKMARK [2][-]{subsection.24.1}{Install opencv}{section.24}% 30
+\BOOKMARK [2][-]{subsection.24.2}{extra installation for pycharm}{section.24}% 31
+\BOOKMARK [2][-]{subsection.24.3}{installation on virtual GNU}{section.24}% 32
+\BOOKMARK [3][-]{subsubsection.24.3.1}{opencv install}{subsection.24.3}% 33
+\BOOKMARK [1][-]{section.25}{OpenCVinstallation}{}% 34
+\BOOKMARK [1][-]{section.26}{requiredPackages}{}% 35
+\BOOKMARK [1][-]{section.27}{Git}{}% 36
+\BOOKMARK [1][-]{section.28}{Research}{}% 37
+\BOOKMARK [1][-]{section.29}{Light}{}% 38
+\BOOKMARK [1][-]{section.30}{Light Reflection}{}% 39
+\BOOKMARK [1][-]{section.31}{tools}{}% 40
+\BOOKMARK [1][-]{section.32}{Wear}{}% 41
+\BOOKMARK [1][-]{section.33}{Vision Algorithm}{}% 42
+\BOOKMARK [2][-]{subsection.33.1}{Finding an algorithm to test the camera position setup}{section.33}% 43
+\BOOKMARK [1][-]{section.34}{camera position validation}{}% 44
+\BOOKMARK [2][-]{subsection.34.1}{Information}{section.34}% 45
+\BOOKMARK [2][-]{subsection.34.2}{papers}{section.34}% 46
+\BOOKMARK [1][-]{section.35}{Verslagen}{}% 47
+\BOOKMARK [2][-]{subsection.35.1}{Inloopperiode verslag}{section.35}% 48
+\BOOKMARK [2][-]{subsection.35.2}{Activiteiten rapport 1}{section.35}% 49
+\BOOKMARK [2][-]{subsection.35.3}{Tussentijds verslag}{section.35}% 50
+\BOOKMARK [2][-]{subsection.35.4}{Tussentijdse presentatie}{section.35}% 51
+\BOOKMARK [2][-]{subsection.35.5}{Activiteiten rapport 2}{section.35}% 52
+\BOOKMARK [1][-]{section.36}{Activiteiten rapport}{}% 53
+\BOOKMARK [1][-]{section.37}{Activiteiten rapport 1}{}% 54
+\BOOKMARK [2][-]{subsection.37.1}{Wat is er reeds gedaan deze periode tot 10 November?}{section.37}% 55
+\BOOKMARK [2][-]{subsection.37.2}{Week 05/10/2020 - 11/10/2020}{section.37}% 56
+\BOOKMARK [2][-]{subsection.37.3}{Week 12/10/2020 - 18/10/2020}{section.37}% 57
+\BOOKMARK [2][-]{subsection.37.4}{Week 19/10/2020 - 25/10/2020}{section.37}% 58
+\BOOKMARK [2][-]{subsection.37.5}{Week 26/10/2020 - 1/11/2020}{section.37}% 59
+\BOOKMARK [2][-]{subsection.37.6}{Week 02/11/2020 - 08/11/2020}{section.37}% 60
+\BOOKMARK [2][-]{subsection.37.7}{Wat er nog zal gebeuren voor de tussentijdse presentatie}{section.37}% 61
+\BOOKMARK [1][-]{section.38}{Activities}{}% 62
+\BOOKMARK [1][-]{section.39}{Masterproef Tool Wear Inspection - Meeting1 TJ}{}% 63
+\BOOKMARK [1][-]{section.40}{Masterproef Tool Wear Inspection - Meeting2 DH}{}% 64
+\BOOKMARK [1][-]{section.41}{Masterproef Tool Wear Inspection - Meeting3 TJ}{}% 65
+\BOOKMARK [1][-]{section.42}{Masterproef Tool Wear Inspection - Update 1 DH}{}% 66
+\BOOKMARK [2][-]{subsection.42.1}{Mail:}{section.42}% 67
+\BOOKMARK [2][-]{subsection.42.2}{Reply}{section.42}% 68
+\BOOKMARK [2][-]{subsection.42.3}{Mail:}{section.42}% 69
+\BOOKMARK [1][-]{section.43}{Masterproef Tool Wear Inspection - Update 2 DH}{}% 70
+\BOOKMARK [2][-]{subsection.43.1}{Mail}{section.43}% 71
+\BOOKMARK [2][-]{subsection.43.2}{Reply}{section.43}% 72
+\BOOKMARK [2][-]{subsection.43.3}{Mail}{section.43}% 73
+\BOOKMARK [1][-]{section.44}{Masterproef Tool Wear Inspection - Update 3 DH}{}% 74
+\BOOKMARK [2][-]{subsection.44.1}{Mail}{section.44}% 75
+\BOOKMARK [2][-]{subsection.44.2}{Reply}{section.44}% 76
+\BOOKMARK [2][-]{subsection.44.3}{Mail}{section.44}% 77
+\BOOKMARK [1][-]{section.45}{Masterproef Tool Wear Inspection - Update 3 TJ}{}% 78
+\BOOKMARK [2][-]{subsection.45.1}{Mail}{section.45}% 79
+\BOOKMARK [1][-]{section.46}{Masterproef Tool Wear Inspection - Update 4 DH}{}% 80
+\BOOKMARK [2][-]{subsection.46.1}{Mail}{section.46}% 81
+\BOOKMARK [2][-]{subsection.46.2}{Mail}{section.46}% 82
+\BOOKMARK [2][-]{subsection.46.3}{Reply}{section.46}% 83
+\BOOKMARK [2][-]{subsection.46.4}{Mail}{section.46}% 84
+\BOOKMARK [1][-]{section.47}{Masterproef Tool Wear Inspection - Update 4 TG}{}% 85
+\BOOKMARK [2][-]{subsection.47.1}{Mail}{section.47}% 86
+\BOOKMARK [1][-]{section.48}{Masterproef Tool Wear Inspection - Update 5 DH}{}% 87
+\BOOKMARK [1][-]{section.49}{Done}{}% 88
+\BOOKMARK [2][-]{subsection.49.1}{Wat is er reeds gedaan deze periode tot 10 November?}{section.49}% 89
+\BOOKMARK [2][-]{subsection.49.2}{Week 05/10/2020 - 11/10/2020}{section.49}% 90
+\BOOKMARK [2][-]{subsection.49.3}{Week 12/10/2020 - 18/10/2020}{section.49}% 91
+\BOOKMARK [2][-]{subsection.49.4}{Week 19/10/2020 - 25/10/2020}{section.49}% 92
+\BOOKMARK [2][-]{subsection.49.5}{Week 26/10/2020 - 1/11/2020}{section.49}% 93
+\BOOKMARK [2][-]{subsection.49.6}{Week 02/11/2020 - 08/11/2020}{section.49}% 94
+\BOOKMARK [2][-]{subsection.49.7}{Week 09/11/2020 - 15/11/2020}{section.49}% 95
+\BOOKMARK [2][-]{subsection.49.8}{Week 16/11/2020 - 22/11/2020}{section.49}% 96
+\BOOKMARK [2][-]{subsection.49.9}{Week 23/11/2020 - 29/11/2020}{section.49}% 97
+\BOOKMARK [2][-]{subsection.49.10}{Week 30/11/2020 - 06/12/2020}{section.49}% 98
+\BOOKMARK [1][-]{section.50}{ToDo}{}% 99
+\BOOKMARK [2][-]{subsection.50.1}{Week 09/11/2020 - 15/11/2020}{section.50}% 100
+\BOOKMARK [3][-]{subsubsection.50.1.1}{short term}{subsection.50.1}% 101
+\BOOKMARK [3][-]{subsubsection.50.1.2}{Long term}{subsection.50.1}% 102
+\BOOKMARK [2][-]{subsection.50.2}{Week 16/11/2020 - 22/11/2020}{section.50}% 103
+\BOOKMARK [3][-]{subsubsection.50.2.1}{short term}{subsection.50.2}% 104
+\BOOKMARK [3][-]{subsubsection.50.2.2}{Long term}{subsection.50.2}% 105
+\BOOKMARK [2][-]{subsection.50.3}{Week 23/11/2020 - 29/11/2020}{section.50}% 106
+\BOOKMARK [2][-]{subsection.50.4}{Week 30/11/2020 - 06/12/2020}{section.50}% 107
+\BOOKMARK [1][-]{section.51}{Inloopperiode verslag}{}% 108
+\BOOKMARK [1][-]{section.52}{Vision}{}% 109
+\BOOKMARK [2][-]{subsection.52.1}{Dataset}{section.52}% 110
+\BOOKMARK [2][-]{subsection.52.2}{GoogleColab}{section.52}% 111
+\BOOKMARK [1][-]{section.53}{Dataset}{}% 112
+\BOOKMARK [2][-]{subsection.53.1}{Handmade datasets}{section.53}% 113
+\BOOKMARK [3][-]{subsubsection.53.1.1}{initial dataset}{subsection.53.1}% 114
+\BOOKMARK [3][-]{subsubsection.53.1.2}{Second handmade dataset}{subsection.53.1}% 115
+\BOOKMARK [3][-]{subsubsection.53.1.3}{second initial dataset}{subsection.53.1}% 116
+\BOOKMARK [2][-]{subsection.53.2}{Automated datasets}{section.53}% 117
+\BOOKMARK [3][-]{subsubsection.53.2.1}{Camera position}{subsection.53.2}% 118
+\BOOKMARK [3][-]{subsubsection.53.2.2}{created datasets}{subsection.53.2}% 119
+\BOOKMARK [1][-]{section.54}{automated datasets}{}% 120
+\BOOKMARK [1][-]{section.55}{1 check camera position}{}% 121
+\BOOKMARK [2][-]{subsection.55.1}{1 \044 2}{section.55}% 122
+\BOOKMARK [1][-]{section.56}{1 camera position side}{}% 123
+\BOOKMARK [2][-]{subsection.56.1}{Camera position on the side}{section.56}% 124
+\BOOKMARK [2][-]{subsection.56.2}{Camera position on the side take two}{section.56}% 125
+\BOOKMARK [1][-]{section.57}{2 camera position top}{}% 126
+\BOOKMARK [2][-]{subsection.57.1}{Camera position to top}{section.57}% 127
+\BOOKMARK [1][-]{section.58}{2 created datasets}{}% 128
+\BOOKMARK [2][-]{subsection.58.1}{Birthday dataset}{section.58}% 129
+\BOOKMARK [2][-]{subsection.58.2}{spaghetti dataset}{section.58}% 130
+\BOOKMARK [1][-]{section.59}{1 Birthday dataset}{}% 131
+\BOOKMARK [2][-]{subsection.59.1}{Code}{section.59}% 132
+\BOOKMARK [1][-]{section.60}{conducted tests before creation}{}% 133
+\BOOKMARK [2][-]{subsection.60.1}{First test}{section.60}% 134
+\BOOKMARK [2][-]{subsection.60.2}{Second test}{section.60}% 135
+\BOOKMARK [2][-]{subsection.60.3}{Third test}{section.60}% 136
+\BOOKMARK [2][-]{subsection.60.4}{Birthday dataset}{section.60}% 137
+\BOOKMARK [1][-]{section.61}{2 Spaghetti dataset}{}% 138
+\BOOKMARK [2][-]{subsection.61.1}{Dataset explanation}{section.61}% 139
+\BOOKMARK [2][-]{subsection.61.2}{Setup}{section.61}% 140
+\BOOKMARK [2][-]{subsection.61.3}{Results}{section.61}% 141
+\BOOKMARK [1][-]{section.62}{camera position}{}% 142
+\BOOKMARK [1][-]{section.63}{handmade datasets}{}% 143
+\BOOKMARK [1][-]{section.64}{initial dataset}{}% 144
+\BOOKMARK [2][-]{subsection.64.1}{Form}{section.64}% 145
+\BOOKMARK [1][-]{section.65}{Second handmade dataset}{}% 146
+\BOOKMARK [1][-]{section.66}{second initial dataset}{}% 147
+\BOOKMARK [1][-]{section.67}{GoogleColab}{}% 148
+\BOOKMARK [1][-]{section.68}{Test Camera Setup}{}% 149
+\BOOKMARK [2][-]{subsection.68.1}{Resnet18}{section.68}% 150
+\BOOKMARK [2][-]{subsection.68.2}{nception v3}{section.68}% 151
+\BOOKMARK [2][-]{subsection.68.3}{All Networks}{section.68}% 152
+\BOOKMARK [1][-]{section.69}{All Networks}{}% 153
+\BOOKMARK [1][-]{section.70}{All Networks 1}{}% 154
+\BOOKMARK [2][-]{subsection.70.1}{Network architectures}{section.70}% 155
+\BOOKMARK [2][-]{subsection.70.2}{Dataset}{section.70}% 156
+\BOOKMARK [2][-]{subsection.70.3}{Results}{section.70}% 157
+\BOOKMARK [1][-]{section.71}{All Networks 2}{}% 158
+\BOOKMARK [2][-]{subsection.71.1}{Network architectures}{section.71}% 159
+\BOOKMARK [2][-]{subsection.71.2}{Dataset}{section.71}% 160
+\BOOKMARK [2][-]{subsection.71.3}{Results}{section.71}% 161
+\BOOKMARK [1][-]{section.72}{All Networks 3 Birthday}{}% 162
+\BOOKMARK [1][-]{section.73}{All Networks 4 Spaghetti}{}% 163
+\BOOKMARK [1][-]{section.74}{All networks 4 spaghetti first 5 batches}{}% 164
+\BOOKMARK [1][-]{section.75}{Resnet18}{}% 165
+\BOOKMARK [2][-]{subsection.75.1}{Creating first file}{section.75}% 166
+\BOOKMARK [2][-]{subsection.75.2}{TSU\137Resnet18\1371}{section.75}% 167
+\BOOKMARK [2][-]{subsection.75.3}{TSU\137Resnet18\1372}{section.75}% 168
