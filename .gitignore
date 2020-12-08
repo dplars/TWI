@@ -18,3 +18,7 @@ code/Python/cameracontrol/.idea
 
 # dont sync other git repo from wandb
 code/Vision/wandb/test/examples
+
+# cant copy large files
+code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted/models/
+code/Vision/wandb/TSU_AllNetworks_4_spaghetti/TestCameraSetup/data/spaghetti_dataset_sorted-20201202T221222Z-001.zip
