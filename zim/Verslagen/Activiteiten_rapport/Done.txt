@@ -194,4 +194,8 @@ Dinsdag
 Alle informatie uit Zim kopieren naar TexMaker om latex te editen.
 Test van enkele pagina's nog niet volledig afgerond
 
-
+Woensdag:
+Latex in orde zetten problemen met bibliografie 
+opmaken van overzicht over de hoofdstukken
+hoofdstuk 1 en 2 kort nakijken -> 50% klaar
+foto's maken in fusion360 model gevonden voor microscoop camera, importeren in fusion 360 was nog niet gelukt.

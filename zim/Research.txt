@@ -11,3 +11,83 @@ used
 Type van eerste tools: 
 https://www.sandvik.coromant.com/en-gb/products/Pages/productdetails.aspx?c=R390-11%20T3%2008E-PL%20%20%201130&Country=be
 
+	  \subsection{A Review on Applications of Image Processing in Inspection of Cutting Tool Surfaces}
+		--> goes out of the range of this paper... summarizes the different inspections which can be done
+			machine vision
+            
+			\cite{Prabhu2015} Gives an overview of where image processing is used in the industry. They use a CCD camera to grab images which will be processed. Surfach roughness is another topic interesting for research to determine the wear of tools. This will not be covered in the scope of this paper. Toolwear measurement is done by indirect methods: empirical formulae. And by direct methods: Toolmaker microscope, graduated magnifying lens. To that date (2015) the accuracy of the measurements was 50 microns using vision based inspections. In this paper the accuracy will be pushed even more. Three parameters where used to estimate a degree of tool wear: vizual intensity histogram, image frequency domain content and spatial domain surface texture. Here it is said 40\% of all metal removal operations are drilling.
+            
+			The coating measurement, images taken using confocal scanning laser microscopy (CSLM). 
+			Surface defect inspection of cutting tool: coating defects occur onperiphery of cutting tools -> are observed as black or white spots in a different surrounding. this is detected using a fluorescent lamp to have highly diffused light
+            
+			The cost saved by automatic tool inspection is created by: cost of tool inserts, costs associated with non productive periods due to tool replacement.
+
+
+
+\begin{enumerate}[1]
+\item A Comprehensive Study on Deep Image Classification with Small Datasets
+	\begin{enumerate}[a]
+	\item short comparison of the amount of convolutional layers to be used in the network (5 is optimal)
+	\item comparison on datasets: Caltech101, CIFAR10
+	\item also transfer learning also around 5 convolutional layers is the optimum
+	\item network architecture
+		\begin{enumerate}[1]
+		\item from scratch:
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+			\includegraphics[]{./fig/Research/Vision_Algorithm/camera_position_validation/paper1_arch_fromscratch.png}
+			
+		\begin{enumerate}[1]
+		\setcounter{enumi}{1}
+		\item transfer learning pretrained on VGG16 with imagenet dataset
+		\end{enumerate}
+			\includegraphics[]{./fig/Research/Vision_Algorithm/camera_position_validation/paper1_arch_transferlearning.png}
+
+\begin{enumerate}[1]
+\setcounter{enumi}{3}
+\item A survey of the recent architectures of deep convolutional neural networks
+	\begin{enumerate}[a]
+	\item overview of almost all neural networks with their strengths and weaknesses
+	\end{enumerate}
+\end{enumerate}
+
+
+\begin{enumerate}[1]
+\setcounter{enumi}{4}
+\item SDD-CNN: Small data-driven convolution neural networks for subtle roller defect inspection
+	\begin{enumerate}[a]
+	\item very interesting paper detects faults in bearing rollers. 
+	\item Using very little data
+	\item results with from scratch training best with SDD-inception v3 and SDD-resnet18
+	\item SDD-VGG16 gets good results, but with long trainin time
+	\end{enumerate}
+\end{enumerate}
+
+
+
+
+\begin{enumerate}[1]
+\setcounter{enumi}{2}
+\item \href{https://paperswithcode.com/task/small-data}{https://paperswithcode.com/task/small-data}
+	\begin{enumerate}[a]
+	\item interesting papers with small datasets
+	\end{enumerate}
+\end{enumerate}
+
+
+
+			
+\begin{enumerate}[1]
+\setcounter{enumi}{1}
+\item Deep learning for image classifification on very small datasets using transfer learning
+	\begin{enumerate}[a]
+	\item creation of an image classification network with context of where it comes from
+		\begin{enumerate}[1]
+		\item alexnet vs googlenet vs vgg and the history
+		\item displays keras code to create the same models
+		\item architecture for models is shown
+		\item niet super interessant gezien hier nog steeds wordt gewerkt op 6000 fotos van katten en honden, wel een indicatie dat deep learning gaat met weinig data
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
