@@ -50,7 +50,7 @@ Verder documenteren datasets en beginnen aan documentatie van de resultaten en o
 [ ] create overview of different dataset and compare them with results
 
 ===== Week 07/12/2020 - 13/12/2020 =====
-[ ] create overview of different dataset and compare them with results
+[*] create overview of different dataset and compare them with results
 [ ] Check copied text on errors
 [ ] Read through text
 [*] define structure
@@ -64,29 +64,33 @@ Verder documenteren datasets en beginnen aan documentatie van de resultaten en o
 [*] afwerken hoofdstuk 3 tool holder vanaf second wheel holder
 [*] hoofdstuk 3 camera holder
 [*] hoofdstuk 3 light positions
-[ ] afwerken 3D modellen van setups
+[*] afwerken 3D modellen van setups
 [ ] pcb bij setup met schema voor alle componenten
 
 introduction:
-[ ] add overview of the wole paper to the introduction
-[ ] What will this paper offer?
-[ ] close up van de plaatjes om duidelijk te maken wat er moet gedetecteerd worden
+[*] add overview of the wole paper to the introduction
+[*] What will this paper offer?
+[*] close up van de plaatjes om duidelijk te maken wat er moet gedetecteerd worden
 
 Literature review
 [*] create nice fluent text of state of the art
 [*] research more relevant researches on this topic; there are more than the ones given
 [*] add VGG explanation
 [*] add aAlexnet explanation
-[ ] add densenet explanation
-[ ] add Squeezener expllanation
+[*] add densenet explanation
+[*] add Squeezener expllanation
+[ ] add illustration of reflection 
 
 
 Implementation
-[ ] Google Colab section with algorithm implementations
-[ ] for each network discussion of how it is initialized
-[ ] flow of the program
-[ ] Discuss GPU type?
-[ ] take note of Google Colab and Weights and Biases
+[*] Google Colab section with algorithm implementations
+[x] for each network discussion of how it is initialized
+[*] flow of the program
+[*] Discuss GPU type? -> very briefly
+[*] take note of Google Colab and Weights and Biases
+[x] PCB discussion for the setup
+[*] add render of camera mount
+[*] check initial dataset
 
 
 results
@@ -97,18 +101,16 @@ results
 [*] Final results
 
 conclusion
-[ ] Write best results 
-[ ] What will still be done?
+[>] Write best results 
+[*] What will still be done?
 We obtained a working vision setup and tested the parameters for a test validation algorithm. xx\% accuracy 
 two datasets with varying results 
 
 planning
-[ ] Create for second semester
+[*] Create for second semester
 * new dataset -> more inserts
 * design better architecture
 * do fun things
 * Write Write Write
 
 In the result section the parameters for a good test algorithm will be extracted for later use. 
-
-

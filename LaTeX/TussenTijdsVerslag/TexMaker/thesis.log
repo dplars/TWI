@@ -1,0 +1,2027 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.8)  16 DEC 2020 21:47
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count176
+\Gm@cntv=\count177
+\c@Gm@tempcnt=\count178
+\Gm@bindingoffset=\dimen135
+\Gm@wd@mp=\dimen136
+\Gm@odd@mp=\dimen137
+\Gm@even@mp=\dimen138
+\Gm@layoutwidth=\dimen139
+\Gm@layoutheight=\dimen140
+\Gm@layouthoffset=\dimen141
+\Gm@layoutvoffset=\dimen142
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/03/22 3.42 The Babel package
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/03/22 3.42 Babel switching mechanism
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/03/22 3.42 Babel common definitions
+\babel@savecnt=\count179
+\U@D=\dimen143
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count180
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language21) on input line 108.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen144
+\Gin@req@width=\dimen145
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2018/08/11 v1.3c Input encoding file
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count181
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count182
+\lst@gtempboxa=\box45
+\lst@token=\toks19
+\lst@length=\count183
+\lst@currlwidth=\dimen146
+\lst@column=\count184
+\lst@pos=\count185
+\lst@lostspace=\dimen147
+\lst@width=\dimen148
+\lst@newlines=\count186
+\lst@lineno=\count187
+\lst@maxwidth=\dimen149
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count188
+\lst@skipnumbers=\count189
+\lst@framebox=\box46
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read3
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count190
+\Hy@pagecounter=\count191
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count192
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count193
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen151
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count194
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count195
+\c@Item=\count196
+\c@Hfootnote=\count197
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count198
+\c@bookmark@seq@number=\count199
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip51
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen154
+\captionmargin@=\dimen155
+\captionwidth=\dimen156
+\caption@tempdima=\dimen157
+\caption@indent=\dimen158
+\caption@parindent=\dimen159
+\caption@hangindent=\dimen160
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count266
+\c@continuedfloat=\count267
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count268
+\calc@Bcount=\count269
+\calc@Adimen=\dimen161
+\calc@Bdimen=\dimen162
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count270
+\calc@Cskip=\skip54
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen163
+\AM@pageheight=\dimen164
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box47
+\AM@global@opts=\toks22
+\AM@pagecnt=\count271
+\AM@toc@title=\toks23
+\c@AM@survey=\count272
+\AM@templatesizebox=\box48
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pslatex/pslatex.sty
+Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 226.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 230.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 234.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 243.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 384.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 388.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 392.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 401.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-03-06 L3 programming layer (loader) 
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count273
+\l__pdf_internal_box=\box49
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count274
+\g__xparse_grabber_int=\count275
+\l__xparse_m_args_int=\count276
+\l__xparse_v_nesting_int=\count277
+)
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count278
+\float@exts=\toks24
+\float@box=\box50
+\@float@everytoks=\toks25
+\@floatcapt=\box51
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count279
+\LTcapwidth=\dimen165
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@cols=\count280
+\LT@rows=\count281
+\c@LT@tables=\count282
+\c@LT@chunks=\count283
+\LT@p@ftn=\toks26
+)
+(./fiiw_eng.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/parallel/parallel.sty
+Package: parallel 2003/04/13, setting two texts parallel (me)
+
+`parallel': setting two texts parallel, (beta 4) 2003/04/13.
+\ParallelLWidth=\dimen166
+\ParallelRWidth=\dimen167
+\ParallelTextWidth=\dimen168
+\ParallelLeftMargin=\dimen169
+\ParallelUserMidSkip=\dimen170
+\ParallelMainMidSkip=\dimen171
+\ParallelLBox=\box56
+\ParallelRBox=\box57
+\ParallelBoxVar=\box58
+\ParallelLTok=\box59
+\ParallelRTok=\box60
+\ParallelBoolVar=\count284
+\ParallelBoolMid=\count285
+\ParallelWhichBox=\count286
+\ParallelMainMode=\count287
+\ParallelFNMode=\count288
+\ParallelLFNCounter=\count289
+\ParallelRFNCounter=\count290
+\ParallelMaxFN=\count291
+\ParallelFNNumMode=\count292
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2019/04/15 v1.9.1
+
+Package: textpos 2019/04/15 1.9.1, absolute positioning of text on the page
+\TP@textbox=\box61
+\TPHorizModule=\dimen172
+\TPVertModule=\dimen173
+\TP@margin=\dimen174
+\TP@absmargin=\dimen175
+Grid set 16 x 16 = 37.34424pt x 52.81541pt
+\TPboxrulesize=\dimen176
+\TP@tbargs=\toks27
+\TP@prevdepth=\dimen177
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip59
+\f@nch@O@elh=\skip60
+\f@nch@O@erh=\skip61
+\f@nch@O@olh=\skip62
+\f@nch@O@orh=\skip63
+\f@nch@O@elf=\skip64
+\f@nch@O@erf=\skip65
+\f@nch@O@olf=\skip66
+\f@nch@O@orf=\skip67
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 32.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 33.
+
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks28
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen178
+\lightrulewidth=\dimen179
+\cmidrulewidth=\dimen180
+\belowrulesep=\dimen181
+\belowbottomsep=\dimen182
+\aboverulesep=\dimen183
+\abovetopsep=\dimen184
+\cmidrulesep=\dimen185
+\cmidrulekern=\dimen186
+\defaultaddspace=\dimen187
+\@cmidla=\count293
+\@cmidlb=\count294
+\@aboverulesep=\dimen188
+\@belowrulesep=\dimen189
+\@thisruleclass=\count295
+\@lastruleclass=\count296
+\@thisrulewidth=\dimen190
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen191
+\ar@mcellbox=\box62
+\extrarowheight=\dimen192
+\NC@list=\toks29
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box63
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box64
+\sift@deathcycles=\count297
+\@vwid@loff=\dimen193
+\@vwid@roff=\dimen194
+)
+\c@taburow=\count298
+\tabu@nbcols=\count299
+\tabu@cnt=\count300
+\tabu@Xcol=\count301
+\tabu@alloc=\count302
+\tabu@nested=\count303
+\tabu@target=\dimen195
+\tabu@spreadtarget=\dimen196
+\tabu@naturalX=\dimen197
+\tabucolX=\dimen198
+\tabu@Xsum=\dimen199
+\extrarowdepth=\dimen256
+\abovetabulinesep=\dimen257
+\belowtabulinesep=\dimen258
+\tabustrutrule=\dimen259
+\tabu@thebody=\toks30
+\tabu@footnotes=\toks31
+\tabu@box=\box65
+\tabu@arstrutbox=\box66
+\tabu@hleads=\box67
+\tabu@vleads=\box68
+\tabu@cellskip=\skip70
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count304
+\c@subtable=\count305
+)
+(./thesis.aux)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 104.
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
+ 104.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 104.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(99.58464pt, 426.79135pt, 71.13188pt)
+* v-part:(T,H,B)=(99.58464pt, 645.87756pt, 99.58464pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=645.87756pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
+* \topmargin=-9.68535pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen260
+\scratchbox=\box69
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen261
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks33
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count312
+\AtBeginShipoutBox=\box70
+Package hyperref Info: Link coloring OFF on input line 104.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count313
+)
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
+ (./thesis.out) (./thesis.out)
+\@outlinefile=\write3
+\openout3 = `thesis.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./private/cover_fiiw_denayer
+_eng.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<private/cover_fiiw_denayer_eng.pdf, id=207, 597.55246pt x 845.07718pt>
+File: private/cover_fiiw_denayer_eng.pdf Graphic file (type pdf)
+<use private/cover_fiiw_denayer_eng.pdf>
+Package pdftex.def Info: private/cover_fiiw_denayer_eng.pdf  used on input line
+ 107.
+(pdftex.def)             Requested size: 597.50787pt x 845.07512pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 35.99976pt on input line 107.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 15.55188pt on input line 107.
+
+Overfull \hbox (22.62465pt too wide) in paragraph at lines 107--107
+[][]\OT1/phv/m/n/40 Vision-based au-to-matic tool-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 107.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 107.
+[1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./priva
+te/cover_fiiw_denayer_eng.pdf>]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
+07.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 17.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 20.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 34.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+
+ []
+
+[2
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 107.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 22.39185pt on input line 107.
+ (./thesis.toc
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 9.85492pt on input line 3.
+LaTeX Font Info:    Trying to load font information for OT1+ptmcm on input line
+ 11.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
+File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ptmcm on input line
+ 11.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlptmcm.fd
+File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+psycm on input line
+ 11.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omxpsycm.fd
+File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 43.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 7.19995pt on input line 43.
+ [3
+
+
+])
+\tf@toc=\write4
+\openout4 = `thesis.toc'.
+
+ [4]
+(./thesis.lof [5
+
+])
+\tf@lof=\write5
+\openout5 = `thesis.lof'.
+
+ [6] (./thesis.lot)
+\tf@lot=\write6
+\openout6 = `thesis.lot'.
+
+ (./afkortingen.tex [7
+
+]) [8
+
+] (./hfdst1.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 18.66588pt on input line 7.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 18.66588pt on input line 7.
+<fig/algemeen/plaatjes/plaatje/top_view_mark.jpg, id=449, 642.4pt x 421.575pt>
+File: fig/algemeen/plaatjes/plaatje/top_view_mark.jpg Graphic file (type jpg)
+<use fig/algemeen/plaatjes/plaatje/top_view_mark.jpg>
+Package pdftex.def Info: fig/algemeen/plaatjes/plaatje/top_view_mark.jpg  used 
+on input line 16.
+(pdftex.def)             Requested size: 192.0548pt x 126.03604pt.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 17.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.09995pt on input line 17.
+<fig/algemeen/plaatjes/plaatje/side_view_mark.jpg, id=450, 642.4pt x 305.14pt>
+File: fig/algemeen/plaatjes/plaatje/side_view_mark.jpg Graphic file (type jpg)
+<use fig/algemeen/plaatjes/plaatje/side_view_mark.jpg>
+Package pdftex.def Info: fig/algemeen/plaatjes/plaatje/side_view_mark.jpg  used
+ on input line 22.
+(pdftex.def)             Requested size: 192.0548pt x 91.22609pt.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 8.99994pt on input line 26.
+<fig/algemeen/plaatjes/houder/rotary_holder.jpeg, id=451, 2346.7675pt x 2985.15
+25pt>
+File: fig/algemeen/plaatjes/houder/rotary_holder.jpeg Graphic file (type jpg)
+<use fig/algemeen/plaatjes/houder/rotary_holder.jpeg>
+Package pdftex.def Info: fig/algemeen/plaatjes/houder/rotary_holder.jpeg  used 
+on input line 32.
+(pdftex.def)             Requested size: 170.71393pt x 217.13542pt.
+[1
+
+
+ <./fig/algemeen/plaatjes/plaatje/top_view_mark.jpg> <./fig/algemeen/plaatjes/p
+laatje/side_view_mark.jpg>]
+<fig/algemeen/plaatjes/plaatje/n_worn_insert.jpg, id=461, 642.4pt x 481.8pt>
+File: fig/algemeen/plaatjes/plaatje/n_worn_insert.jpg Graphic file (type jpg)
+<use fig/algemeen/plaatjes/plaatje/n_worn_insert.jpg>
+Package pdftex.def Info: fig/algemeen/plaatjes/plaatje/n_worn_insert.jpg  used 
+on input line 51.
+(pdftex.def)             Requested size: 209.1301pt x 156.8478pt.
+<fig/algemeen/plaatjes/plaatje/worn_insert.jpg, id=462, 642.4pt x 481.8pt>
+File: fig/algemeen/plaatjes/plaatje/worn_insert.jpg Graphic file (type jpg)
+<use fig/algemeen/plaatjes/plaatje/worn_insert.jpg>
+Package pdftex.def Info: fig/algemeen/plaatjes/plaatje/worn_insert.jpg  used on
+ input line 56.
+(pdftex.def)             Requested size: 209.1301pt x 156.8478pt.
+ [2 <./fig/algemeen/plaatjes/houder/rotary_holder.jpeg> <./fig/algemeen/plaatje
+s/plaatje/n_worn_insert.jpg> <./fig/algemeen/plaatjes/plaatje/worn_insert.jpg>]
+) (./hfdst2.tex [3]
+Chapter 2.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 10.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 10.
+[4
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 33.
+<fig/algemeen/plaatjes/Figuren/Insert_construction.png, id=508, 376.40625pt x 3
+97.485pt>
+File: fig/algemeen/plaatjes/Figuren/Insert_construction.png Graphic file (type 
+png)
+<use fig/algemeen/plaatjes/Figuren/Insert_construction.png>
+Package pdftex.def Info: fig/algemeen/plaatjes/Figuren/Insert_construction.png 
+ used on input line 43.
+(pdftex.def)             Requested size: 188.20265pt x 198.742pt.
+<fig/algemeen/plaatjes/Figuren/wear_types.png, id=514, 762.85pt x 335.2525pt>
+File: fig/algemeen/plaatjes/Figuren/wear_types.png Graphic file (type png)
+<use fig/algemeen/plaatjes/Figuren/wear_types.png>
+Package pdftex.def Info: fig/algemeen/plaatjes/Figuren/wear_types.png  used on 
+input line 50.
+(pdftex.def)             Requested size: 305.1346pt x 134.09862pt.
+ [5] [6 <./fig/algemeen/plaatjes/Figuren/Insert_construction.png> <./fig/algeme
+en/plaatjes/Figuren/wear_types.png>] [7]
+<fig/Research/Vision_Algorithm/algorithms/Densenet/Dense_block.png, id=563, 543
+.02875pt x 403.5075pt>
+File: fig/Research/Vision_Algorithm/algorithms/Densenet/Dense_block.png Graphic
+ file (type png)
+<use fig/Research/Vision_Algorithm/algorithms/Densenet/Dense_block.png>
+Package pdftex.def Info: fig/Research/Vision_Algorithm/algorithms/Densenet/Dens
+e_block.png  used on input line 110.
+(pdftex.def)             Requested size: 209.1301pt x 155.39703pt.
+ [8 <./fig/Research/Vision_Algorithm/algorithms/Densenet/Dense_block.png>]
+<fig/Research/Vision_Algorithm/algorithms/Resnet/resnet_block.png, id=581, 346.
+29375pt x 207.77625pt>
+File: fig/Research/Vision_Algorithm/algorithms/Resnet/resnet_block.png Graphic 
+file (type png)
+<use fig/Research/Vision_Algorithm/algorithms/Resnet/resnet_block.png>
+Package pdftex.def Info: fig/Research/Vision_Algorithm/algorithms/Resnet/resnet
+_block.png  used on input line 137.
+(pdftex.def)             Requested size: 277.03537pt x 166.2212pt.
+ [9 <./fig/Research/Vision_Algorithm/algorithms/Resnet/resnet_block.png>]
+<fig/Research/Vision_Algorithm/algorithms/Resnet/Resnet18Diagram.png, id=596, 3
+53.32pt x 1898.09125pt>
+File: fig/Research/Vision_Algorithm/algorithms/Resnet/Resnet18Diagram.png Graph
+ic file (type png)
+<use fig/Research/Vision_Algorithm/algorithms/Resnet/Resnet18Diagram.png>
+Package pdftex.def Info: fig/Research/Vision_Algorithm/algorithms/Resnet/Resnet
+18Diagram.png  used on input line 146.
+(pdftex.def)             Requested size: 79.44504pt x 426.79135pt.
+ [10 <./fig/Research/Vision_Algorithm/algorithms/Resnet/Resnet18Diagram.png>]) 
+(./hfdst3.tex [11]
+Chapter 3.
+[12
+
+]
+<fig/Camera_setup/Tool_Holder/simpeleHouder_attaached.png, id=630, 1280.785pt x
+ 840.13875pt>
+File: fig/Camera_setup/Tool_Holder/simpeleHouder_attaached.png Graphic file (ty
+pe png)
+<use fig/Camera_setup/Tool_Holder/simpeleHouder_attaached.png>
+Package pdftex.def Info: fig/Camera_setup/Tool_Holder/simpeleHouder_attaached.p
+ng  used on input line 38.
+(pdftex.def)             Requested size: 256.15247pt x 168.02477pt.
+<fig/Camera_setup/Light/Desk_Lamp_Test/desk_lamp_setup_whitebg.jpeg, id=631, 21
+96.205pt x 1095.09125pt>
+File: fig/Camera_setup/Light/Desk_Lamp_Test/desk_lamp_setup_whitebg.jpeg Graphi
+c file (type jpg)
+<use fig/Camera_setup/Light/Desk_Lamp_Test/desk_lamp_setup_whitebg.jpeg>
+Package pdftex.def Info: fig/Camera_setup/Light/Desk_Lamp_Test/desk_lamp_setup_
+whitebg.jpeg  used on input line 46.
+(pdftex.def)             Requested size: 439.23322pt x 219.01436pt.
+
+Overfull \hbox (12.44186pt too wide) in paragraph at lines 46--47
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `sec:impl:camerasetup:wheelholder' on page 13 undefine
+d on input line 53.
+
+[13 <./fig/Camera_setup/Tool_Holder/simpeleHouder_attaached.png> <./fig/Camera_
+setup/Light/Desk_Lamp_Test/desk_lamp_setup_whitebg.jpeg>]
+<fig/Camera_setup/Tool_Holder/Wheel_Holder/first_wheel_holder/radhouderV1_model
+_inserts.png, id=640, 1262.7175pt x 820.06375pt>
+File: fig/Camera_setup/Tool_Holder/Wheel_Holder/first_wheel_holder/radhouderV1_
+model_inserts.png Graphic file (type png)
+<use fig/Camera_setup/Tool_Holder/Wheel_Holder/first_wheel_holder/radhouderV1_m
+odel_inserts.png>
+Package pdftex.def Info: fig/Camera_setup/Tool_Holder/Wheel_Holder/first_wheel_
+holder/radhouderV1_model_inserts.png  used on input line 62.
+(pdftex.def)             Requested size: 213.39568pt x 138.58311pt.
+<fig/Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel_Holder/radhouder_v2_ass
+embly v3 extra insert.png, id=642, 1282.7925pt x 793.96625pt>
+File: fig/Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel_Holder/radhouder_v
+2_assembly v3 extra insert.png Graphic file (type png)
+<use fig/Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel_Holder/radhouder_v2
+_assembly v3 extra insert.png>
+Package pdftex.def Info: fig/Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel
+_Holder/radhouder_v2_assembly v3 extra insert.png  used on input line 73.
+(pdftex.def)             Requested size: 209.1301pt x 129.43594pt.
+<fig/Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel_Holder/radhouder_v2_ass
+embly v3 top view insert.png, id=643, 1282.7925pt x 793.96625pt>
+File: fig/Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel_Holder/radhouder_v
+2_assembly v3 top view insert.png Graphic file (type png)
+<use fig/Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel_Holder/radhouder_v2
+_assembly v3 top view insert.png>
+Package pdftex.def Info: fig/Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel
+_Holder/radhouder_v2_assembly v3 top view insert.png  used on input line 79.
+(pdftex.def)             Requested size: 209.1301pt x 129.43594pt.
+ [14 <./fig/Camera_setup/Tool_Holder/Wheel_Holder/first_wheel_holder/radhouderV
+1_model_inserts.png> <./fig/Camera_setup/Tool_Holder/Wheel_Holder/Second_Wheel_
+Holder/radhouder_v2_assembly v3 extra insert.png> <./fig/Camera_setup/Tool_Hold
+er/Wheel_Holder/Second_Wheel_Holder/radhouder_v2_assembly v3 top view insert.pn
+g>]
+<fig/Camera_setup/camera_mount/second_camera_mount/camera mount v9 back top.png
+, id=654, 1282.7925pt x 793.96625pt>
+File: fig/Camera_setup/camera_mount/second_camera_mount/camera mount v9 back to
+p.png Graphic file (type png)
+<use fig/Camera_setup/camera_mount/second_camera_mount/camera mount v9 back top
+.png>
+Package pdftex.def Info: fig/Camera_setup/camera_mount/second_camera_mount/came
+ra mount v9 back top.png  used on input line 98.
+(pdftex.def)             Requested size: 209.1301pt x 129.43594pt.
+<fig/Camera_setup/camera_mount/second_camera_mount/camera mount v9 zoom camera.
+png, id=655, 1282.7925pt x 793.96625pt>
+File: fig/Camera_setup/camera_mount/second_camera_mount/camera mount v9 zoom ca
+mera.png Graphic file (type png)
+<use fig/Camera_setup/camera_mount/second_camera_mount/camera mount v9 zoom cam
+era.png>
+Package pdftex.def Info: fig/Camera_setup/camera_mount/second_camera_mount/came
+ra mount v9 zoom camera.png  used on input line 104.
+(pdftex.def)             Requested size: 209.1301pt x 129.43594pt.
+ [15 <./fig/Camera_setup/camera_mount/second_camera_mount/camera mount v9 back 
+top.png> <./fig/Camera_setup/camera_mount/second_camera_mount/camera mount v9 z
+oom camera.png>]
+<./fig/Camera_setup/Light/Desk_Lamp_Test/eerste_setup_andere_richting.jpeg, id=
+669, 4047.12pt x 3035.34pt>
+File: ./fig/Camera_setup/Light/Desk_Lamp_Test/eerste_setup_andere_richting.jpeg
+ Graphic file (type jpg)
+<use ./fig/Camera_setup/Light/Desk_Lamp_Test/eerste_setup_andere_richting.jpeg>
+
+Package pdftex.def Info: ./fig/Camera_setup/Light/Desk_Lamp_Test/eerste_setup_a
+ndere_richting.jpeg  used on input line 131.
+(pdftex.def)             Requested size: 234.73654pt x 176.04521pt.
+<./fig/Camera_setup/Light/Desk_Lamp_Test/eerste-opstelling_donkere_achtergrond2
+.jpg, id=672, 1445.4pt x 813.0375pt>
+File: ./fig/Camera_setup/Light/Desk_Lamp_Test/eerste-opstelling_donkere_achterg
+rond2.jpg Graphic file (type jpg)
+<use ./fig/Camera_setup/Light/Desk_Lamp_Test/eerste-opstelling_donkere_achtergr
+ond2.jpg>
+Package pdftex.def Info: ./fig/Camera_setup/Light/Desk_Lamp_Test/eerste-opstell
+ing_donkere_achtergrond2.jpg  used on input line 144.
+(pdftex.def)             Requested size: 301.12537pt x 169.37825pt.
+<./fig/Camera_setup/Light/White_Led_Strips/Test_setup_ledstrip.jpeg, id=676, 40
+47.12pt x 3035.34pt>
+File: ./fig/Camera_setup/Light/White_Led_Strips/Test_setup_ledstrip.jpeg Graphi
+c file (type jpg)
+<use ./fig/Camera_setup/Light/White_Led_Strips/Test_setup_ledstrip.jpeg>
+Package pdftex.def Info: ./fig/Camera_setup/Light/White_Led_Strips/Test_setup_l
+edstrip.jpeg  used on input line 158.
+(pdftex.def)             Requested size: 213.39568pt x 160.02005pt.
+
+[16 <./fig/Camera_setup/Light/Desk_Lamp_Test/eerste_setup_andere_richting.jpeg>
+] [17 <./fig/Camera_setup/Light/Desk_Lamp_Test/eerste-opstelling_donkere_achter
+grond2.jpg> <./fig/Camera_setup/Light/White_Led_Strips/Test_setup_ledstrip.jpeg
+>]
+<fig/Camera_setup/adressable_ledstrip/ledstrips v13 close up with reflection.pn
+g, id=692, 1282.7925pt x 793.96625pt>
+File: fig/Camera_setup/adressable_ledstrip/ledstrips v13 close up with reflecti
+on.png Graphic file (type png)
+<use fig/Camera_setup/adressable_ledstrip/ledstrips v13 close up with reflectio
+n.png>
+Package pdftex.def Info: fig/Camera_setup/adressable_ledstrip/ledstrips v13 clo
+se up with reflection.png  used on input line 173.
+(pdftex.def)             Requested size: 209.1301pt x 129.43594pt.
+<fig/Vision/Dataset/handmade_datasets/initial_dataset/initial dataset pictuer.P
+NG, id=693, 707.64375pt x 520.94624pt>
+File: fig/Vision/Dataset/handmade_datasets/initial_dataset/initial dataset pict
+uer.PNG Graphic file (type png)
+<use fig/Vision/Dataset/handmade_datasets/initial_dataset/initial dataset pictu
+er.PNG>
+Package pdftex.def Info: fig/Vision/Dataset/handmade_datasets/initial_dataset/i
+nitial dataset pictuer.PNG  used on input line 195.
+(pdftex.def)             Requested size: 141.52625pt x 104.1874pt.
+ [18 <./fig/Camera_setup/adressable_ledstrip/ledstrips v13 close up with reflec
+tion.png>]
+<fig/algemeen/plaatjes/plaatje/marked_side.jpg, id=702, 642.4pt x 481.8pt>
+File: fig/algemeen/plaatjes/plaatje/marked_side.jpg Graphic file (type jpg)
+<use fig/algemeen/plaatjes/plaatje/marked_side.jpg>
+Package pdftex.def Info: fig/algemeen/plaatjes/plaatje/marked_side.jpg  used on
+ input line 208.
+(pdftex.def)             Requested size: 128.0387pt x 96.02747pt.
+<fig/algemeen/plaatjes/plaatje/top_view_bullet_marked.jpg, id=703, 642.4pt x 48
+1.8pt>
+File: fig/algemeen/plaatjes/plaatje/top_view_bullet_marked.jpg Graphic file (ty
+pe jpg)
+<use fig/algemeen/plaatjes/plaatje/top_view_bullet_marked.jpg>
+Package pdftex.def Info: fig/algemeen/plaatjes/plaatje/top_view_bullet_marked.j
+pg  used on input line 222.
+(pdftex.def)             Requested size: 209.1301pt x 156.8478pt.
+ [19 <./fig/Vision/Dataset/handmade_datasets/initial_dataset/initial dataset pi
+ctuer.PNG> <./fig/algemeen/plaatjes/plaatje/marked_side.jpg> <./fig/algemeen/pl
+aatjes/plaatje/top_view_bullet_marked.jpg>]
+LaTeX Font Info:    Trying to load font information for OML+phv on input line 2
+60.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/omlphv.fd
+File: omlphv.fd 
+)
+LaTeX Font Info:    Font shape `OML/phv/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 260.
+<./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/t50b-img.PNG, i
+d=713, 694.84593pt x 482.55281pt>
+File: ./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/t50b-img.P
+NG Graphic file (type png)
+<use ./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/t50b-img.PN
+G>
+Package pdftex.def Info: ./fig/Vision/Dataset/handmade_datasets/Second_handmade
+_dataset/t50b-img.PNG  used on input line 266.
+(pdftex.def)             Requested size: 209.1301pt x 145.23083pt.
+<./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_005_p_010_s.j
+pg, id=714, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_005_p_01
+0_s.jpg Graphic file (type jpg)
+<use ./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_005_p_010
+_s.jpg>
+Package pdftex.def Info: ./fig/Vision/Dataset/handmade_datasets/Second_handmade
+_dataset/b_005_p_010_s.jpg  used on input line 270.
+(pdftex.def)             Requested size: 209.1301pt x 156.8478pt.
+ [20 <./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/t50b-img.P
+NG> <./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_005_p_010
+_s.jpg>]
+<./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_posit
+ion_side/achter2.jpeg, id=724, 4047.12pt x 3035.34pt>
+File: ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_
+position_side/achter2.jpeg Graphic file (type jpg)
+<use ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_p
+osition_side/achter2.jpeg>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/1_check_camera
+_position/1_camera_position_side/achter2.jpeg  used on input line 296.
+(pdftex.def)             Requested size: 209.1301pt x 156.82428pt.
+
+[21 <./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_p
+osition_side/achter2.jpeg>]
+<./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_posit
+ion_side/p3_l8.png, id=735, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_
+position_side/p3_l8.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_p
+osition_side/p3_l8.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/1_check_camera
+_position/1_camera_position_side/p3_l8.png  used on input line 308.
+(pdftex.def)             Requested size: 128.0387pt x 96.02747pt.
+<./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_posit
+ion_side/p3_l9.png, id=736, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_
+position_side/p3_l9.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_p
+osition_side/p3_l9.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/1_check_camera
+_position/1_camera_position_side/p3_l9.png  used on input line 309.
+(pdftex.def)             Requested size: 128.0387pt x 96.02747pt.
+<./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_posit
+ion_side/p3_l10.png, id=737, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_
+position_side/p3_l10.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_p
+osition_side/p3_l10.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/1_check_camera
+_position/1_camera_position_side/p3_l10.png  used on input line 310.
+(pdftex.def)             Requested size: 128.0387pt x 96.02747pt.
+<./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_posit
+ion_top/p3_l5.png, id=739, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_
+position_top/p3_l5.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_p
+osition_top/p3_l5.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/1_check_camera
+_position/2_camera_position_top/p3_l5.png  used on input line 324.
+(pdftex.def)             Requested size: 136.57635pt x 102.43076pt.
+<./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_posit
+ion_top/p3_l6.png, id=740, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_
+position_top/p3_l6.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_p
+osition_top/p3_l6.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/1_check_camera
+_position/2_camera_position_top/p3_l6.png  used on input line 325.
+(pdftex.def)             Requested size: 136.57635pt x 102.43076pt.
+<./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_posit
+ion_top/p3_l7.png, id=741, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_
+position_top/p3_l7.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_p
+osition_top/p3_l7.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/1_check_camera
+_position/2_camera_position_top/p3_l7.png  used on input line 326.
+(pdftex.def)             Requested size: 136.57635pt x 102.43076pt.
+ [22 <./fig/Vision/Dataset/automated_datasets/1_check_camera_position/1_camera_
+position_side/p3_l8.png (PNG copy)> <./fig/Vision/Dataset/automated_datasets/1_
+check_camera_position/1_camera_position_side/p3_l9.png (PNG copy)> <./fig/Visio
+n/Dataset/automated_datasets/1_check_camera_position/1_camera_position_side/p3_
+l10.png (PNG copy)> <./fig/Vision/Dataset/automated_datasets/1_check_camera_pos
+ition/2_camera_position_top/p3_l5.png (PNG copy)> <./fig/Vision/Dataset/automat
+ed_datasets/1_check_camera_position/2_camera_position_top/p3_l6.png (PNG copy)>
+ <./fig/Vision/Dataset/automated_datasets/1_check_camera_position/2_camera_posi
+tion_top/p3_l7.png (PNG copy)>]
+
+LaTeX Warning: Reference `sec:impl:camerasetup:wheelholder' on page 23 undefine
+d on input line 357.
+
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_005_l_000_b.png, id=752, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_l_000_b.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_005_l_000_b.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_005_l_000_b.png  used on input line 369.
+(pdftex.def)             Requested size: 128.0387pt x 96.02747pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_005_b_l_006_red_A.png, id=753, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_b_l_006_red_A.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_005_b_l_006_red_A.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_005_b_l_006_red_A.png  used on input line 375.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_005_b_l_006_green_A.png, id=754, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_b_l_006_green_A.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_005_b_l_006_green_A.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_005_b_l_006_green_A.png  used on input line 380
+.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_005_b_l_006_blue_A.png, id=755, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_b_l_006_blue_A.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_005_b_l_006_blue_A.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_005_b_l_006_blue_A.png  used on input line 385.
+
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_005_b_l_006_white_A.png, id=756, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_b_l_006_white_A.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_005_b_l_006_white_A.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_005_b_l_006_white_A.png  used on input line 390
+.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_005_b_l_006_red_B.png, id=757, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_b_l_006_red_B.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_005_b_l_006_red_B.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_005_b_l_006_red_B.png  used on input line 399.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_005_b_l_006_green_B.png, id=758, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_b_l_006_green_B.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_005_b_l_006_green_B.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_005_b_l_006_green_B.png  used on input line 404
+.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_005_b_l_006_blue_B.png, id=759, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_b_l_006_blue_B.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_005_b_l_006_blue_B.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_005_b_l_006_blue_B.png  used on input line 409.
+
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_005_b_l_006_white_B.png, id=760, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_b_l_006_white_B.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_005_b_l_006_white_B.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_005_b_l_006_white_B.png  used on input line 414
+.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+[23] [24 <./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday
+_dataset/b_003_p_005_l_000_b.png> <./fig/Vision/Dataset/automated_datasets/2_cr
+eated_datasets/1_Birthday_dataset/b_003_p_005_b_l_006_red_A.png> <./fig/Vision/
+Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/b_003_p_005_b_
+l_006_green_A.png> <./fig/Vision/Dataset/automated_datasets/2_created_datasets/
+1_Birthday_dataset/b_003_p_005_b_l_006_blue_A.png> <./fig/Vision/Dataset/automa
+ted_datasets/2_created_datasets/1_Birthday_dataset/b_003_p_005_b_l_006_white_A.
+png> <./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_005_b_l_006_red_B.png> <./fig/Vision/Dataset/automated_datasets/2_
+created_datasets/1_Birthday_dataset/b_003_p_005_b_l_006_green_B.png> <./fig/Vis
+ion/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/b_003_p_00
+5_b_l_006_blue_B.png> <./fig/Vision/Dataset/automated_datasets/2_created_datase
+ts/1_Birthday_dataset/b_003_p_005_b_l_006_white_B.png>]
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_010_l_000_nb.png, id=788, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_010_l_000_nb.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_010_l_000_nb.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_010_l_000_nb.png  used on input line 428.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/
+b_003_p_010_l_000_b.png, id=789, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dat
+aset/b_003_p_010_l_000_b.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_010_l_000_b.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/1_Birthday_dataset/b_003_p_010_l_000_b.png  used on input line 434.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/er
+ror/b_003_p_007_l_000_nb.png, id=790, 642.4pt x 481.8pt>
+File: fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_datas
+et/error/b_003_p_007_l_000_nb.png Graphic file (type png)
+<use fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_datase
+t/error/b_003_p_007_l_000_nb.png>
+Package pdftex.def Info: fig/Vision/Dataset/automated_datasets/2_created_datase
+ts/1_Birthday_dataset/error/b_003_p_007_l_000_nb.png  used on input line 440.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+<fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/er
+ror/b_005_p_006_l_000_b.png, id=791, 642.4pt x 481.8pt>
+File: fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_datas
+et/error/b_005_p_006_l_000_b.png Graphic file (type png)
+<use fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_datase
+t/error/b_005_p_006_l_000_b.png>
+Package pdftex.def Info: fig/Vision/Dataset/automated_datasets/2_created_datase
+ts/1_Birthday_dataset/error/b_005_p_006_l_000_b.png  used on input line 446.
+(pdftex.def)             Requested size: 102.43227pt x 76.81755pt.
+
+Underfull \hbox (badness 1383) in paragraph at lines 447--447
+[][]|\OT1/phv/m/n/9 Bad light-ing an-gle and
+ []
+
+
+Overfull \hbox (52.60696pt too wide) in paragraph at lines 469--472
+[]\OT1/phv/m/n/10.95 Images are named with their set-tings, batch num-ber and i
+n-sert num-ber: b[]aaa[]p[]bbb[]l[]006-011[]color[]bullet.png
+ []
+
+[25 <./fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_data
+set/b_003_p_010_l_000_nb.png (PNG copy)> <./fig/Vision/Dataset/automated_datase
+ts/2_created_datasets/1_Birthday_dataset/b_003_p_010_l_000_b.png (PNG copy)> <.
+/fig/Vision/Dataset/automated_datasets/2_created_datasets/1_Birthday_dataset/er
+ror/b_003_p_007_l_000_nb.png (PNG copy)> <./fig/Vision/Dataset/automated_datase
+ts/2_created_datasets/1_Birthday_dataset/error/b_005_p_006_l_000_b.png (PNG cop
+y)>]
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset
+/gray_b_003_p_004_l_006-011_white_nb.png, id=803, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/gray_b_003_p_004_l_006-011_white_nb.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/gray_b_003_p_004_l_006-011_white_nb.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/2_Spaghetti_dataset/gray_b_003_p_004_l_006-011_white_nb.png  used on input
+ line 497.
+(pdftex.def)             Requested size: 132.30428pt x 99.22543pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset
+/rounded_grey_b_011_p_008_l_006-011_white_nb.png, id=804, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/rounded_grey_b_011_p_008_l_006-011_white_nb.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/rounded_grey_b_011_p_008_l_006-011_white_nb.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/2_Spaghetti_dataset/rounded_grey_b_011_p_008_l_006-011_white_nb.png  used 
+on input line 503.
+(pdftex.def)             Requested size: 132.30428pt x 99.22543pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset
+/rounded_black_b_013_p_002_l_006-011_white_nb.png, id=805, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/rounded_black_b_013_p_002_l_006-011_white_nb.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/rounded_black_b_013_p_002_l_006-011_white_nb.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/2_Spaghetti_dataset/rounded_black_b_013_p_002_l_006-011_white_nb.png  used
+ on input line 509.
+(pdftex.def)             Requested size: 132.30428pt x 99.22543pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset
+/rounded_copper_b_014_p_005_l_006-011_white_nb.png, id=806, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/rounded_copper_b_014_p_005_l_006-011_white_nb.png Graphic file (type png)
+
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/rounded_copper_b_014_p_005_l_006-011_white_nb.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/2_Spaghetti_dataset/rounded_copper_b_014_p_005_l_006-011_white_nb.png  use
+d on input line 515.
+(pdftex.def)             Requested size: 132.30428pt x 99.22543pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset
+/rounded_gold_b_015_p_006_l_006-011_white_nb.png, id=807, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/rounded_gold_b_015_p_006_l_006-011_white_nb.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/rounded_gold_b_015_p_006_l_006-011_white_nb.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/2_Spaghetti_dataset/rounded_gold_b_015_p_006_l_006-011_white_nb.png  used 
+on input line 521.
+(pdftex.def)             Requested size: 132.30428pt x 99.22543pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset
+/IMG_9295.jpeg, id=810, 4047.12pt x 3035.34pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/IMG_9295.jpeg Graphic file (type jpg)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/IMG_9295.jpeg>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/2_Spaghetti_dataset/IMG_9295.jpeg  used on input line 539.
+(pdftex.def)             Requested size: 170.71393pt x 128.01604pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset
+/IMG_9296.jpeg, id=811, 4047.12pt x 3035.34pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/IMG_9296.jpeg Graphic file (type jpg)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/IMG_9296.jpeg>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/2_Spaghetti_dataset/IMG_9296.jpeg  used on input line 545.
+(pdftex.def)             Requested size: 170.71393pt x 128.01604pt.
+ [26 <./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/gray_b_003_p_004_l_006-011_white_nb.png (PNG copy)> <./fig/Vision/Dataset
+/automated_datasets/2_created_datasets/2_Spaghetti_dataset/rounded_grey_b_011_p
+_008_l_006-011_white_nb.png (PNG copy)> <./fig/Vision/Dataset/automated_dataset
+s/2_created_datasets/2_Spaghetti_dataset/rounded_black_b_013_p_002_l_006-011_wh
+ite_nb.png (PNG copy)> <./fig/Vision/Dataset/automated_datasets/2_created_datas
+ets/2_Spaghetti_dataset/rounded_copper_b_014_p_005_l_006-011_white_nb.png (PNG 
+copy)> <./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_
+dataset/rounded_gold_b_015_p_006_l_006-011_white_nb.png (PNG copy)>]
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset
+/b_003_p_006_l_006-011_white_nb.png, id=827, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/b_003_p_006_l_006-011_white_nb.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/b_003_p_006_l_006-011_white_nb.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/2_Spaghetti_dataset/b_003_p_006_l_006-011_white_nb.png  used on input line
+ 569.
+(pdftex.def)             Requested size: 170.71393pt x 128.03662pt.
+<./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset
+/b_003_p_006_l_006-011_red_nb.png, id=828, 642.4pt x 481.8pt>
+File: ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/b_003_p_006_l_006-011_red_nb.png Graphic file (type png)
+<use ./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/b_003_p_006_l_006-011_red_nb.png>
+Package pdftex.def Info: ./fig/Vision/Dataset/automated_datasets/2_created_data
+sets/2_Spaghetti_dataset/b_003_p_006_l_006-011_red_nb.png  used on input line 5
+75.
+(pdftex.def)             Requested size: 170.71393pt x 128.03662pt.
+<fig/Vision/GoogleColab/Test_Camera_Setup/Program_sequention.png, id=831, 443.6
+575pt x 584.1825pt>
+File: fig/Vision/GoogleColab/Test_Camera_Setup/Program_sequention.png Graphic f
+ile (type png)
+<use fig/Vision/GoogleColab/Test_Camera_Setup/Program_sequention.png>
+Package pdftex.def Info: fig/Vision/GoogleColab/Test_Camera_Setup/Program_seque
+ntion.png  used on input line 590.
+(pdftex.def)             Requested size: 256.07741pt x 337.18591pt.
+
+[27 <./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dat
+aset/IMG_9295.jpeg> <./fig/Vision/Dataset/automated_datasets/2_created_datasets
+/2_Spaghetti_dataset/IMG_9296.jpeg> <./fig/Vision/Dataset/automated_datasets/2_
+created_datasets/2_Spaghetti_dataset/b_003_p_006_l_006-011_white_nb.png (PNG co
+py)> <./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_da
+taset/b_003_p_006_l_006-011_red_nb.png (PNG copy)>] [28 <./fig/Vision/GoogleCol
+ab/Test_Camera_Setup/Program_sequention.png>] [29]
+<fig/Vision/GoogleColab/labels/class_distr_1-5.png, id=865, 361.35pt x 217.8137
+5pt>
+File: fig/Vision/GoogleColab/labels/class_distr_1-5.png Graphic file (type png)
+
+<use fig/Vision/GoogleColab/labels/class_distr_1-5.png>
+Package pdftex.def Info: fig/Vision/GoogleColab/labels/class_distr_1-5.png  use
+d on input line 647.
+(pdftex.def)             Requested size: 209.1301pt x 126.05951pt.
+<fig/Vision/GoogleColab/labels/class_distr_all.png, id=866, 362.35374pt x 217.8
+1375pt>
+File: fig/Vision/GoogleColab/labels/class_distr_all.png Graphic file (type png)
+
+<use fig/Vision/GoogleColab/labels/class_distr_all.png>
+Package pdftex.def Info: fig/Vision/GoogleColab/labels/class_distr_all.png  use
+d on input line 653.
+(pdftex.def)             Requested size: 209.1301pt x 125.71054pt.
+ [30 <./fig/Vision/GoogleColab/labels/class_distr_1-5.png> <./fig/Vision/Google
+Colab/labels/class_distr_all.png>] [31]) (./hfdst4.tex [32]
+Chapter 4.
+<fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_003_p_004_s.jpg
+, id=906, 642.4pt x 481.8pt>
+File: fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_003_p_004_
+s.jpg Graphic file (type jpg)
+<use fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_003_p_004_s
+.jpg>
+Package pdftex.def Info: fig/Vision/Dataset/handmade_datasets/Second_handmade_d
+ataset/b_003_p_004_s.jpg  used on input line 23.
+(pdftex.def)             Requested size: 128.0387pt x 96.02747pt.
+[33
+
+ <./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_003_p_004_s.
+jpg>]
+<fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-0-jm7rxjojx.png
+, id=912, 1011.78pt x 785.93625pt>
+File: fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-0-jm7rxjoj
+x.png Graphic file (type png)
+<use fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-0-jm7rxjojx
+.png>
+Package pdftex.def Info: fig/results/wandb/second_handmade_sweep/charts/Section
+-2-Panel-0-jm7rxjojx.png  used on input line 36.
+(pdftex.def)             Requested size: 132.30428pt x 102.76292pt.
+<fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-1-mvdok5l4p.png
+, id=913, 1011.78pt x 785.93625pt>
+File: fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-1-mvdok5l4
+p.png Graphic file (type png)
+<use fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-1-mvdok5l4p
+.png>
+Package pdftex.def Info: fig/results/wandb/second_handmade_sweep/charts/Section
+-2-Panel-1-mvdok5l4p.png  used on input line 42.
+(pdftex.def)             Requested size: 132.30428pt x 102.76292pt.
+<fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-2-p9dhpnuq6.png
+, id=914, 1011.78pt x 785.93625pt>
+File: fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-2-p9dhpnuq
+6.png Graphic file (type png)
+<use fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-2-p9dhpnuq6
+.png>
+Package pdftex.def Info: fig/results/wandb/second_handmade_sweep/charts/Section
+-2-Panel-2-p9dhpnuq6.png  used on input line 48.
+(pdftex.def)             Requested size: 132.30428pt x 102.76292pt.
+<fig/results/wandb/second_handmade_sweep/charts/test_accuracy_boxplot.png, id=9
+15, 401.5pt x 301.125pt>
+File: fig/results/wandb/second_handmade_sweep/charts/test_accuracy_boxplot.png 
+Graphic file (type png)
+<use fig/results/wandb/second_handmade_sweep/charts/test_accuracy_boxplot.png>
+Package pdftex.def Info: fig/results/wandb/second_handmade_sweep/charts/test_ac
+curacy_boxplot.png  used on input line 63.
+(pdftex.def)             Requested size: 209.1301pt x 156.85239pt.
+ [34 <./fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-0-jm7rxj
+ojx.png> <./fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-1-mv
+dok5l4p.png> <./fig/results/wandb/second_handmade_sweep/charts/Section-2-Panel-
+2-p9dhpnuq6.png>]
+<fig/results/wandb/second_handmade_sweep/charts/valid_accuracy_median.png, id=9
+27, 602.25pt x 301.125pt>
+File: fig/results/wandb/second_handmade_sweep/charts/valid_accuracy_median.png 
+Graphic file (type png)
+<use fig/results/wandb/second_handmade_sweep/charts/valid_accuracy_median.png>
+Package pdftex.def Info: fig/results/wandb/second_handmade_sweep/charts/valid_a
+ccuracy_median.png  used on input line 107.
+(pdftex.def)             Requested size: 256.07741pt x 128.04305pt.
+ [35 <./fig/results/wandb/second_handmade_sweep/charts/test_accuracy_boxplot.pn
+g>]
+<fig/results/wandb/second_handmade_sweep/charts/Section-13-Panel-1-nk6ghsz6f.pn
+g, id=938, 1550.79375pt x 785.93625pt>
+File: fig/results/wandb/second_handmade_sweep/charts/Section-13-Panel-1-nk6ghsz
+6f.png Graphic file (type png)
+<use fig/results/wandb/second_handmade_sweep/charts/Section-13-Panel-1-nk6ghsz6
+f.png>
+Package pdftex.def Info: fig/results/wandb/second_handmade_sweep/charts/Section
+-13-Panel-1-nk6ghsz6f.png  used on input line 121.
+(pdftex.def)             Requested size: 209.1301pt x 105.97688pt.
+<fig/results/wandb/second_handmade_sweep/charts/Section-13-Panel-0-hqve9y31m.pn
+g, id=939, 1550.79375pt x 785.93625pt>
+File: fig/results/wandb/second_handmade_sweep/charts/Section-13-Panel-0-hqve9y3
+1m.png Graphic file (type png)
+<use fig/results/wandb/second_handmade_sweep/charts/Section-13-Panel-0-hqve9y31
+m.png>
+Package pdftex.def Info: fig/results/wandb/second_handmade_sweep/charts/Section
+-13-Panel-0-hqve9y31m.png  used on input line 127.
+(pdftex.def)             Requested size: 209.1301pt x 105.97688pt.
+ [36 <./fig/results/wandb/second_handmade_sweep/charts/valid_accuracy_median.pn
+g>]
+<fig/results/wandb/second_handmade_sweep/charts/Section-21-Panel-0-xfrvxv29l.pn
+g, id=946, 3161.8125pt x 1210.5225pt>
+File: fig/results/wandb/second_handmade_sweep/charts/Section-21-Panel-0-xfrvxv2
+9l.png Graphic file (type png)
+<use fig/results/wandb/second_handmade_sweep/charts/Section-21-Panel-0-xfrvxv29
+l.png>
+Package pdftex.def Info: fig/results/wandb/second_handmade_sweep/charts/Section
+-21-Panel-0-xfrvxv29l.png  used on input line 149.
+(pdftex.def)             Requested size: 426.79135pt x 163.395pt.
+ [37 <./fig/results/wandb/second_handmade_sweep/charts/Section-13-Panel-1-nk6gh
+sz6f.png> <./fig/results/wandb/second_handmade_sweep/charts/Section-13-Panel-0-
+hqve9y31m.png> <./fig/results/wandb/second_handmade_sweep/charts/Section-21-Pan
+el-0-xfrvxv29l.png>]
+<fig/results/wandb/spaghetti_dataset/charts/Section-2-Panel-2-od5lt0wga.png, id
+=958, 1011.78pt x 785.93625pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-2-Panel-2-od5lt0wga.pn
+g Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-2-Panel-2-od5lt0wga.png
+>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-2-P
+anel-2-od5lt0wga.png  used on input line 192.
+(pdftex.def)             Requested size: 209.1301pt x 162.44913pt.
+<fig/results/wandb/spaghetti_dataset/charts/Section-2-Panel-1-vxyqvv7et.png, id
+=959, 1011.78pt x 785.93625pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-2-Panel-1-vxyqvv7et.pn
+g Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-2-Panel-1-vxyqvv7et.png
+>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-2-P
+anel-1-vxyqvv7et.png  used on input line 199.
+(pdftex.def)             Requested size: 209.1301pt x 162.44913pt.
+<fig/results/wandb/spaghetti_dataset/charts/train_valid_accuracy.png, id=960, 1
+204.5pt x 602.25pt>
+File: fig/results/wandb/spaghetti_dataset/charts/train_valid_accuracy.png Graph
+ic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/train_valid_accuracy.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/train_valid
+_accuracy.png  used on input line 207.
+(pdftex.def)             Requested size: 256.07741pt x 128.03845pt.
+ [38] [39 <./fig/results/wandb/spaghetti_dataset/charts/Section-2-Panel-2-od5lt
+0wga.png> <./fig/results/wandb/spaghetti_dataset/charts/Section-2-Panel-1-vxyqv
+v7et.png> <./fig/results/wandb/spaghetti_dataset/charts/train_valid_accuracy.pn
+g>]
+<fig/results/wandb/spaghetti_dataset/charts/Section-6-Panel-0-5bt9qjs32.png, id
+=972, 1550.79375pt x 927.465pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-6-Panel-0-5bt9qjs32.pn
+g Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-6-Panel-0-5bt9qjs32.png
+>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-6-P
+anel-0-5bt9qjs32.png  used on input line 222.
+(pdftex.def)             Requested size: 213.39568pt x 127.62234pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig/results/wandb/spaghetti_dataset/charts/Section-13-Panel-0-yf0a5rsos.png, i
+d=975, 1550.79375pt x 927.465pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-13-Panel-0-yf0a5rsos.p
+ng Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-13-Panel-0-yf0a5rsos.pn
+g>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-13-
+Panel-0-yf0a5rsos.png  used on input line 249.
+(pdftex.def)             Requested size: 256.07741pt x 153.13834pt.
+[40 <./fig/results/wandb/spaghetti_dataset/charts/Section-6-Panel-0-5bt9qjs32.p
+ng>]
+<fig/results/wandb/spaghetti_dataset/charts/Section-8-Panel-0-tz8zymurl.png, id
+=986, 1279.78125pt x 1068.99374pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-8-Panel-0-tz8zymurl.pn
+g Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-8-Panel-0-tz8zymurl.png
+>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-8-P
+anel-0-tz8zymurl.png  used on input line 266.
+(pdftex.def)             Requested size: 209.1301pt x 174.67996pt.
+<fig/results/wandb/spaghetti_dataset/charts/test_accuracy_architectures.png, id
+=987, 1003.75pt x 602.25pt>
+File: fig/results/wandb/spaghetti_dataset/charts/test_accuracy_architectures.pn
+g Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/test_accuracy_architectures.png
+>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/test_accura
+cy_architectures.png  used on input line 273.
+(pdftex.def)             Requested size: 209.1301pt x 125.47456pt.
+<fig/results/wandb/spaghetti_dataset/charts/Section-10-Panel-0-rj7vtzd5m.png, i
+d=988, 1550.79375pt x 785.93625pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-10-Panel-0-rj7vtzd5m.p
+ng Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-10-Panel-0-rj7vtzd5m.pn
+g>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-10-
+Panel-0-rj7vtzd5m.png  used on input line 280.
+(pdftex.def)             Requested size: 209.1301pt x 105.97688pt.
+<fig/results/wandb/spaghetti_dataset/charts/Section-10-Panel-1-gr2eg8ssf.png, i
+d=989, 1550.79375pt x 785.93625pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-10-Panel-1-gr2eg8ssf.p
+ng Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-10-Panel-1-gr2eg8ssf.pn
+g>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-10-
+Panel-1-gr2eg8ssf.png  used on input line 287.
+(pdftex.def)             Requested size: 209.1301pt x 105.97688pt.
+ [41 <./fig/results/wandb/spaghetti_dataset/charts/Section-13-Panel-0-yf0a5rsos
+.png>] [42 <./fig/results/wandb/spaghetti_dataset/charts/Section-8-Panel-0-tz8z
+ymurl.png> <./fig/results/wandb/spaghetti_dataset/charts/test_accuracy_architec
+tures.png> <./fig/results/wandb/spaghetti_dataset/charts/Section-10-Panel-0-rj7
+vtzd5m.png> <./fig/results/wandb/spaghetti_dataset/charts/Section-10-Panel-1-gr
+2eg8ssf.png>]
+<fig/results/wandb/spaghetti_dataset/charts/Section-16-Panel-0-gkiaebqxq.png, i
+d=1007, 1550.79375pt x 927.465pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-16-Panel-0-gkiaebqxq.p
+ng Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-16-Panel-0-gkiaebqxq.pn
+g>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-16-
+Panel-0-gkiaebqxq.png  used on input line 304.
+(pdftex.def)             Requested size: 209.1301pt x 125.06085pt.
+<fig/results/wandb/spaghetti_dataset/charts/Section-16-Panel-1-lgbosq568.png, i
+d=1008, 1550.79375pt x 927.465pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-16-Panel-1-lgbosq568.p
+ng Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-16-Panel-1-lgbosq568.pn
+g>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-16-
+Panel-1-lgbosq568.png  used on input line 311.
+(pdftex.def)             Requested size: 209.1301pt x 125.06085pt.
+<fig/results/wandb/spaghetti_dataset/charts/Section-19-Panel-0-alqny4fc9.png, i
+d=1011, 3161.8125pt x 1068.99374pt>
+File: fig/results/wandb/spaghetti_dataset/charts/Section-19-Panel-0-alqny4fc9.p
+ng Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/charts/Section-19-Panel-0-alqny4fc9.pn
+g>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/charts/Section-19-
+Panel-0-alqny4fc9.png  used on input line 324.
+(pdftex.def)             Requested size: 426.79135pt x 144.29161pt.
+<fig/results/wandb/spaghetti_dataset/images/media_images_Examples_142_p1_t1.png
+, id=1014, 224.84pt x 224.84pt>
+File: fig/results/wandb/spaghetti_dataset/images/media_images_Examples_142_p1_t
+1.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/images/media_images_Examples_142_p1_t1
+.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/images/media_image
+s_Examples_142_p1_t1.png  used on input line 335.
+(pdftex.def)             Requested size: 102.43227pt x 102.43272pt.
+<fig/results/wandb/spaghetti_dataset/images/media_images_Examples_176_p2_t2.png
+, id=1015, 224.84pt x 224.84pt>
+File: fig/results/wandb/spaghetti_dataset/images/media_images_Examples_176_p2_t
+2.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/images/media_images_Examples_176_p2_t2
+.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/images/media_image
+s_Examples_176_p2_t2.png  used on input line 341.
+(pdftex.def)             Requested size: 102.43227pt x 102.43272pt.
+<fig/results/wandb/spaghetti_dataset/images/media_images_Examples_144_p0_t2.png
+, id=1016, 224.84pt x 224.84pt>
+File: fig/results/wandb/spaghetti_dataset/images/media_images_Examples_144_p0_t
+2.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/images/media_images_Examples_144_p0_t2
+.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/images/media_image
+s_Examples_144_p0_t2.png  used on input line 347.
+(pdftex.def)             Requested size: 102.43227pt x 102.43272pt.
+<fig/results/wandb/spaghetti_dataset/images/media_images_Examples_102_p0_t0.png
+, id=1017, 224.84pt x 224.84pt>
+File: fig/results/wandb/spaghetti_dataset/images/media_images_Examples_102_p0_t
+0.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/images/media_images_Examples_102_p0_t0
+.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/images/media_image
+s_Examples_102_p0_t0.png  used on input line 354.
+(pdftex.def)             Requested size: 102.43227pt x 102.43272pt.
+<fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_194_p1_t1.p
+ng, id=1020, 224.84pt x 224.84pt>
+File: fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_194_p1
+_t1.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_194_p1_
+t1.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/images/media_image
+s_Examples_r_194_p1_t1.png  used on input line 365.
+(pdftex.def)             Requested size: 102.43227pt x 102.43272pt.
+<fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_172_p2_t2.p
+ng, id=1021, 224.84pt x 224.84pt>
+File: fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_172_p2
+_t2.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_172_p2_
+t2.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/images/media_image
+s_Examples_r_172_p2_t2.png  used on input line 371.
+(pdftex.def)             Requested size: 102.43227pt x 102.43272pt.
+<fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_128_p0_t2.p
+ng, id=1022, 224.84pt x 224.84pt>
+File: fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_128_p0
+_t2.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_128_p0_
+t2.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/images/media_image
+s_Examples_r_128_p0_t2.png  used on input line 377.
+(pdftex.def)             Requested size: 102.43227pt x 102.43272pt.
+<fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_96_p0_t0.pn
+g, id=1023, 224.84pt x 224.84pt>
+File: fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_96_p0_
+t0.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_dataset/images/media_images_Examples_r_96_p0_t
+0.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_dataset/images/media_image
+s_Examples_r_96_p0_t0.png  used on input line 384.
+(pdftex.def)             Requested size: 102.43227pt x 102.43272pt.
+ [43 <./fig/results/wandb/spaghetti_dataset/charts/Section-16-Panel-0-gkiaebqxq
+.png> <./fig/results/wandb/spaghetti_dataset/charts/Section-16-Panel-1-lgbosq56
+8.png> <./fig/results/wandb/spaghetti_dataset/charts/Section-19-Panel-0-alqny4f
+c9.png>]
+
+Package caption Warning: \label without proper reference on input line 423.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:res:comp:sd' on page 44 undefined on input line 3
+94.
+
+<fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_005_p_010_s.jpg
+, id=1035, 642.4pt x 481.8pt>
+File: fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_005_p_010_
+s.jpg Graphic file (type jpg)
+<use fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_005_p_010_s
+.jpg>
+Package pdftex.def Info: fig/Vision/Dataset/handmade_datasets/Second_handmade_d
+ataset/b_005_p_010_s.jpg  used on input line 405.
+(pdftex.def)             Requested size: 132.30428pt x 99.22543pt.
+
+Underfull \hbox (badness 1661) in paragraph at lines 406--406
+[][]|\OT1/phv/m/n/9 Im-age from sec-ond hand-made
+ []
+
+<fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset/b
+_003_p_006_l_006-011_white_nb.png, id=1036, 642.4pt x 481.8pt>
+File: fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_data
+set/b_003_p_006_l_006-011_white_nb.png Graphic file (type png)
+<use fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_datas
+et/b_003_p_006_l_006-011_white_nb.png>
+Package pdftex.def Info: fig/Vision/Dataset/automated_datasets/2_created_datase
+ts/2_Spaghetti_dataset/b_003_p_006_l_006-011_white_nb.png  used on input line 4
+12.
+(pdftex.def)             Requested size: 132.30428pt x 99.22543pt.
+
+Underfull \hbox (badness 3701) in paragraph at lines 413--413
+[][]|\OT1/phv/m/n/9 Im-age from Spaghetti dataset
+ []
+
+<fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_dataset/b
+_018_p_002_l_006-011_red_nb.png, id=1037, 642.4pt x 481.8pt>
+File: fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_data
+set/b_018_p_002_l_006-011_red_nb.png Graphic file (type png)
+<use fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghetti_datas
+et/b_018_p_002_l_006-011_red_nb.png>
+Package pdftex.def Info: fig/Vision/Dataset/automated_datasets/2_created_datase
+ts/2_Spaghetti_dataset/b_018_p_002_l_006-011_red_nb.png  used on input line 419
+.
+(pdftex.def)             Requested size: 132.30428pt x 99.22543pt.
+[44 <./fig/results/wandb/spaghetti_dataset/images/media_images_Examples_142_p1_
+t1.png> <./fig/results/wandb/spaghetti_dataset/images/media_images_Examples_176
+_p2_t2.png> <./fig/results/wandb/spaghetti_dataset/images/media_images_Examples
+_144_p0_t2.png> <./fig/results/wandb/spaghetti_dataset/images/media_images_Exam
+ples_102_p0_t0.png> <./fig/results/wandb/spaghetti_dataset/images/media_images_
+Examples_r_194_p1_t1.png> <./fig/results/wandb/spaghetti_dataset/images/media_i
+mages_Examples_r_172_p2_t2.png> <./fig/results/wandb/spaghetti_dataset/images/m
+edia_images_Examples_r_128_p0_t2.png> <./fig/results/wandb/spaghetti_dataset/im
+ages/media_images_Examples_r_96_p0_t0.png>]
+<fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-2-Panel-0-d9vatkb
+ok.png, id=1054, 1550.79375pt x 785.93625pt>
+File: fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-2-Panel-0-d9
+vatkbok.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-2-Panel-0-d9v
+atkbok.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_vs_secondhandmade/charts/S
+ection-2-Panel-0-d9vatkbok.png  used on input line 438.
+(pdftex.def)             Requested size: 209.1301pt x 105.97688pt.
+<fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-2-Panel-1-h8kizzb
+rm.png, id=1055, 1550.79375pt x 785.93625pt>
+File: fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-2-Panel-1-h8
+kizzbrm.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-2-Panel-1-h8k
+izzbrm.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_vs_secondhandmade/charts/S
+ection-2-Panel-1-h8kizzbrm.png  used on input line 445.
+(pdftex.def)             Requested size: 209.1301pt x 105.97688pt.
+<fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-2-Panel-2-mwwjkup
+ji.png, id=1056, 3161.8125pt x 785.93625pt>
+File: fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-2-Panel-2-mw
+wjkupji.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-2-Panel-2-mww
+jkupji.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_vs_secondhandmade/charts/S
+ection-2-Panel-2-mwwjkupji.png  used on input line 452.
+(pdftex.def)             Requested size: 256.07741pt x 63.64369pt.
+ [45 <./fig/Vision/Dataset/handmade_datasets/Second_handmade_dataset/b_005_p_01
+0_s.jpg> <./fig/Vision/Dataset/automated_datasets/2_created_datasets/2_Spaghett
+i_dataset/b_003_p_006_l_006-011_white_nb.png (PNG copy)> <./fig/Vision/Dataset/
+automated_datasets/2_created_datasets/2_Spaghetti_dataset/b_018_p_002_l_006-011
+_red_nb.png (PNG copy)> <./fig/results/wandb/spaghetti_vs_secondhandmade/charts
+/Section-2-Panel-0-d9vatkbok.png> <./fig/results/wandb/spaghetti_vs_secondhandm
+ade/charts/Section-2-Panel-1-h8kizzbrm.png> <./fig/results/wandb/spaghetti_vs_s
+econdhandmade/charts/Section-2-Panel-2-mwwjkupji.png>]
+<fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-4-Panel-0-u37bm4h
+79.png, id=1069, 3161.8125pt x 1210.5225pt>
+File: fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-4-Panel-0-u3
+7bm4h79.png Graphic file (type png)
+<use fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-4-Panel-0-u37
+bm4h79.png>
+Package pdftex.def Info: fig/results/wandb/spaghetti_vs_secondhandmade/charts/S
+ection-4-Panel-0-u37bm4h79.png  used on input line 491.
+(pdftex.def)             Requested size: 426.79135pt x 163.395pt.
+ [46 <./fig/results/wandb/spaghetti_vs_secondhandmade/charts/Section-4-Panel-0-
+u37bm4h79.png>]) (./hfdst5.tex [47]
+Chapter 5.
+) (./thesis.bbl [48
+
+]
+Chapter 6.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 18.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 9.85492pt on input line 18.
+[49
+
+]) (./bijlage1.tex [50]
+Appendix A.
+<fig/algemeen/planning_sem2.png, id=1101, 2475.2475pt x 702.625pt>
+File: fig/algemeen/planning_sem2.png Graphic file (type png)
+<use fig/algemeen/planning_sem2.png>
+Package pdftex.def Info: fig/algemeen/planning_sem2.png  used on input line 4.
+(pdftex.def)             Requested size: 645.87756pt x 183.3429pt.
+
+LaTeX Warning: Float too large for page by 23.79991pt on input line 6.
+
+)
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./private/back_fiiw_denayer_
+eng.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+<private/back_fiiw_denayer_eng.pdf, id=1102, 597.55246pt x 845.07718pt>
+File: private/back_fiiw_denayer_eng.pdf Graphic file (type pdf)
+<use private/back_fiiw_denayer_eng.pdf>
+Package pdftex.def Info: private/back_fiiw_denayer_eng.pdf  used on input line 
+128.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./private/back_fiiw_denayer_
+eng.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+File: private/back_fiiw_denayer_eng.pdf Graphic file (type pdf)
+<use private/back_fiiw_denayer_eng.pdf>
+Package pdftex.def Info: private/back_fiiw_denayer_eng.pdf  used on input line 
+128.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./private/back_fiiw_denayer_
+eng.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./private/back_fiiw_denayer_
+eng.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+<private/back_fiiw_denayer_eng.pdf, id=1105, page=1, 597.55246pt x 845.07718pt>
+
+File: private/back_fiiw_denayer_eng.pdf Graphic file (type pdf)
+<use private/back_fiiw_denayer_eng.pdf, page 1>
+Package pdftex.def Info: private/back_fiiw_denayer_eng.pdf , page1 used on inpu
+t line 128.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: private/back_fiiw_denayer_eng.pdf Graphic file (type pdf)
+<use private/back_fiiw_denayer_eng.pdf, page 1>
+Package pdftex.def Info: private/back_fiiw_denayer_eng.pdf , page1 used on inpu
+t line 128.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+[51
+
+]
+File: private/back_fiiw_denayer_eng.pdf Graphic file (type pdf)
+<use private/back_fiiw_denayer_eng.pdf, page 1>
+Package pdftex.def Info: private/back_fiiw_denayer_eng.pdf , page1 used on inpu
+t line 128.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: private/back_fiiw_denayer_eng.pdf Graphic file (type pdf)
+<use private/back_fiiw_denayer_eng.pdf, page 1>
+Package pdftex.def Info: private/back_fiiw_denayer_eng.pdf , page1 used on inpu
+t line 128.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+File: private/back_fiiw_denayer_eng.pdf Graphic file (type pdf)
+<use private/back_fiiw_denayer_eng.pdf, page 1>
+Package pdftex.def Info: private/back_fiiw_denayer_eng.pdf , page1 used on inpu
+t line 128.
+(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+ [52 <./private/back_fiiw_denayer_eng.pdf>] [53 <./fig/algemeen/planning_sem2.p
+ng>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+ (./thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 8D916CC1E61498CD4ACA41C2082E5B9B;3518.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
+ ) 
+Here is how much of TeX's memory you used:
+ 13904 strings out of 480608
+ 257864 string characters out of 5903630
+ 640291 words of memory out of 5000000
+ 29111 multiletter control sequences out of 15000+600000
+ 577053 words of font info for 91 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,18n,53p,1090b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (61 pages, 27587445 bytes).
+PDF statistics:
+ 1213 PDF objects out of 1440 (max. 8388607)
+ 965 compressed objects within 10 object streams
+ 261 named destinations out of 1000 (max. 500000)
+ 909 words of extra memory for PDF output out of 10000 (max. 10000000)
+

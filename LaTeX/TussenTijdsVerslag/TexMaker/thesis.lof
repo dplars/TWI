@@ -1,0 +1,59 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Images of the examined carbide tool inserts. The red square marks the area of interest for the wear prediction.\relax }}{1}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Milling tool with one insert in place.\relax }}{2}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Illustration of a good and a worn insert.\relax }}{2}{figure.caption.8}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Construction of the Tool insert with coating. Figure from \citep {Gu1999}\relax }}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Two wear types: (a) Step between substrate and coating. (b) flat wear not perpendicular to the rake face Figure from \citep {Gu1999}\relax }}{6}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Dense block with 5 layers. \citep {Huang2017}\relax }}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces a building block for Resnet architecture\relax }}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Summary of Resnet 18 architecture\relax }}{10}{figure.caption.13}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces First design of a tool holder oriented at an angle of 40\textdegree to the camera.\relax }}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Desk lamp setup without shadowing the background.\relax }}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces First design of wheel holder with inserts mounted in place.\relax }}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Overview of second wheel holder\relax }}{14}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Overview of the camera mount system.\relax }}{15}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Desk lamp setup for initial testing.\relax }}{16}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Desk lamp setup with shadowing the background.\relax }}{17}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces White LED strips test circuit.\relax }}{17}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Visualisation of the reflections from the LED strips into the camera.\relax }}{18}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Example of initial dataset\relax }}{19}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Marked side of an insert.\relax }}{19}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Bulled mark marked on the top view of an insert.\relax }}{19}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Comparison of the same insert 19 from batch 5 the side with marking.\relax }}{20}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Camera setup for testing the camera angle.\relax }}{21}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Side camera view for LED 8 through 10 listed from left to right.\relax }}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Top camera view for LEDs 5 through 7 listed from left to right.\relax }}{22}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Fully lit example for insert 5 from batch 3.\relax }}{24}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Red, green, blue and white lighting on insert 5 from batch 3 LED strip one. Left to right respectively\relax }}{24}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Red, green, blue and white lighting on insert 5 from batch 3 LED strip two. Left to right respectively.\relax }}{24}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Errors in the Birthday dataset.\relax }}{25}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Overview of different insert types.\relax }}{26}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Overview of setup for the Spaghetti dataset.\relax }}{27}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Example images for red and white light for spaghetti dataset.\relax }}{27}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Program sequention for testing different setups.\relax }}{28}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Class distributions for the inserts used for the algorithm training and testing\relax }}{30}{figure.caption.51}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Example of second handmade dataset batch 3 insert 4.\relax }}{33}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Test, train and validation accuracy for five best runs with second handmade dataset.\relax }}{34}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Test accuracy for different model architectures with maximum and minimum values.\relax }}{35}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Best validation accuracy for different model architectures.\relax }}{36}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Validation and test accuracy box plot for different model architectures with or without transfer learning (TL).\relax }}{37}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Parameter influence on validation accuracy.\relax }}{37}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Test, train and validation accuracy for the five best runs based on their test accuracy scores.\relax }}{39}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Test accuracy\relax }}{40}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Best validation accuracy for different model architectures plotted in relation to the amount of epochs.\relax }}{41}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Test accuracy for models trained with and without transfer learning. In picture a) a general overview of all performed tests. in picture b) a comparison between different model architectures. Picture c and d provide the differences during training for validation accuracy and training accuracy respectively.\relax }}{42}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Test and validation accuracy for a different led color.\relax }}{43}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Parameter influence on validation accuracy.\relax }}{43}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Images with predictions from the spaghetti dataset with white lighting.\relax }}{44}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Images with predictions from the spaghetti dataset with white lighting.\relax }}{44}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Comparison for test, train and validation accuracy for different datasets.\relax }}{45}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Difference in test accuracy for different datasets trained with different model architectures.\relax }}{46}{figure.caption.72}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Schedule for semester 2.\relax }}{53}{figure.caption.75}%
