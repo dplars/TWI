@@ -65,7 +65,7 @@ Verder documenteren datasets en beginnen aan documentatie van de resultaten en o
 [*] hoofdstuk 3 camera holder
 [*] hoofdstuk 3 light positions
 [*] afwerken 3D modellen van setups
-[ ] pcb bij setup met schema voor alle componenten
+[x] pcb bij setup met schema voor alle componenten
 
 introduction:
 [*] add overview of the wole paper to the introduction
@@ -91,6 +91,7 @@ Implementation
 [x] PCB discussion for the setup
 [*] add render of camera mount
 [*] check initial dataset
+[ ] eventueel een pseudo code block bij sorting images
 
 
 results
@@ -99,6 +100,7 @@ results
 [*] comparisons for different datasets
 [*] write text for the results near the charts
 [*] Final results
+[ ] read again
 
 conclusion
 [>] Write best results 
@@ -113,4 +115,13 @@ planning
 * do fun things
 * Write Write Write
 
+
 In the result section the parameters for a good test algorithm will be extracted for later use. 
+
+Vragen: 
+* Tom Jacobs mee op voorblad?
+* Titel van Dries Hulens correct?
+* Conclusie
+* tabel met contents twee keer figures 
+* Elke eerste letter van een tussen titel ook met een hoofdletter?	geen specifieke standaard gevonden
+* Websites refereren correct? of als boek refereren of als misc
